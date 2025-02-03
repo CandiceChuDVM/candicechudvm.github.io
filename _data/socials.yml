@@ -8,11 +8,11 @@
 # dblp_url: # your DBLP profile url
 # discord_id: # your discord id (18-digit unique numerical identifier)
 email: cchu@cvm.tamu.edu # your email address
-orcid_id: 0000-0001-8543-7233
+# orcid_id: 0000-0001-8543-7233
 scholar_userid: cv_brEAAAAAJ # your Google Scholar ID
 linkedin_username: candicechudvm
-x_username: candicechudvm
-youtube_id: candicechudvm
+# x_username: candicechudvm
+# youtube_id: candicechudvm
 facebook_id: vet.clin.path.professor
 # flickr_id: # your flickr id
 # github_username: # your GitHub user name
@@ -32,7 +32,7 @@ instagram_id: vet.clin.path.professor
 # publons_id: # your ID on Publons
 # quora_username: # your Quora username
 # research_gate_profile: # your profile on ResearchGate
-rss_icon: true # set to true to show the RSS icon
+# rss_icon: true # set to true to show the RSS icon
 # scopus_id: # your profile on Scopus
 # semanticscholar_id: # your Semantic Scholar ID
 # spotify_id: # your spotify id
