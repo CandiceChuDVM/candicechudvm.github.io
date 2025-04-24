@@ -1,7 +1,7 @@
 ### Franklin Kao
 #### Student research assstant
 
-Hi, I am Franklin. Originally from Taiwan, I hold a bachelor’s degree in Chemistry with a minor in Economics from National Taiwan University. During my time in the chemistry lab, working with data sparked a deeper interest in data and computer science. Currently, I’m working as a student assistant on projects involving Large Language Models and Machine Learning. Outside of academics, my interests lean toward the quieter side, like learning Japanese, playing board games and piano. Recently, I’ve been getting into cooking and trying to improve my skills in the kitchen.
+Hi, I am Franklin. Originally from Taiwan, I hold a bachelor’s degree in Chemistry with a minor in Economics from [National Taiwan University](https://www.ntu.edu.tw/english/). During my time in the chemistry lab, working with data sparked a deeper interest in data and computer science. Currently, I’m working as a student assistant on projects involving Large Language Models and Machine Learning. Outside of academics, my interests lean toward the quieter side, like learning Japanese, playing board games and piano. Recently, I’ve been getting into cooking and trying to improve my skills in the kitchen.
 
 ---
 
