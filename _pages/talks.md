@@ -61,7 +61,6 @@ description: For speaker invitaiton, please email Dr. Chu - cchu [at] cvm [dot] 
 
 - 20181005 Leukocytosis in a Labrador Retriever @ Galveston, Texas
 
-
 ### 👩‍🔬 Invited Scientific Talks
 
 #### 2024
@@ -209,4 +208,3 @@ description: For speaker invitaiton, please email Dr. Chu - cchu [at] cvm [dot] 
 #### 2016
 
 - **National Taiwan University & National Chung Hsing University**: How to Apply for U.S. Graduate Schools @ Taipei and Taichung, Taiwan
-
