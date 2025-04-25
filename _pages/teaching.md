@@ -41,7 +41,6 @@ display_categories: [On Demand, YouTube, Podcast]
       </ul>
     </div>
   </div>
-</div>
 {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
   {% for category in page.display_categories %}
