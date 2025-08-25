@@ -39,7 +39,7 @@ ninja.data = [{
           },
         },{id: "nav-talks",
           title: "Talks",
-          description: "For speaker invitaiton, please email Dr. Chu - cchu [at] cvm [dot] tamu [dot] edu",
+          description: "For speaking engagements, please email Dr. Chu - cchu [at] cvm [dot] tamu [dot] edu and include your organization, event name, date and time, talk duration (including discussion and rehearsal), and compensation details.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/talks/";
