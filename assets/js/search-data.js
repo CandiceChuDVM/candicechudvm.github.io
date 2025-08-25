@@ -53,7 +53,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "CV",
-          description: "Click on the PDF icon for my complete CV 👉",
+          description: "Click on the PDF icon to download my AI in VetMed presentations 👉",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
