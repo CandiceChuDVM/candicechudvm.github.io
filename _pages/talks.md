@@ -4,7 +4,8 @@ title: Talks
 permalink: /talks/
 nav: true
 nav_order: 5
-description: For speaker invitaiton, please email Dr. Chu - cchu [at] cvm [dot] tamu [dot] edu
+description: For speaking engagements, please email Dr. Chu - cchu [at] cvm [dot] tamu [dot] edu and include your organization, event name, date and time, talk duration (including discussion and rehearsal), and compensation details.
+
 ---
 
 ### 👩‍🏫 Conference Keynote Presentations
