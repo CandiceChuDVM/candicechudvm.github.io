@@ -1,0 +1,242 @@
+{
+  "metaTitle": "Research — Diagnostic AI & Precision Diagnostics | Candice Chu",
+  "metaDescription": "Three research pillars: diagnostic AI and digital cytology, large language models and veterinary informatics, and molecular biomarkers for kidney disease.",
+  "keywords": [
+    "diagnostic AI",
+    "digital cytology",
+    "canine lymphoma AI",
+    "veterinary informatics",
+    "large language models",
+    "urinary microRNA",
+    "feline chronic kidney disease",
+    "single-cell RNA sequencing"
+  ],
+  "h1": "Research",
+  "intro": "The lab develops and evaluates artificial intelligence for veterinary diagnostics, builds the informatics that makes clinical data usable, and pursues molecular biomarkers for earlier disease detection.",
+  "quote": {
+    "text": "Our goal is to integrate AI into veterinary diagnostics while educating the next generation of veterinarians."
+  },
+  "fundingNote": "Award amounts, grant numbers and collaborator lists are intentionally not published. Sponsor names, project titles, role and status are shown; anything awaiting an official project title is held back until confirmed.",
+  "pillars": [
+    {
+      "id": "diagnostic-ai",
+      "title": "Diagnostic AI and Digital Cytology",
+      "color": "#5B8FC4",
+      "description": "Image AI · Cytology · Clinical validation",
+      "overview": "Building and validating computer-vision models on clinically curated, specialist-annotated veterinary image datasets — with attention to diagnostic performance, error analysis, and what it actually takes to deploy a model in a diagnostic laboratory.",
+      "cards": [
+        {
+          "kicker": "Project",
+          "title": "AI-Assisted Canine Lymphoma Cytology",
+          "description": "Detection and classification of neutrophils and small, intermediate and large lymphocytes across 680 cytology images with 25,761 specialist-annotated cells. Work spans image acquisition, annotation, a YOLO detection workflow, diagnostic performance and error analysis.",
+          "tags": [
+            {
+              "cat": "cv",
+              "label": "Computer Vision"
+            },
+            {
+              "cat": "cv",
+              "label": "Digital Cytology"
+            },
+            {
+              "cat": "ml",
+              "label": "Object Detection"
+            },
+            {
+              "cat": "ml",
+              "label": "Canine Lymphoma"
+            }
+          ],
+          "image": {
+            "src": "assets/lymphoma-workflow.jpg",
+            "alt": "Study workflow: case identification, image acquisition and quality control, cell annotation, data splitting with five-fold cross-device validation, and model performance",
+            "style": "width:100%;max-width:360px;height:auto"
+          }
+        },
+        {
+          "kicker": "Project",
+          "title": "AI for Canine Hip Dysplasia Screening",
+          "description": "Convolutional neural networks for hip dysplasia severity grading across 22,482 canine hip radiographs, with translational relevance to human orthopedic screening. Supported by the Orthopedic Foundation for Animals in collaboration with UT Southwestern Medical Center.",
+          "tags": [
+            {
+              "cat": "ml",
+              "label": "Machine Learning"
+            },
+            {
+              "cat": "cv",
+              "label": "Radiographs"
+            },
+            {
+              "cat": "ml",
+              "label": "One Health"
+            }
+          ],
+          "image": {
+            "src": "assets/hip-xray.png",
+            "alt": "Canine hip radiograph"
+          }
+        },
+        {
+          "kicker": "Project",
+          "title": "AI for Canine Pancreatitis Diagnosis and Prognosis",
+          "description": "Neural networks, logistic regression and gradient-boosted models applied to 1,384 suspected canine pancreatitis cases for diagnosis and prognostication.",
+          "tags": [
+            {
+              "cat": "ml",
+              "label": "Machine Learning"
+            },
+            {
+              "cat": "llm",
+              "label": "Clinical Records"
+            },
+            {
+              "cat": "ml",
+              "label": "Prognostication"
+            }
+          ],
+          "image": {
+            "src": "assets/dog-pancreas.png",
+            "alt": "Illustration of a dog with the pancreas highlighted"
+          }
+        },
+        {
+          "publish": false,
+          "_todo": "Confirm scope, funding status and whether this project is public before publishing.",
+          "kicker": "Project",
+          "title": "AI for Bile Cytology Interpretation",
+          "description": "",
+          "tags": [
+            {
+              "cat": "cv",
+              "label": "Computer Vision"
+            },
+            {
+              "cat": "cv",
+              "label": "Digital Cytology"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "llm-informatics",
+      "title": "Large Language Models and Veterinary Informatics",
+      "color": "#9472B9",
+      "description": "Clinical records · AI scribes · Evaluation & governance",
+      "overview": "Turning free-text veterinary records into structured, research-ready data — and measuring where language models fail. Evaluation, hallucination and error analysis, and data governance are treated as first-class research questions, not afterthoughts.",
+      "cards": [
+        {
+          "kicker": "Project",
+          "title": "AI Scribe Evaluation for Clinical Documentation",
+          "description": "Evaluating AI scribe tools in veterinary clinical workflows: documentation burden, accuracy of generated records, and the review process a clinician still needs to own. Supported by VetRec.",
+          "tags": [
+            {
+              "cat": "llm",
+              "label": "LLM"
+            },
+            {
+              "cat": "llm",
+              "label": "AI Scribes"
+            },
+            {
+              "cat": "cv",
+              "label": "Cytology Reporting"
+            }
+          ],
+          "image": {
+            "src": "assets/logos/vetrec.png",
+            "alt": "VetRec logo",
+            "style": "width:100%;max-width:220px;height:auto"
+          }
+        },
+        {
+          "kicker": "Project",
+          "title": "Dog Aging Project: Large-Scale Clinical Data Extraction",
+          "description": "Prompt-driven extraction of structured clinical variables from roughly 50,000 veterinary medical records contributed to the Dog Aging Project.",
+          "tags": [
+            {
+              "cat": "llm",
+              "label": "LLM"
+            },
+            {
+              "cat": "llm",
+              "label": "Clinical Records"
+            },
+            {
+              "cat": "bio",
+              "label": "Cohort Data"
+            }
+          ],
+          "image": {
+            "src": "assets/logos/dog-aging-project.png",
+            "alt": "Dog Aging Project logo",
+            "style": "width:100%;max-width:220px;height:auto"
+          }
+        }
+      ]
+    },
+    {
+      "id": "molecular",
+      "title": "Molecular and Precision Diagnostics",
+      "color": "#6B9E7A",
+      "description": "microRNA · RNA-seq · Comparative nephrology",
+      "overview": "Non-invasive molecular markers for kidney disease in dogs and cats, built on RNA sequencing, single-cell transcriptomics and digital cytometry — and read across to human nephrology wherever the biology allows.",
+      "cards": [
+        {
+          "kicker": "Project",
+          "title": "Urinary Extracellular Vesicle microRNAs in Feline CKD",
+          "description": "Identifying urinary extracellular vesicle-derived microRNAs as sensitive and specific biomarkers for early-stage feline chronic kidney disease. Supported by the EveryCat Health Foundation.",
+          "tags": [
+            {
+              "cat": "bio",
+              "label": "microRNA"
+            },
+            {
+              "cat": "bio",
+              "label": "Extracellular Vesicles"
+            },
+            {
+              "cat": "ml",
+              "label": "Feline CKD"
+            }
+          ],
+          "image": {
+            "src": "assets/mirna-tube.png",
+            "alt": "Urine sample tube illustration"
+          }
+        },
+        {
+          "kicker": "Project",
+          "title": "Single-Cell RNA Sequencing and Digital Cytometry of the Canine Kidney",
+          "description": "Single-cell atlases of the canine kidney that enable digital cytometry — estimating cell-type composition from bulk transcriptomes and tracking how it shifts as chronic kidney disease progresses.",
+          "tags": [
+            {
+              "cat": "bio",
+              "label": "scRNA-seq"
+            },
+            {
+              "cat": "bio",
+              "label": "Digital Cytometry"
+            },
+            {
+              "cat": "ml",
+              "label": "Canine CKD"
+            }
+          ],
+          "image": {
+            "src": "assets/sequencer.png",
+            "alt": "DNA sequencer illustration"
+          }
+        }
+      ]
+    }
+  ],
+  "overview": {
+    "image": {
+      "src": "assets/research-overview.jpg",
+      "alt": "Research overview diagram of the Chu Lab titled Artificial Intelligence in Veterinary Medicine, grouping nine projects into large language models, machine learning, computer vision, AI education and nephrology, with the associated review, research and perspective papers."
+    },
+    "zoomLabel": "View full size"
+  },
+  "_tagNote": "Tags are topic labels only — an overview, never grant, dataset or partner detail. Status badges were removed on purpose: do not reintroduce a status field."
+}

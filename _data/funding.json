@@ -1,0 +1,108 @@
+{
+  "_comment": "PRIVACY CONTRACT: the renderer NEVER outputs award amounts, grant numbers or collaborator lists, regardless of what is stored here. Do not add those fields. publish:false keeps an award off the site until its official project title is confirmed.",
+  "_fields": {
+    "agency": "Sponsor name, exactly as the sponsor writes it.",
+    "agencyUrl": "Official sponsor URL for the logo/name link.",
+    "title": "Official project title. Never paraphrase an official title.",
+    "role": "Your role, e.g. Principal Investigator.",
+    "status": "Active | Completed | Awarded.",
+    "showLogo": "true only when a licensed logo file exists in assets/logos/. Logos supplied by Dr. Chu; trimmed to transparent PNG.",
+    "publish": "false = tracked but not rendered."
+  },
+  "items": [
+    {
+      "id": "everycat-uev-mirna",
+      "agency": "EveryCat Health Foundation",
+      "agencyUrl": "https://everycat.org/",
+      "title": "Identification of Urinary Extracellular Vesicle-Derived MicroRNAs as Sensitive and Specific Biomarkers for Early-Stage Feline Chronic Kidney Disease",
+      "role": "Principal Investigator",
+      "status": "Active",
+      "summary": "Chronic kidney disease is diagnosed late in cats, after substantial and irreversible loss of functional kidney tissue. This project isolates microRNAs carried in urinary extracellular vesicles and tests whether their expression patterns distinguish early-stage disease from healthy aging.",
+      "significance": "A validated urine test would move feline CKD diagnosis earlier, when dietary and therapeutic intervention still changes the trajectory of disease.",
+      "showLogo": true,
+      "publish": true,
+      "logo": {
+        "src": "assets/logos/everycat.png",
+        "alt": "EveryCat Health Foundation logo"
+      }
+    },
+    {
+      "id": "ofa-hip-dysplasia",
+      "agency": "Orthopedic Foundation for Animals",
+      "agencyUrl": "https://ofa.org/",
+      "title": "Artificial Intelligence for Canine Hip Dysplasia Screening",
+      "role": "Principal Investigator",
+      "status": "Active",
+      "summary": "Automated analysis of hip-extended radiographs to support consistent canine hip dysplasia grading, with translational relevance to human orthopedic screening.",
+      "significance": "Consistent, reproducible grading reduces inter-observer variability in a screening programme that shapes breeding decisions across the population.",
+      "showLogo": true,
+      "_confirmTitle": "Descriptive title written from the CV entry 'AI Canine Hip dysplasia' — replace with the official awarded title.",
+      "publish": true,
+      "logo": {
+        "src": "assets/logos/ofa.png",
+        "alt": "Orthopedic Foundation for Animals logo"
+      }
+    },
+    {
+      "id": "idexx-saline-agglutination",
+      "agency": "IDEXX",
+      "agencyUrl": "https://www.idexx.com/",
+      "title": "AI-Assisted Interpretation of the Saline Agglutination Test",
+      "role": "Principal Investigator",
+      "status": "Active",
+      "summary": "Machine-learning support for reading the saline agglutination test, distinguishing true agglutination from rouleaux more consistently than visual assessment alone.",
+      "showLogo": true,
+      "_confirmTitle": "Descriptive title written from the CV entry 'AI Saline agglutination test' — replace with the official awarded title.",
+      "publish": true,
+      "logo": {
+        "src": "assets/logos/idexx.png",
+        "alt": "IDEXX logo"
+      }
+    },
+    {
+      "id": "tamids-gaire",
+      "agency": "Texas A&M Institute of Data Science",
+      "agencyUrl": "https://tamids.tamu.edu/",
+      "title": "Generative AI Research for Education (GAIRE)",
+      "role": "Principal Investigator",
+      "status": "Active",
+      "summary": "Investigating how generative AI tools change the way veterinary students learn, study and are assessed, and what that means for curriculum design.",
+      "showLogo": true,
+      "publish": true,
+      "logo": {
+        "src": "assets/logos/tamids.png",
+        "alt": "Texas A&amp;M Institute of Data Science logo"
+      }
+    },
+    {
+      "id": "utsw-tamu-ctsa-pilot",
+      "agency": "UTSW/TAMU NIH CTSA Pilot Award",
+      "agencyUrl": "https://www.utsouthwestern.edu/",
+      "title": null,
+      "role": "Principal Investigator",
+      "status": "Active",
+      "_todo": "BLOCKED: needs the official project title. A funding mechanism alone tells grant reviewers nothing about the science, so this award stays unpublished until the title and a one-paragraph summary are supplied.",
+      "publish": false,
+      "showLogo": true,
+      "logo": {
+        "src": "assets/logos/utsw.png",
+        "alt": "UT Southwestern Medical Center logo"
+      }
+    },
+    {
+      "id": "tamu-division-of-research",
+      "agency": "Texas A&M University Division of Research",
+      "agencyUrl": "https://vpr.tamu.edu/",
+      "title": null,
+      "role": "Principal Investigator",
+      "status": "Active",
+      "showLogo": true,
+      "logo": {
+        "src": "assets/logos/tamu-division-of-research.png",
+        "alt": "Texas A&M University Division of Research logo"
+      },
+      "_todo": "Needs the official project title and a one-paragraph summary before it can appear as a funding card; the sponsor logo already appears in the home-page Research Support row.",
+      "publish": false
+    }
+  ]
+}

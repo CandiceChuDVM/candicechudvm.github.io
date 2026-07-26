@@ -1,0 +1,8 @@
+# Local tooling and workspace metadata
+.claude/
+.DS_Store
+.thumbnail
+
+# Private source documents and design scratch files are not deployable site assets.
+uploads/
+scraps/

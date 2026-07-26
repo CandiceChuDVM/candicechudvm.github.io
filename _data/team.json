@@ -1,0 +1,87 @@
+{
+  "metaTitle": "Team — Chu Lab, Texas A&M University",
+  "metaDescription": "The Chu Lab team: graduate students and research assistants working on veterinary AI, digital cytology and kidney disease biomarkers.",
+  "h1": "Team",
+  "intro": "The Chu Lab is based in the Department of Veterinary Pathobiology at Texas A&M University's College of Veterinary Medicine &amp; Biomedical Sciences.",
+  "membersTitle": "Graduate Students & Research Assistants",
+  "pi": {
+    "name": "Candice P. Chu",
+    "role": "Assistant Professor · Principal Investigator",
+    "photo": "assets/profile-square.jpg",
+    "contact": "DVM, PhD, DACVP · Texas A&amp;M University<br><br><a href=\"mailto:cchu@cvm.tamu.edu\">cchu@cvm.tamu.edu</a>",
+    "focus": "Veterinary artificial intelligence, digital cytology, diagnostic AI, large language models, and AI education."
+  },
+  "members": [
+    {
+      "name": "Yumi Chang",
+      "role": "PhD Student",
+      "photo": "assets/yumi-chang.jpg",
+      "bio": "Yumi earned her DVM from <a href=\"https://www.nchu.edu.tw/en\" target=\"_blank\" rel=\"noopener\">National Chung Hsing University</a> in Taiwan. Her research applies large language models to extract structured clinical data from veterinary electronic health records; her first paper appeared in the <em>Veterinary Pathology</em> special issue on artificial intelligence in 2026.",
+      "outsideLab": "Dog parent, home cook, and lifelong learner.",
+      "tags": [
+        {
+          "cat": "llm",
+          "label": "LLM"
+        },
+        {
+          "cat": "ml",
+          "label": "EHR"
+        },
+        {
+          "cat": "cv",
+          "label": "Pathology"
+        }
+      ]
+    },
+    {
+      "name": "Avery Huang",
+      "role": "PhD Student",
+      "photo": "assets/avery-huang.jpg",
+      "bio": "Avery earned her DVM from <a href=\"https://www.ntu.edu.tw/english/\" target=\"_blank\" rel=\"noopener\">National Taiwan University</a> and is pursuing a PhD in the Department of Veterinary Pathobiology at Texas A&amp;M University. Her research focuses on microRNA biomarkers in chronic kidney disease.",
+      "outsideLab": "Coffee, cooking, dogs, and Taiwanese bubble tea.",
+      "tags": [
+        {
+          "cat": "bio",
+          "label": "miRNA"
+        },
+        {
+          "cat": "ml",
+          "label": "CKD"
+        }
+      ]
+    },
+    {
+      "name": "Franklin Kao",
+      "role": "Student Research Assistant",
+      "photo": "assets/franklin-kao.jpg",
+      "bio": "Franklin earned a bachelor's degree in chemistry with a minor in economics from <a href=\"https://www.ntu.edu.tw/english/\" target=\"_blank\" rel=\"noopener\">National Taiwan University</a>. His experience working with data led to a growing interest in computer science. His current work focuses on large language models and machine learning.",
+      "outsideLab": "Learning Japanese, playing board games and piano, and developing his cooking skills.",
+      "tags": [
+        {
+          "cat": "llm",
+          "label": "LLM"
+        },
+        {
+          "cat": "ml",
+          "label": "Machine Learning"
+        }
+      ]
+    }
+  ],
+  "alumni": [],
+  "_alumniNote": "Add graduated students as { name, detail, publish:true }. Mentored residents and rotating trainees are listed in the CV rather than here.",
+  "join": {
+    "title": "Join the Lab",
+    "body": "We recruit summer veterinary students, MS thesis and PhD students interested in applying AI to veterinary medicine. Prospective students should contact Dr. Candice Chu with their CV and transcripts before applying through the <a href=\"https://vetmed.tamu.edu/graduate-studies/\" target=\"_blank\" rel=\"noopener\">BIMS Graduate Program</a>.<br><br>Our lab members present at national conferences, publish as first authors, and have the opportunity to attend clinical pathology and anatomic pathology rounds and even pursue residency training after graduation.",
+    "links": [
+      {
+        "label": "Contact Dr. Chu",
+        "href": "mailto:cchu@cvm.tamu.edu?subject=Prospective%20Student%20Inquiry"
+      },
+      {
+        "label": "BIMS Graduate Program",
+        "href": "https://vetmed.tamu.edu/graduate-programs/"
+      }
+    ]
+  }
+}

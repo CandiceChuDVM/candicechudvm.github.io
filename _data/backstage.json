@@ -1,0 +1,48 @@
+{
+  "_comment": "Private dashboard page. Not in nav, not in the sitemap, noindex/nofollow — reachable only by typing the URL. It holds no secrets: it is a set of links and an optional embedded dashboard, so a stray visitor learns nothing.",
+  "metaTitle": "Backstage — site analytics",
+  "metaDescription": "Private operations page for candicechudvm.com: analytics dashboards, build status and deployment shortcuts.",
+  "h1": "Backstage",
+  "intro": "Private operations page. Not linked from anywhere, not indexed, not in the sitemap. Bookmark it.",
+  "embed": {
+    "_comment": "Paste a shareable dashboard URL to see live numbers right here. GoatCounter: Settings → Site settings → Public access. Plausible: Site settings → Visibility → shared link. Cloudflare and GA4 cannot be embedded — use their dashboard links below instead.",
+    "url": "",
+    "title": "Live traffic dashboard",
+    "height": 760
+  },
+  "links": [
+    {
+      "label": "Cloudflare Web Analytics",
+      "href": "https://dash.cloudflare.com/?to=/:account/web-analytics",
+      "note": "Page views, referrers, visitor countries, device and browser mix. Free, cookie-free, no consent banner."
+    },
+    {
+      "label": "Google Search Console",
+      "href": "https://search.google.com/search-console",
+      "note": "What people searched before clicking, which pages rank, and any indexing problems. Add both candicechudvm.com and the sitemap."
+    },
+    {
+      "label": "Bing Webmaster Tools",
+      "href": "https://www.bing.com/webmasters",
+      "note": "The same for Bing — which also feeds several AI answer engines."
+    },
+    {
+      "label": "GitHub Actions runs",
+      "href": "https://github.com/candicechudvm/candicechudvm.github.io/actions",
+      "note": "Every deploy, with the build and validation log. A red run means the live site is still the previous version."
+    },
+    {
+      "label": "GitHub Pages settings",
+      "href": "https://github.com/candicechudvm/candicechudvm.github.io/settings/pages",
+      "note": "Custom domain and HTTPS status."
+    }
+  ],
+  "checklist": [
+    "Pick a provider in <code>_data/site.json</code> → <code>analytics.provider</code> and paste its id.",
+    "Rebuild and deploy: <code>node _build/build.mjs</code>, then commit and push.",
+    "Open the site in a private window, then confirm the visit appears in the dashboard.",
+    "In Search Console, submit <code>https://candicechudvm.com/sitemap.xml</code> once. It re-reads it automatically after that.",
+    "Optional: paste a shared dashboard URL into <code>_data/backstage.json</code> → <code>embed.url</code> to see the numbers on this page."
+  ],
+  "privacyNote": "Cloudflare, Plausible, Umami and GoatCounter are all cookie-free and collect no personal data, so no consent banner is required. GA4 does set cookies — if you choose it, a privacy notice becomes necessary."
+}

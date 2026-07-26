@@ -1,0 +1,429 @@
+{
+  "metaTitle": "Speaking — Keynotes & Invited Lectures | Candice Chu",
+  "metaDescription": "Keynote topics and talk record on artificial intelligence in veterinary medicine, AI literacy and digital cytology. Speaking invitations welcome.",
+  "keywords": [
+    "veterinary AI keynote speaker",
+    "AI in veterinary medicine talk",
+    "veterinary AI literacy lecture",
+    "digital cytology speaker",
+    "generative AI veterinary education"
+  ],
+  "h1": "Speaking",
+  "intro": "Dr. Chu speaks to veterinary colleges, specialty colleges, conferences, professional organizations and industry audiences on artificial intelligence in veterinary medicine — from practical AI literacy to diagnostic model validation.",
+  "inviteMailto": "mailto:cchu@cvm.tamu.edu?subject=Speaking%20Invitation%20for%20Dr.%20Candice%20Chu&body=Hi%20there%2C%0A%0AThank%20you%20for%20your%20invitation.%20Please%20include%20the%20following%20details%20in%20your%20email%3A%0A%0AOrganization%20%2F%20event%20name%3A%0ADate%20and%20time%20(with%20time%20zone)%3A%0ATalk%20duration%20(including%20Q%26A%20%2F%20discussion)%3A%0AFormat%20(in%20person%20or%20remote)%3A%0AAudience%20(who%2C%20and%20roughly%20how%20many)%3A%0ACompensation%20(honorarium%2C%20travel%20and%20lodging)%3A%0ARequested%20topic%3A%0A",
+  "topics": [
+    "Artificial Intelligence in Veterinary Medicine",
+    "Veterinary AI Literacy and Responsible Adoption",
+    "Generative AI in Veterinary Education",
+    "AI-Assisted Veterinary Diagnostics",
+    "Digital Cytology and Computational Pathology",
+    "Large Language Models for Veterinary Research",
+    "Preparing the Next Generation of AI-Savvy Veterinarians",
+    "The Future of Veterinary Clinical Pathology"
+  ],
+  "_fieldNote": "Per-talk fields for audience size, evaluation score, feedback quotations, photos and recordings are supported by the data model but deliberately left empty until original evaluations or thank-you letters are in hand. Do not estimate them.",
+  "sections": [
+    {
+      "title": "Conference Keynote",
+      "items": [
+        {
+          "label": "Keynote · Nov 2024",
+          "title": "ChatGPT in Veterinary Medicine",
+          "sub": "<a href=\"https://acvr.org/\" target=\"_blank\" rel=\"noopener\">American College of Veterinary Radiology</a> Scientific Conference · Norfolk, VA",
+          "tag": {
+            "cat": "llm",
+            "label": "Keynote"
+          }
+        }
+      ],
+      "id": "conference-keynote",
+      "color": "#5B8FC4"
+    },
+    {
+      "title": "Invited Conference Presentations",
+      "groups": [
+        {
+          "title": "National — Specialty Colleges & Associations",
+          "items": [
+            {
+              "label": "AVMA Convention · 2026",
+              "title": "Less pAIn, More gAIn: A Starter Guide to AI Literacy for Veterinary Professionals",
+              "sub": "American Veterinary Medical Association · Anaheim, CA"
+            },
+            {
+              "label": "ACVP Workshop · Oct 2025",
+              "title": "Lymphoma Classification in Cytological Images",
+              "sub": "Pathology Informatics Workshop: Automated Image Analysis Using Machine Learning, ACVP Annual Meeting · New Orleans, LA"
+            },
+            {
+              "label": "ACVP Webinar · Jul 2025",
+              "title": "AI in Veterinary Pathology: Navigating Innovation, Pitfalls, and Best Practices",
+              "sub": "ACVP Lifelong Learning Webinar · Remote"
+            },
+            {
+              "label": "ACVIM Virtual Day · Jun 2025",
+              "title": "Panel: The Rise of Artificial Intelligence — Benefits and Threats to Referral Veterinary Medicine",
+              "sub": "American College of Veterinary Internal Medicine · Remote"
+            },
+            {
+              "label": "Purina Institute · May 2025",
+              "title": "The Impact of AI on Veterinary Diagnostics and Consulting",
+              "sub": "<a href=\"https://globalsummit2025.purinainstitute.com/\" target=\"_blank\" rel=\"noopener\">Purina Institute Global Summit</a> · St. Louis, MO"
+            },
+            {
+              "label": "VMX · Jan 2025",
+              "title": "AI and Medicine: Where Are We Now? Where Are We Heading? Should We Embrace or Be Afraid?",
+              "sub": "VMX Veterinary Conference (IDEXX sponsored) · Orlando, FL"
+            },
+            {
+              "label": "VMX · Jan 2025",
+              "title": "Blood Morphology Matters: Common Clinically Significant Findings You Might Miss If You Don’t Smear",
+              "sub": "VMX Veterinary Conference (IDEXX sponsored) · Orlando, FL"
+            },
+            {
+              "label": "VMX · Jan 2025",
+              "title": "The ‘Art’ of Interpreting Blood Morphology",
+              "sub": "VMX Veterinary Conference (IDEXX sponsored) · Orlando, FL"
+            },
+            {
+              "label": "ACVP Webinar · Dec 2024",
+              "title": "ChatGPT for Veterinary Professionals",
+              "sub": "ACVP Lifelong Learning Webinar · Remote"
+            },
+            {
+              "label": "AVMA Convention · 2024",
+              "title": "Blood Morphology Matters: Common Clinically Significant Findings You Might Miss If You Don’t Smear",
+              "sub": "American Veterinary Medical Association · Austin, TX"
+            },
+            {
+              "label": "ACVIM On-Demand · 2024–2025",
+              "title": "From Feed to Finish: AI and Digital Tools for Streamlining Academic Writing",
+              "sub": "ACVIM Online Platform · On-demand"
+            },
+            {
+              "label": "ACVIM Annual Meeting · Jun 2024",
+              "title": "Next Gen Veterinary Researcher: How I Streamline Academic Writing with AI and Digital Tools",
+              "sub": "ASVCP Specialty Sessions · Minneapolis, MN"
+            },
+            {
+              "label": "ACVIM Annual Meeting · Jun 2024",
+              "title": "Revolutionizing Veterinary Medicine with ChatGPT: A New Frontier in Artificial Intelligence Applications",
+              "sub": "ASVCP Specialty Sessions · Minneapolis, MN"
+            },
+            {
+              "label": "ACVIM Annual Meeting · 2023",
+              "title": "Urinary MicroRNAs as Biomarkers in Canine and Feline Chronic Kidney Disease",
+              "sub": "ASVCP Specialty Sessions · Philadelphia, PA"
+            },
+            {
+              "label": "ACVIM Pre-Congress · Jun 2022",
+              "title": "Scientific Advisory Board on Chronic Kidney Disease",
+              "sub": "Boehringer Ingelheim ACVIM Pre-Congress Meeting · Austin, TX"
+            },
+            {
+              "label": "WISE Conference · 2026",
+              "title": "Invited lecture — topic to be announced",
+              "sub": "WISE 34th Annual Susan M. Arseven ’75 Conference · Houston, TX"
+            },
+            {
+              "label": "TTBA Symposium · Oct 2024",
+              "title": "AI Panel: Challenges and Insights of the Biotech Industry in the AI Era",
+              "sub": "Texas Taiwanese Biotechnology Association · Houston, TX"
+            },
+            {
+              "label": "TAAB Symposium · Nov 2023",
+              "title": "AI Panel: AI in Medicine",
+              "sub": "Taiwanese American Association of Biotechnology Annual Symposium · Philadelphia, PA"
+            }
+          ],
+          "id": "invited-conference-presentations-national-specialty-colleges-and-associations"
+        },
+        {
+          "title": "International",
+          "items": [
+            {
+              "label": "Renal Workshop · Jun 2026",
+              "title": "Invited lecture — topic to be announced (with Dr. Mary Nabity)",
+              "sub": "Taiwan College of Veterinary Internal Medicine · Taiwan"
+            },
+            {
+              "label": "Taiwan Livestock Research Institute · May 2025",
+              "title": "Essential AI and Digital Tools for Veterinary Researchers",
+              "sub": "Smart Agriculture and Generative AI: Innovations and Expansion in the Poultry Industry, Ministry of Agriculture · Taiwan"
+            },
+            {
+              "label": "Gen-AI Smart Agriculture · Dec 2024",
+              "title": "The Application of AI in Veterinary Medicine",
+              "sub": "Gen-AI-Empowered Smart Agriculture Conference, National Chung Hsing University · Taichung, Taiwan"
+            },
+            {
+              "label": "Agriculture Association of Taiwan · Nov 2024",
+              "title": "Generative AI in Veterinary Medicine",
+              "sub": "Annual Meeting, National Taiwan University · Taipei, Taiwan"
+            },
+            {
+              "label": "WVAC · Apr 2023",
+              "title": "Cytology Lecture Series (4 hours)",
+              "sub": "The 38th World Veterinary Association Congress · Taipei, Taiwan"
+            },
+            {
+              "label": "Chinese Society of Comparative Pathology · 2022",
+              "title": "Cytologic Diagnosis of Urinary Tract Diseases in Small Animals",
+              "sub": "Annual Meeting · Webinar"
+            }
+          ],
+          "id": "invited-conference-presentations-international"
+        }
+      ],
+      "id": "invited-conference-presentations",
+      "color": "#9472B9"
+    },
+    {
+      "title": "Invited University Presentations",
+      "items": [
+        {
+          "label": "Jan 2026 · Remote",
+          "title": "The Use of AI in Veterinary Medicine",
+          "sub": "School of Veterinary Medicine, St. Matthew’s University"
+        },
+        {
+          "label": "Sep 2025 · Canada",
+          "title": "Beyond the Basics: How I Use AI and Digital Tools to Accelerate Veterinary Research",
+          "sub": "Faculty of Veterinary Medicine, University of Calgary"
+        },
+        {
+          "label": "Feb 2023 · Taipei, Taiwan",
+          "title": "Urinary MicroRNAs as Biomarkers for Chronic Kidney Disease in Dogs and Cats",
+          "sub": "Special Seminar, Institute of Molecular and Comparative Pathobiology, National Taiwan University"
+        },
+        {
+          "label": "Sep 2022 · Philadelphia, PA",
+          "title": "MicroRNAs: Biomarkers in Canine Chronic Kidney Disease",
+          "sub": "Advanced Urinary Care Rounds, Penn Vet"
+        },
+        {
+          "label": "Jan 2022 · Philadelphia, PA",
+          "title": "Urinary Extracellular Vesicles in Feline Chronic Kidney Disease",
+          "sub": "Advanced Urinary Care Rounds, Penn Vet"
+        }
+      ],
+      "id": "invited-university-presentations",
+      "color": "#C48A5B"
+    },
+    {
+      "title": "Invited Continuing Education",
+      "items": [
+        {
+          "label": "Oct 2026 · Webinar",
+          "title": "Invited lecture — topic to be announced",
+          "sub": "CVE webinar"
+        },
+        {
+          "label": "May 2026 · Texas A&amp;M University",
+          "title": "Ethical Use of AI in Academic Writing",
+          "sub": "VMSRTP, College of Veterinary Medicine & Biomedical Sciences"
+        },
+        {
+          "label": "Mar 2026 · Texas A&amp;M University",
+          "title": "Ethical Use of AI",
+          "sub": "College of Veterinary Medicine & Biomedical Sciences"
+        },
+        {
+          "label": "Sep 2025 · Texas A&amp;M University",
+          "title": "AI and Digital Tools to Accelerate Research",
+          "sub": "College of Nursing"
+        },
+        {
+          "label": "Sep 2025 · Texas A&amp;M University",
+          "title": "AI Transforms My PDF into a Slide Presentation!",
+          "sub": "Faculty Development Series"
+        },
+        {
+          "label": "Aug 2025 · Remote",
+          "title": "AI and Digital Solutions: A Practical Guide for Veterinary Researchers",
+          "sub": "Promega"
+        },
+        {
+          "label": "May 2025 · Taiwan",
+          "title": "Symposium of Small Animal Clinical Diagnostic Cytology (6 hours)",
+          "sub": "Animal Medical Research Foundation, National Chung Hsing University"
+        },
+        {
+          "label": "Apr 2025 · College Station, TX",
+          "title": "Essential AI and Digital Tools for Veterinary Researchers",
+          "sub": "CVM Graduate Student Association, Texas A&amp;M University"
+        },
+        {
+          "label": "Mar 2025 · Remote",
+          "title": "Essential AI and Digital Tools for Veterinary Researchers",
+          "sub": "IDEXX March Specialist Webinar"
+        },
+        {
+          "label": "Mar 2025 · College Station, TX",
+          "title": "How I Use AI and Digital Tools to Boost Productivity",
+          "sub": "Dean’s Office, VMBS, Texas A&amp;M University"
+        },
+        {
+          "label": "Dec 2024 · College Station, TX",
+          "title": "Generative AI in Veterinary Education",
+          "sub": "7th Annual VMBS Teaching Showcase, Texas A&amp;M University"
+        },
+        {
+          "label": "Nov 2024 · College Station, TX",
+          "title": "Next Gen Veterinary Researcher: How I Streamline Academic Writing with AI and Digital Tools",
+          "sub": "Research Conversation, VMBS, Texas A&amp;M University"
+        },
+        {
+          "label": "Mar 2024 · Philadelphia, PA",
+          "title": "AI Tools in Research",
+          "sub": "Taiwanese Biomedical Professional Society Monthly Seminar, University of Pennsylvania"
+        },
+        {
+          "label": "Feb 2024 · Webinar",
+          "title": "All You Need to Know About Round Cell Tumor Cytology",
+          "sub": "VETgirl"
+        },
+        {
+          "label": "Jan 2024 · Podcast",
+          "title": "Top 3 Conditions Missed by Skipping Urinalysis (with Dr. Alyssa Watson)",
+          "sub": "Clinician’s Brief"
+        },
+        {
+          "label": "Jan 2024 · Webinar",
+          "title": "Round Cell Tumor Cytology",
+          "sub": "Hill’s Pet Nutrition"
+        },
+        {
+          "label": "Apr 2023 · Taiwan",
+          "title": "Cytology Trivia",
+          "sub": "Small Animal Oncology, National Taiwan University"
+        },
+        {
+          "label": "Aug 2020 · Webinar",
+          "title": "Skin Cytology Webinar Series",
+          "sub": "Vetderm.eu"
+        },
+        {
+          "label": "Dec 2019 · Taiwan",
+          "title": "Interpretation of ProCyte Dx Dot Plots and the Basic Concepts of Flow Cytometry and PARR",
+          "sub": "Special Seminar, National Taiwan University"
+        },
+        {
+          "label": "Dec 2019 · Taiwan",
+          "title": "Veterinary Clinical Pathology (4 hours)",
+          "sub": "Special Seminar, National Chung Hsing University"
+        }
+      ],
+      "id": "invited-continuing-education",
+      "color": "#8E7BC4"
+    },
+    {
+      "title": "Outreach & Career Talks",
+      "items": [
+        {
+          "label": "Feb 2025 · College Station, TX",
+          "title": "How I Chat with ChatGPT? The Use of AI Deep Research",
+          "sub": "CVM PDA, Texas A&amp;M University"
+        },
+        {
+          "label": "Dec 2024 · Podcast",
+          "title": "A Conversation in Veterinary Pathology (with Drs. Caralyn Labriola and Hannah Atkins)",
+          "sub": "The A.C.V.P. Podcast"
+        },
+        {
+          "label": "Jun 2024 · College Station, TX",
+          "title": "Coffee Chat",
+          "sub": "Texas Taiwanese Biotechnology Association"
+        },
+        {
+          "label": "Mar 2024 · Webinar",
+          "title": "How to Apply for Veterinary Graduate Schools in the United States",
+          "sub": "Taiwan Veterinary Medicine Student Association"
+        },
+        {
+          "label": "Dec 2023 · Webinar",
+          "title": "Opportunities Beyond Cytology: The Thousand Faces of Veterinary Clinical Pathologists",
+          "sub": "IVSA Pathology Network"
+        },
+        {
+          "label": "Apr 2023 · Taiwan",
+          "title": "So, You Want to Be a Vet?",
+          "sub": "National Experimental High School"
+        },
+        {
+          "label": "Sep 2022 · Philadelphia, PA",
+          "title": "Becoming a Pet Owner: Understand Their Medical Needs",
+          "sub": "Taiwanese Biomedical Professional Society Monthly Seminar, University of Pennsylvania"
+        },
+        {
+          "label": "Apr 2022 · Webinar",
+          "title": "Setting Up a Science Blog",
+          "sub": "CVMBS-PDA monthly meeting"
+        },
+        {
+          "label": "Dec 2021 · Webinar",
+          "title": "How to Land a Faculty Position",
+          "sub": "Texas Taiwanese Biotechnology Association"
+        },
+        {
+          "label": "2021 · Column",
+          "title": "How to Apply for Faculty Positions in the US",
+          "sub": "NTU Alumni Career Column"
+        },
+        {
+          "label": "Jan 2021 · Webinar",
+          "title": "High School Students Career Workshop",
+          "sub": "Taiwan Veterinary Medicine Students’ Association"
+        },
+        {
+          "label": "Dec 2020 · Webinar",
+          "title": "Job Hunting Tips: Building Your Online Portfolio",
+          "sub": "Texas Taiwanese Biotechnology Association"
+        },
+        {
+          "label": "May 2020 · College Station, TX",
+          "title": "I AM CVM",
+          "sub": "College of Veterinary Medicine, Texas A&amp;M University"
+        },
+        {
+          "label": "2020 · Column",
+          "title": "My Pathway to Board-Certified Clinical Pathologist in the US",
+          "sub": "NTU Alumni Career Column"
+        },
+        {
+          "label": "Aug 2019 · Houston, TX",
+          "title": "Veterinary Education in the United States and Taiwan: Differences and Prospects",
+          "sub": "North America Taiwanese Professors’ Association"
+        },
+        {
+          "label": "Apr 2018 · Webinar",
+          "title": "Veterinary Training System in the US",
+          "sub": "Taiwanese Young Researcher Association"
+        },
+        {
+          "label": "Jan 2016 · Taiwan",
+          "title": "How to Apply for US Graduate Schools",
+          "sub": "National Taiwan University & National Chung Hsing University"
+        }
+      ],
+      "id": "outreach-and-career-talks",
+      "color": "#4B9985"
+    }
+  ],
+  "_nameNote": "Organization names follow the speaking CV (Candice_Chu_CV_20260512_speaking.docx): \"Taiwan College of Veterinary Internal Medicine\". Talks with no announced title are shown as \"topic to be announced\".",
+  "headerPhoto": {
+    "src": "assets/speaking-taiwan-2025.jpg",
+    "alt": "Dr. Chu beside the programme banner for the Symposium of Small Animal Clinical Diagnostic Cytology",
+    "caption": "Invited lecturer · Symposium of Small Animal Clinical Diagnostic Cytology, Animal Medical Research Foundation, Taiwan · May 2025"
+  },
+  "_source": "Candice_Chu_CV_20260512_speaking.docx — every CV entry is represented; edit there first, then mirror here.",
+  "jumpInclude": [
+    "Conference Keynote",
+    "Invited Conference Presentations",
+    "National — Specialty Colleges & Associations",
+    "International",
+    "Invited University Presentations",
+    "Invited Continuing Education",
+    "Outreach & Career Talks"
+  ]
+}

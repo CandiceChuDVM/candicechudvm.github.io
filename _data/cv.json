@@ -1,0 +1,350 @@
+{
+  "metaTitle": "CV — Candice P. Chu, DVM, PhD, DACVP",
+  "metaDescription": "Curriculum vitae: positions, education, board certification, honors, committee service and publications of Candice P. Chu at Texas A&M University.",
+  "pdf": "https://candicechudvm.github.io/assets/Candice_Chu_CV.pdf",
+  "sections": [
+    {
+      "id": "positions",
+      "jump": "Positions",
+      "title": "Academic Positions",
+      "items": [
+        {
+          "year": "2024 – present",
+          "title": "Assistant Professor",
+          "sub": "College of Veterinary Medicine and Biomedical Sciences · Texas A&amp;M University, College Station, TX"
+        },
+        {
+          "year": "2021 – 2023",
+          "title": "Assistant Professor of Clinical Pathology",
+          "sub": "School of Veterinary Medicine · University of Pennsylvania, Philadelphia, PA"
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "jump": "Education",
+      "title": "Education & Training",
+      "items": [
+        {
+          "year": "2018 – 2021",
+          "title": "Veterinary Clinical Pathology Residency",
+          "sub": "Texas A&amp;M University, College Station, TX"
+        },
+        {
+          "year": "2014 – 2018",
+          "title": "PhD in Veterinary Pathobiology",
+          "sub": "Texas A&amp;M University, College Station, TX"
+        },
+        {
+          "year": "2008 – 2013",
+          "title": "Doctor of Veterinary Medicine (DVM)",
+          "sub": "National Taiwan University, Taipei, Taiwan"
+        },
+        {
+          "year": "2006 – 2008",
+          "title": "High School",
+          "sub": "National Experimental High School at Hsinchu Science Park, Hsinchu, Taiwan"
+        }
+      ]
+    },
+    {
+      "id": "board",
+      "jump": "Board Cert.",
+      "title": "Board Certification",
+      "items": [
+        {
+          "year": "2021",
+          "title": "Diplomate, American College of Veterinary Pathologists (DACVP)",
+          "sub": "Clinical Pathology specialty"
+        }
+      ]
+    },
+    {
+      "id": "awards",
+      "jump": "Awards",
+      "title": "Honors & Awards",
+      "items": [
+        {
+          "year": "2022",
+          "title": "McCabe Award",
+          "sub": "Perelman School of Medicine, University of Pennsylvania"
+        },
+        {
+          "year": "2020",
+          "title": "ACVP Harold W. Casey Scholarship Award"
+        },
+        {
+          "year": "2019",
+          "title": "ASVCP Young Investigator Award — Basic Research",
+          "sub": "Also: ASVCP Resident Externship Training in Industry Scholarship · American Society of Nephrology Kidney STARS (First DVM awardee) · TAMU CVM Postdoctoral Association Travel Award · TAMU Graduate Student Platform Presentation (Second Place)"
+        },
+        {
+          "year": "2018",
+          "title": "TAMU High Impact Achievement Award (First Author Award)",
+          "sub": "Also: TAMU Graduate Student Poster Presentation (Third Place) · TAMU Graduate Student Platform Presentation (People's Choice Award)"
+        },
+        {
+          "year": "2017",
+          "title": "ACVP Young Investigator Award — Natural Disease (First Place)",
+          "sub": "Also: ASVCP Young Investigator Award — Basic Research · ACVP Resident/Graduate Student Travel Award · ASVCP Share the Future Travel Award · TAMU Graduate Student 3-Minute Flash Talks (First Place &amp; People's Choice) · TAMU High Impact Achievement Award (Small Grant)"
+        },
+        {
+          "year": "2016",
+          "title": "ACVP Young Investigator Award — Natural Disease (First Place)",
+          "sub": "Also: Government Scholarship to Study Abroad, Ministry of Education, Taiwan · TAMU CVM Graduate Student Association Travel Award · North America Taiwanese Engineering &amp; Science Association Scholarship"
+        },
+        {
+          "year": "2014",
+          "title": "TAMU Lechner Scholarship"
+        },
+        {
+          "year": "2013",
+          "title": "Animal Medical Research Foundation Scholarship, Taiwan",
+          "sub": "Also: Young College Elite, China Youth Corps, Taiwan"
+        },
+        {
+          "year": "2012",
+          "title": "NTU President Award (Top 5% of the class)",
+          "sub": "Also: Taipei Veterinary Medical Association Scholarship · NTU School of Veterinary Medicine Alumni Association Scholarship · NTU Outstanding College Youth Award (Top 15 among 32,693 students)"
+        },
+        {
+          "year": "2010",
+          "title": "International Youth Ambassadors Exchange Program at Eswatini",
+          "sub": "Ministry of Foreign Affairs, Taiwan"
+        }
+      ]
+    },
+    {
+      "id": "service",
+      "jump": "Service",
+      "title": "Committee Service",
+      "items": [
+        {
+          "year": "2025 – present",
+          "title": "Member, AVMA Task Force on Emerging Technologies and Innovation"
+        },
+        {
+          "year": "2025 – present",
+          "title": "Member, AI Working Group"
+        },
+        {
+          "year": "2024 – present",
+          "title": "Member, Texas A&amp;M University AI Steering Committee"
+        },
+        {
+          "year": "2022 – present",
+          "title": "Member, ASVCP Education Committee"
+        },
+        {
+          "year": "2021 – present",
+          "title": "Member and Forum Co-chair, ACVP Pathology Informatics Committee"
+        },
+        {
+          "year": "2022 – 2024",
+          "title": "Member, ACVP Training Program Accreditation Committee"
+        },
+        {
+          "year": "2019 – 2023",
+          "title": "Member and Chair-Elect, ASVCP Media and Communication Committee"
+        }
+      ]
+    },
+    {
+      "id": "memberships",
+      "jump": "Memberships",
+      "title": "Professional Memberships",
+      "items": [
+        {
+          "year": "2024 – present",
+          "title": "Association of Veterinary Informatics"
+        },
+        {
+          "year": "2021 – present",
+          "title": "Digital Pathology Association"
+        },
+        {
+          "year": "2020 – present",
+          "title": "Clinical and Translational Science Award One Health Alliance",
+          "sub": "Also: American College of Veterinary Pathologists · American Society of Veterinary Nephrology and Urology"
+        },
+        {
+          "year": "2019 – present",
+          "title": "International Society for Animal Clinical Pathology"
+        },
+        {
+          "year": "2016 – present",
+          "title": "American Society for Veterinary Clinical Pathology"
+        },
+        {
+          "year": "2015 – present",
+          "title": "American Veterinary Medical Association"
+        }
+      ]
+    },
+    {
+      "id": "certs",
+      "jump": "Certifications",
+      "title": "Licenses & Certifications",
+      "items": [
+        {
+          "year": "2024",
+          "title": "Applied Data Science Program — Leveraging AI for Effective Decision-Making",
+          "sub": "MIT Professional Education"
+        },
+        {
+          "year": "2024",
+          "title": "NIH Compass Training Program",
+          "sub": "Washington University School of Medicine"
+        },
+        {
+          "year": "2022",
+          "title": "Digital Pathology Certificate",
+          "sub": "The National Society for Histotechnology"
+        },
+        {
+          "year": "2021",
+          "title": "QPR Suicide Prevention Gatekeeper Program",
+          "sub": "Texas A&amp;M University"
+        },
+        {
+          "year": "2020",
+          "title": "Certificate for Diversity &amp; Inclusion in Veterinary Medicine",
+          "sub": "Purdue University · Also: Texas Veterinary License (S-576)"
+        },
+        {
+          "year": "2016",
+          "title": "Certificate of Achievement in Hemodialysis Academy",
+          "sub": "UC Davis · Also: CVM Inclusive Climate Aggie Ally, Texas A&amp;M University"
+        },
+        {
+          "year": "2013",
+          "title": "Taiwan Veterinary License (#7309)"
+        }
+      ]
+    },
+    {
+      "id": "publications",
+      "jump": "Publications",
+      "title": "Selected Publications",
+      "note": "See <a href=\"publications.html\">Publications page</a> for full list or <a href=\"https://scholar.google.com/citations?user=cv_brEAAAAAJ\" target=\"_blank\" rel=\"noopener\">Google Scholar</a>.",
+      "items": [
+        {
+          "year": "2026",
+          "title": "Curriculum framework for artificial intelligence literacy in veterinary education",
+          "sub": "Huang YT, Chu CP. <em>Front Vet Sci</em>, 2026. <a href=\"https://doi.org/10.3389/fvets.2026.1801756\" target=\"_blank\" rel=\"noopener\">doi:10.3389/fvets.2026.1801756</a>"
+        },
+        {
+          "year": "2025",
+          "title": "Renal single-Cell RNA sequencing and digital cytometry in dogs with X-linked hereditary nephropathy",
+          "sub": "Chu CP, Osorio D, Nabity MB. <em>Animals</em>, 2025. <a href=\"https://doi.org/10.3390/ani15142061\" target=\"_blank\" rel=\"noopener\">doi:10.3390/ani15142061</a>"
+        },
+        {
+          "year": "2024",
+          "title": "Technical considerations and review of urinary microRNAs as biomarkers for chronic kidney disease in dogs and cats",
+          "sub": "Chu CP, Nabity MB. <em>Vet Clin Pathol</em>, 2024. <a href=\"https://doi.org/10.1111/vcp.13412\" target=\"_blank\" rel=\"noopener\">doi:10.1111/vcp.13412</a>"
+        },
+        {
+          "year": "2024",
+          "title": "Banish the PDF-hunting blues with these AI and digital tools",
+          "sub": "Chu CP. <em>Nature</em>, 2024. <a href=\"https://doi.org/10.1038/d41586-024-03775-7\" target=\"_blank\" rel=\"noopener\">doi:10.1038/d41586-024-03775-7</a>"
+        },
+        {
+          "year": "2024",
+          "title": "ChatGPT in veterinary medicine: a practical guidance of generative artificial intelligence in clinics, education, and research",
+          "sub": "Chu CP. <em>Front Vet Sci</em>, 2024. <a href=\"https://doi.org/10.3389/fvets.2024.1395934\" target=\"_blank\" rel=\"noopener\">doi:10.3389/fvets.2024.1395934</a>"
+        },
+        {
+          "year": "2024",
+          "title": "MicroRNA-126 in dogs with immune complex-mediated glomerulonephritis",
+          "sub": "Cherry AD, Chu CP et al. <em>J Vet Intern Med</em>, 2024. <a href=\"https://doi.org/10.1111/jvim.16932\" target=\"_blank\" rel=\"noopener\">doi:10.1111/jvim.16932</a>"
+        },
+        {
+          "year": "2023",
+          "title": "Serotonin reduction in post-acute sequelae of viral infection",
+          "sub": "Wong AC, Devason AS, Umana IC, Chu CP et al. <em>Cell</em>, 2023. <a href=\"https://doi.org/10.1016/j.cell.2023.09.013\" target=\"_blank\" rel=\"noopener\">doi:10.1016/j.cell.2023.09.013</a>"
+        },
+        {
+          "year": "2021",
+          "title": "Small RNA sequencing evaluation of renal microRNA biomarkers in dogs with X-linked hereditary nephropathy",
+          "sub": "Chu CP et al. <em>Sci Rep</em>, 2021. <a href=\"https://doi.org/10.1038/s41598-021-96870-y\" target=\"_blank\" rel=\"noopener\">doi:10.1038/s41598-021-96870-y</a>"
+        },
+        {
+          "year": "2019",
+          "title": "Comparison of RNA isolation and library preparation methods for small RNA sequencing of canine biofluids",
+          "sub": "Chu CP, Nabity MB. <em>Vet Clin Pathol</em>, 2019. <a href=\"https://doi.org/10.1111/vcp.12743\" target=\"_blank\" rel=\"noopener\">doi:10.1111/vcp.12743</a>"
+        },
+        {
+          "year": "2018",
+          "title": "Expression profiling of disease progression in canine model of Duchenne muscular dystrophy",
+          "sub": "Brinkmeyer-Langford C, Chu C et al. <em>PLOS ONE</em>, 2018. <a href=\"https://doi.org/10.1371/journal.pone.0194485\" target=\"_blank\" rel=\"noopener\">doi:10.1371/journal.pone.0194485</a>"
+        },
+        {
+          "year": "2017",
+          "title": "RNA-seq of serial kidney biopsies obtained during progression of chronic kidney disease from dogs with X-linked hereditary nephropathy",
+          "sub": "Chu CP et al. <em>Sci Rep</em>, 2017. <a href=\"https://doi.org/10.1038/s41598-017-16603-y\" target=\"_blank\" rel=\"noopener\">doi:10.1038/s41598-017-16603-y</a>"
+        }
+      ]
+    },
+    {
+      "id": "talks",
+      "jump": "Talks",
+      "title": "Selected Talks",
+      "note": "See <a href=\"talks.html\">Talks page</a> for full list.",
+      "items": [
+        {
+          "year": "2025",
+          "title": "The Impact of AI on Veterinary Diagnostics and Consulting",
+          "sub": "Keynote · Purina Institute Global Summit 2025"
+        },
+        {
+          "year": "2025",
+          "title": "Hematology &amp; AI in Veterinary Practice",
+          "sub": "Workshop · VMX 2025, Orlando, FL"
+        },
+        {
+          "year": "2024",
+          "title": "Generative AI in Veterinary Education",
+          "sub": "Keynote · Annual VMBS Teaching Showcase, Texas A&amp;M University"
+        },
+        {
+          "year": "2024",
+          "title": "ChatGPT in Veterinary Medicine",
+          "sub": "Keynote · ACVR Annual Scientific Conference, Norfolk, VA"
+        },
+        {
+          "year": "2024",
+          "title": "VetClinPathGPT: Exploring the Potential of Generative AI in Veterinary Education",
+          "sub": "ACVP Annual Meeting, Seattle, WA"
+        }
+      ]
+    },
+    {
+      "id": "teaching",
+      "jump": "Teaching",
+      "title": "Teaching",
+      "note": "See <a href=\"teaching.html\">Teaching page</a> for on-demand webinars, YouTube, and podcasts.",
+      "items": [
+        {
+          "year": "Spring 2026",
+          "title": "VTPB 948 — Artificial Intelligence and Digital Tools for Next-Generation Veterinarians",
+          "sub": "Instructor · Texas A&amp;M University, Dept. of Veterinary Pathobiology"
+        },
+        {
+          "year": "Fall 2025",
+          "title": "VTPB 927 — Clinical Pathology (Acid base disturbance &amp; Monovalent electrolytes)",
+          "sub": "Texas A&amp;M University"
+        },
+        {
+          "year": "Fall 2025 · Spring 2025",
+          "title": "Clinical Pathology Cytology Rounds",
+          "sub": "Texas A&amp;M University"
+        },
+        {
+          "year": "Fall 2024",
+          "title": "VSCS 948 — Innovation in Veterinary Medicine (AI Panel) · BIMS602 — Foundations in Biomedical Graduate Education (AI tools guest lecture)",
+          "sub": "Texas A&amp;M University"
+        }
+      ]
+    }
+  ]
+}

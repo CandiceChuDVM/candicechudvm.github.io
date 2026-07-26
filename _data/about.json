@@ -1,0 +1,155 @@
+{
+  "metaTitle": "About — Candice P. Chu, DVM, PhD, DACVP",
+  "metaDescription": "Biography, leadership, education and honors of Candice P. Chu — veterinary clinical pathologist and Assistant Professor at Texas A&M University.",
+  "h1": "About",
+  "bio": [
+    "Candice P. Chu, DVM, PhD, DACVP, is a board-certified veterinary clinical pathologist and Assistant Professor in the Department of Veterinary Pathobiology at Texas A&amp;M University. Her work focuses on veterinary artificial intelligence, digital cytology, diagnostic AI, large language models, and AI education.",
+    "She earned her DVM from <a href=\"https://www.ntu.edu.tw/english/\" target=\"_blank\" rel=\"noopener\">National Taiwan University</a>, then completed a PhD in veterinary pathobiology and a residency in veterinary clinical pathology at Texas A&amp;M University, becoming a Diplomate of the American College of Veterinary Pathologists in 2021. Before returning to Texas A&amp;M in 2024, she served as Assistant Professor of Clinical Pathology at the University of Pennsylvania School of Veterinary Medicine.",
+    "Dr. Chu develops and evaluates AI methods for veterinary diagnostics—from lymphoid cell classification in cytology images to structured data extraction from clinical records—while building curricula that prepare veterinary students and professionals to use AI responsibly. Her molecular work pursues non-invasive microRNA biomarkers for chronic kidney disease in dogs and cats, connecting companion-animal nephrology to human disease through a One Health lens.",
+    "She co-chairs the ACVP Pathology Informatics Committee, serves on the AVMA Task Force on Emerging Technologies and Innovation, the Association of American Veterinary Medical Colleges AI Working Group, and the Texas A&amp;M University AI Steering Committee."
+  ],
+  "interests": [
+    {
+      "cat": "llm",
+      "label": "Large Language Models"
+    },
+    {
+      "cat": "cv",
+      "label": "Computer Vision"
+    },
+    {
+      "cat": "bio",
+      "label": "Bioinformatics"
+    },
+    {
+      "cat": "edu",
+      "label": "AI Education"
+    },
+    {
+      "cat": "ml",
+      "label": "Digital Cytology"
+    },
+    {
+      "cat": "bio",
+      "label": "Comparative Nephrology"
+    }
+  ],
+  "leadership": [
+    {
+      "period": "2025 – present",
+      "role": "Co-Chair, Pathology Informatics Committee",
+      "org": "American College of Veterinary Pathologists"
+    },
+    {
+      "period": "2025 – present",
+      "role": "Member, AI Working Group",
+      "org": "Association of American Veterinary Medical Colleges"
+    },
+    {
+      "period": "2025 – present",
+      "role": "Member, AI Steering Committee",
+      "org": "Texas A&amp;M University"
+    },
+    {
+      "period": "2025 – present",
+      "role": "Scientific Advisory Board",
+      "org": "IDEXX InVue Dx Cellular Analyzer"
+    },
+    {
+      "period": "2025 – present",
+      "role": "Scientific Advisory Board",
+      "org": "Morris Animal Foundation Veterinary Student Scholars"
+    },
+    {
+      "period": "2025 – present",
+      "role": "Member, QALS Committee",
+      "org": "American Society for Veterinary Clinical Pathology"
+    },
+    {
+      "period": "2024 – present",
+      "role": "Member, Task Force on Emerging Technologies and Innovation",
+      "org": "American Veterinary Medical Association"
+    },
+    {
+      "period": "2022 – present",
+      "role": "Member, Education Committee",
+      "org": "American Society for Veterinary Clinical Pathology"
+    },
+    {
+      "period": "2022 – 2024",
+      "role": "Member, Training Program Accreditation Committee",
+      "org": "American College of Veterinary Pathologists"
+    },
+    {
+      "period": "2019 – 2023",
+      "role": "Member and Chair-Elect, Media and Communication Committee",
+      "org": "American Society for Veterinary Clinical Pathology"
+    }
+  ],
+  "education": [
+    {
+      "period": "2024",
+      "role": "Applied Data Science Program",
+      "org": "MIT Professional Education"
+    },
+    {
+      "period": "2021",
+      "role": "Diplomate, American College of Veterinary Pathologists",
+      "org": "Clinical Pathology specialty"
+    },
+    {
+      "period": "2018 – 2021",
+      "role": "Residency, Veterinary Clinical Pathology",
+      "org": "Texas A&amp;M University"
+    },
+    {
+      "period": "2014 – 2018",
+      "role": "PhD, Veterinary Pathobiology",
+      "org": "Texas A&amp;M University"
+    },
+    {
+      "period": "2008 – 2013",
+      "role": "Doctor of Veterinary Medicine",
+      "org": "National Taiwan University, Taipei, Taiwan"
+    }
+  ],
+  "honors": [
+    {
+      "period": "2026",
+      "role": "Juan Carlos Robles Emanuelli Teaching Award",
+      "org": "Texas A&amp;M University, College of Veterinary Medicine &amp; Biomedical Sciences"
+    },
+    {
+      "period": "2025",
+      "role": "Wendy Coe Leadership Award",
+      "org": "American College of Veterinary Pathologists"
+    },
+    {
+      "period": "2022",
+      "role": "McCabe Award",
+      "org": "Perelman School of Medicine, University of Pennsylvania"
+    },
+    {
+      "period": "2020",
+      "role": "Harold W. Casey Scholarship Award",
+      "org": "American College of Veterinary Pathologists · one resident per year"
+    },
+    {
+      "period": "2019 &amp; 2017",
+      "role": "Young Investigator Award, Basic Research",
+      "org": "American Society for Veterinary Clinical Pathology"
+    },
+    {
+      "period": "2017 &amp; 2016",
+      "role": "Young Investigator Award, Natural Disease (First Place)",
+      "org": "American College of Veterinary Pathologists"
+    }
+  ],
+  "contact": {
+    "title": "Contact &amp; Collaboration",
+    "body": "Dr. Chu welcomes enquiries about research collaboration, speaking invitations, graduate study, and AI curriculum development. Her full record of publications, grants, teaching and service is available on request."
+  },
+  "bioTitle": "Biography",
+  "shortBio": "Candice P. Chu, DVM, PhD, DACVP, is a board-certified veterinary clinical pathologist and Assistant Professor in the Department of Veterinary Pathobiology at Texas A&amp;M University. Her work focuses on veterinary artificial intelligence, digital cytology, diagnostic AI, large language models, and AI education. She co-chairs the Pathology Informatics Committee of the American College of Veterinary Pathologists and serves on the AVMA, AAVMC, and Texas A&amp;M University AI Working Groups/Committee.",
+  "_bioNote": "shortBio and bio[] are the canonical texts. The plain-text copies offered by the Copy buttons are derived from these at build time, so they can never drift out of sync — do not add a separate plain-text field."
+}
