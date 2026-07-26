@@ -17,7 +17,7 @@ const tags = (list = []) => list.map(tag).join('');
 
 const isExt = (href = '') => /^(https?:|mailto:)/.test(href);
 const btn = ({ href, label, style = 'outline', small = false }) =>
-  `<a class="btn btn-${style}"${small ? ' style="font-size:12px;padding:6px 12px;"' : ''} href="${attr(href)}"${isExt(href) && !href.startsWith('mailto:') ? ' target="_blank" rel="noopener"' : ''}>${esc(label)}</a>`;
+  `<a class="btn btn-${style}"${small ? ' style="font-size:14.4px;padding:6px 12px;"' : ''} href="${attr(href)}"${isExt(href) && !href.startsWith('mailto:') ? ' target="_blank" rel="noopener"' : ''}>${esc(label)}</a>`;
 
 /* ── icons + chrome ──────────────────────────────────────── */
 
@@ -644,8 +644,8 @@ function renderTeam(site, d) {
 <p class="person-bio person-contact">${rich(pi.contact)}</p>
 <p class="person-bio">${rich(pi.focus)}</p>
 <div class="chip-row" style="margin-top:12px;">
-<a class="btn btn-primary" style="font-size:12px;padding:6px 12px;" href="${attr(site.person.linkedin)}" target="_blank" rel="noopener">LinkedIn</a>
-<a class="btn btn-outline" style="font-size:12px;padding:6px 12px;" href="${attr(site.person.scholar)}" target="_blank" rel="noopener">Google Scholar</a>
+<a class="btn btn-primary" style="font-size:14.4px;padding:6px 12px;" href="${attr(site.person.linkedin)}" target="_blank" rel="noopener">LinkedIn</a>
+<a class="btn btn-outline" style="font-size:14.4px;padding:6px 12px;" href="${attr(site.person.scholar)}" target="_blank" rel="noopener">Google Scholar</a>
 ${btn({ href: 'about.html', label: 'About', small: true })}
 </div>
 </div>
@@ -768,7 +768,7 @@ function renderTeaching(site, d) {
   const philosophy = `<div class="teach-grid" style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:48px;">` +
     t.philosophy.map(p => `<div class="item-card" style="border-top:3px solid ${attr(p.accent)};">
 <div class="item-card-label">${esc(p.label)}</div>
-<div class="item-card-title" style="font-size:15px;">${esc(p.title)}</div>
+<div class="item-card-title" style="font-size:18px;">${esc(p.title)}</div>
 <p class="item-card-desc">${rich(p.body)}</p>
 </div>`).join('') + `</div>
 <style>@media(max-width:600px){.teach-grid{grid-template-columns:1fr!important}}</style>`;
