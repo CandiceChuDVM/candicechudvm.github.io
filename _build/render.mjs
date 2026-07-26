@@ -462,6 +462,7 @@ function renderVetClinPathGpt(site, d) {
 <h2>${rich(s.title)}</h2>
 ${s.body ? `<p>${rich(s.body)}</p>` : ''}${s.list?.length ? `\n<ul class="need-list">${s.list.map(i => `<li>${rich(i)}</li>`).join('')}</ul>` : ''}
 </div>`;
+  const spacedSectionTitle = (title) => `<p class="section-title vcp-section-title">${esc(title)}</p>`;
 
   const body = pageHeader(v.h1, v.intro) +
     `<div class="vcp-hero">
@@ -474,14 +475,14 @@ ${s.body ? `<p>${rich(s.body)}</p>` : ''}${s.list?.length ? `\n<ul class="need-l
        component as the Publications page, so the two can never disagree. */
     sectionTitle(v.publication.sectionTitle) +
     `<div class="pub-grid">${pubCard(d.publications.items.find(p => p.id === v.publication.id))}</div>` +
-    sectionTitle(v.presentation.sectionTitle) +
+    spacedSectionTitle(v.presentation.sectionTitle) +
     `<div class="pub-grid">${pubCard({
       number: v.presentation.number, title: v.presentation.title,
       authors: v.presentation.authors, journal: v.presentation.venue,
       tags: v.presentation.tags, summary: v.presentation.summary,
       links: v.presentation.links,
     })}</div>` +
-    sectionTitle(v.news.sectionTitle) +
+    spacedSectionTitle(v.news.sectionTitle) +
     `<div class="item-list">${v.news.items.map(n => `<div class="item-card">
 <div class="item-card-label">${rich(n.outlet)} · ${esc(n.date)}</div>
 <div class="item-card-title">${rich(n.headline)}</div>
@@ -489,7 +490,7 @@ ${s.body ? `<p>${rich(s.body)}</p>` : ''}${s.list?.length ? `\n<ul class="need-l
 <p class="pub-summary">${rich(n.summary)}</p>
 <div style="margin-top:12px;">${btn({ href: n.href, label: n.linkLabel })}</div>
 </div>`).join('')}</div>` +
-    sectionTitle(v.course.sectionTitle) +
+    spacedSectionTitle(v.course.sectionTitle) +
     `<div class="item-list"><div class="item-card">
 <div class="item-card-label">${esc(v.course.label)}</div>
 <div class="item-card-title">${rich(v.course.title)}</div>

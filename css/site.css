@@ -40,6 +40,8 @@
 .award-fig figcaption strong{display:block;color:var(--text);font-weight:700}
 @media(max-width:860px){.edu-head{grid-template-columns:1fr;gap:24px}.award-fig{max-width:340px}}
 
+.vcp-section-title{margin-top:46px}
+
 .media-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:18px}
 .media-card{background:var(--surface);border:1px solid var(--border);border-radius:14px;overflow:hidden;display:flex;flex-direction:column;transition:border-color .2s,box-shadow .2s}
 .media-card:hover{border-color:var(--c-purple);box-shadow:0 8px 26px rgba(0,0,0,.07)}
