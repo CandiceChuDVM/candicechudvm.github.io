@@ -72,7 +72,7 @@
   "_alumniNote": "Add graduated students as { name, detail, publish:true }. Mentored residents and rotating trainees are listed in the CV rather than here.",
   "join": {
     "title": "Join the Lab",
-    "body": "We recruit summer veterinary students, MS thesis and PhD students interested in applying AI to veterinary medicine. Prospective students should contact Dr. Candice Chu with their CV and transcripts before applying through the <a href=\"https://vetmed.tamu.edu/graduate-studies/\" target=\"_blank\" rel=\"noopener\">BIMS Graduate Program</a>.<br><br>Our lab members present at national conferences, publish as first authors, and have the opportunity to attend clinical pathology and anatomic pathology rounds and even pursue residency training after graduation.",
+    "body": "We recruit summer veterinary students, MS thesis and PhD students interested in applying AI to veterinary medicine. Prospective students should contact Dr. Candice Chu with their CV and transcripts before applying through the <a href=\"https://vetmed.tamu.edu/graduate-studies/\" target=\"_blank\" rel=\"noopener\">BIMS Graduate Program</a>.<br><br>Our lab members present at national conferences, publish as first authors, and have the opportunity to attend clinical pathology and anatomic pathology rounds and pursue residency training after graduation.",
     "links": [
       {
         "label": "Contact Dr. Chu",
