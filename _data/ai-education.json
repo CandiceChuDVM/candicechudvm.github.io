@@ -46,24 +46,6 @@
     "courseCode": "VTPB 948",
     "courseName": "Artificial Intelligence and Digital Tools for Next-Generation Veterinarians",
     "overview": "A graduate and professional elective at Texas A&amp;M University's College of Veterinary Medicine &amp; Biomedical Sciences, first offered in Spring 2026. The course delivers the five-module framework through hands-on work: students annotate cytology images, train a detection model, build an AI chatbot, evaluate commercial veterinary AI tools, and present a final project.",
-    "tags": [
-      {
-        "cat": "edu",
-        "label": "Spring 2026"
-      },
-      {
-        "cat": "llm",
-        "label": "LLM"
-      },
-      {
-        "cat": "cv",
-        "label": "Computer Vision"
-      },
-      {
-        "cat": "edu",
-        "label": "AI Literacy"
-      }
-    ],
     "scheduleCaption": "Weekly schedule adapted from <a href=\"https://doi.org/10.3389/fvets.2026.1801756\" target=\"_blank\" rel=\"noopener\">Huang and Chu, 2026</a>, under the Creative Commons Attribution License.",
     "schedule": [],
     "scheduleNote": "The full 15-week schedule is published as Table 1 of <a href=\"https://doi.org/10.3389/fvets.2026.1801756\" target=\"_blank\" rel=\"noopener\">Huang and Chu, 2026</a>.",

@@ -436,7 +436,7 @@ ${m.embed ? `<span class="media-audio-label">${esc(m.label.split(' · ')[0])}</s
     modules +
     sectionTitle(course.title) +
     `<p class="pillar-overview">${rich(course.overview)}</p>` +
-    `<div class="chip-row" style="margin-bottom:20px;">${tags(course.tags)}</div>` + schedule +
+    (course.tags?.length ? `<div class="chip-row" style="margin-bottom:20px;">${tags(course.tags)}</div>` : '') + schedule +
     sectionTitle(e.resourcesTitle) + resources + media +
     `<p class="section-title" style="margin-top:46px;">Educational Evidence</p>` + quotes;
 
