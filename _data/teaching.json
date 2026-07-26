@@ -1,0 +1,192 @@
+{
+  "metaTitle": "Teaching & Resources — Candice P. Chu",
+  "metaDescription": "Courses, on-demand webinars, YouTube tutorials and podcast appearances on veterinary clinical pathology and AI literacy from Candice P. Chu.",
+  "h1": "Teaching & Resources",
+  "motto": "Oh, I ❤️ to teach!",
+  "coursesTitle": "Courses — Texas A&M University",
+  "philosophy": [
+    {
+      "label": "Core Belief",
+      "accent": "var(--c-purple)",
+      "title": "Technology as an equalizer",
+      "body": "AI and digital tools can democratize access to high-quality veterinary education — making expert-level knowledge available to learners regardless of institutional resources or geography."
+    },
+    {
+      "label": "Approach",
+      "accent": "var(--c-blue)",
+      "title": "Hands-on, evidence-based learning",
+      "body": "Students learn best by doing. Courses are built around real clinical cases, live AI tool demonstrations, and critical evaluation exercises — not passive lectures."
+    },
+    {
+      "label": "Responsibility",
+      "accent": "var(--cat-edu)",
+      "title": "Critical AI literacy",
+      "body": "Transformative potential must be paired with critical thinking. Students learn to recognize AI limitations — hallucination, bias, and ethical considerations — alongside practical applications."
+    },
+    {
+      "label": "Mission",
+      "accent": "var(--cat-ml)",
+      "title": "Train next-generation veterinarians",
+      "body": "Veterinary professionals who can confidently evaluate, communicate about, and responsibly implement AI tools — no programming background required."
+    }
+  ],
+  "courses": [
+    {
+      "term": {
+        "cat": "edu",
+        "label": "Spring 2026"
+      },
+      "highlight": true,
+      "title": "VTPB 948 — Artificial Intelligence and Digital Tools for Next-Generation Veterinarians",
+      "sub": "Graduate seminar · Department of Veterinary Pathobiology",
+      "tags": [
+        {
+          "cat": "llm",
+          "label": "LLM"
+        },
+        {
+          "cat": "cv",
+          "label": "Computer Vision"
+        },
+        {
+          "cat": "edu",
+          "label": "AI Literacy"
+        }
+      ]
+    },
+    {
+      "term": {
+        "cat": "pub",
+        "label": "Fall 2025"
+      },
+      "title": "VTPB 927 — Clinical Pathology",
+      "sub": "Acid base disturbance &amp; Monovalent electrolytes"
+    },
+    {
+      "term": {
+        "cat": "pub",
+        "label": "Fall 2025 · Spring 2025"
+      },
+      "title": "Clinical Pathology Cytology Rounds"
+    },
+    {
+      "term": {
+        "cat": "pub",
+        "label": "Spring 2025"
+      },
+      "title": "Clinical Pathology Seminar"
+    },
+    {
+      "term": {
+        "cat": "pub",
+        "label": "Fall 2024"
+      },
+      "title": "VTPB 927 — Clinical Pathology",
+      "sub": "Acid base disturbance &amp; Monovalent electrolytes"
+    },
+    {
+      "term": {
+        "cat": "pub",
+        "label": "Fall 2024"
+      },
+      "title": "VSCS 948 — Innovation in Veterinary Medicine",
+      "sub": "AI Panel"
+    },
+    {
+      "term": {
+        "cat": "pub",
+        "label": "Fall 2024"
+      },
+      "title": "BIMS602 — Foundations in Biomedical Graduate Education and Research",
+      "sub": "Guest lecture: AI tools in research"
+    },
+    {
+      "term": {
+        "cat": "pub",
+        "label": "Fall 2024"
+      },
+      "title": "Anatomic Pathology Gross Rounds"
+    }
+  ],
+  "webinars": [
+    {
+      "label": "ACVIM · Free to ACVIM Candidates and Diplomates",
+      "title": "How I Streamline Academic Writing with AI and Digital Tools",
+      "sub": "November 2024",
+      "link": {
+        "label": "Access webinar",
+        "href": "https://www.acvim.org/education/course-catalog/how-i-streamline-academic-writing-with-ai-and-digital-tools"
+      }
+    },
+    {
+      "label": "VIN · Free to VIN members",
+      "title": "ChatGPT in Veterinary Medicine — How Artificial Intelligence Can Benefit You",
+      "sub": "July 14, 2024"
+    },
+    {
+      "label": "VETgirl · $50.00",
+      "title": "All You Need to Know About Round Cell Tumor Cytology",
+      "sub": "February 6, 2024",
+      "link": {
+        "label": "Access webinar",
+        "href": "https://vetgirlontherun.com/"
+      }
+    }
+  ],
+  "youtube": [
+    {
+      "label": "AI · Nov 12, 2024",
+      "title": "Streamlining Academic Writing with AI and Digital Tools for Enhancing Productivity",
+      "sub": "TAMU Research Conversation Series"
+    },
+    {
+      "label": "AI · Oct 16, 2024",
+      "title": "How to Build Your Own ChatGPT?",
+      "sub": "TAMU Center for Teaching Excellence"
+    },
+    {
+      "label": "AI · Sep 14, 2024",
+      "title": "Google NotebookLM Turned My CV into a Podcast"
+    },
+    {
+      "label": "Cytology",
+      "title": "Approach to Veterinary Cytology"
+    },
+    {
+      "label": "Cytology",
+      "title": "How to Take Cytology Pictures Using Your Smartphone?"
+    },
+    {
+      "label": "Grad School 101",
+      "title": "Keys to Successful Scientific Presentations"
+    },
+    {
+      "label": "Grad School 101",
+      "title": "Design a Great Slide Presentation"
+    },
+    {
+      "label": "Bioinformatics",
+      "title": "How to Analyze RNA-Seq Data?"
+    }
+  ],
+  "podcasts": [
+    {
+      "label": "ACVP Podcast · Dec 7, 2024",
+      "title": "A Conversation with Dr. Candice Chu",
+      "sub": "Available on Spotify and Apple Podcasts"
+    },
+    {
+      "label": "Digital Pathology · Oct 17, 2024",
+      "title": "Can AI Improve Veterinary Diagnostics and Academic Efficiency?"
+    },
+    {
+      "label": "Clinician's Brief · Jan 15, 2024",
+      "title": "Top 3 Conditions Missed by Skipping Urinalysis",
+      "link": {
+        "label": "Read article",
+        "href": "https://www.cliniciansbrief.com/"
+      }
+    }
+  ],
+  "intro": "Courses, webinars, video tutorials and podcast appearances. The curriculum framework behind this teaching is described on the <a href=\"ai-education.html\">AI Education</a> page."
+}

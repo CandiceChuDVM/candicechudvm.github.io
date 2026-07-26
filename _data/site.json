@@ -1,0 +1,110 @@
+{
+  "_comment": "Site-wide identity, navigation, SEO defaults and legacy redirects. Change a label here and every page follows.",
+  "brand": {
+    "name": "Candice Chu",
+    "tagline": "Veterinary AI & Digital Cytology",
+    "full": "Candice Chu | Veterinary AI, Digital Cytology, and AI Education"
+  },
+  "nav": [
+    {
+      "label": "Home",
+      "href": "index.html"
+    },
+    {
+      "label": "Research",
+      "href": "research.html"
+    },
+    {
+      "label": "AI Education",
+      "href": "ai-education.html"
+    },
+    {
+      "label": "VetClinPathGPT",
+      "href": "vetclinpathgpt.html"
+    },
+    {
+      "label": "Publications",
+      "href": "publications.html"
+    },
+    {
+      "label": "Speaking",
+      "href": "speaking.html"
+    },
+    {
+      "label": "Team",
+      "href": "team.html"
+    },
+    {
+      "label": "About",
+      "href": "about.html"
+    }
+  ],
+  "_navNote": "CV, News and Teaching & Resources are secondary pages reached from About, Home and AI Education respectively — deliberately kept out of the main nav.",
+  "redirects": {
+    "projects.html": "research.html",
+    "talks.html": "speaking.html",
+    "people.html": "team.html"
+  },
+  "person": {
+    "name": "Candice P. Chu",
+    "credentials": "DVM, PhD, DACVP",
+    "title": "Assistant Professor",
+    "department": "Department of Veterinary Pathobiology",
+    "affiliation": "Texas A&M University",
+    "email": "cchu@cvm.tamu.edu",
+    "linkedin": "https://www.linkedin.com/in/candicechudvm/",
+    "scholar": "https://scholar.google.com/citations?user=cv_brEAAAAAJ",
+    "youtube": "https://www.youtube.com/@CandiceChuDVM",
+    "youtubeHandle": "@CandiceChuDVM",
+    "knowsAbout": [
+      "Veterinary artificial intelligence",
+      "Digital cytology",
+      "Diagnostic AI",
+      "Large language models",
+      "AI education",
+      "Veterinary clinical pathology",
+      "Chronic kidney disease biomarkers",
+      "microRNA",
+      "Single-cell RNA sequencing",
+      "Pathology informatics"
+    ],
+    "sameAs": [
+      "https://www.linkedin.com/in/candicechudvm/",
+      "https://scholar.google.com/citations?user=cv_brEAAAAAJ",
+      "https://www.youtube.com/@CandiceChuDVM",
+      "https://www.instagram.com/vet.clin.path.resident/"
+    ],
+    "instagram": "https://www.instagram.com/vet.clin.path.resident/"
+  },
+  "speaking": {
+    "inviteMailto": "mailto:cchu@cvm.tamu.edu?subject=Speaking%20Invitation%20for%20Dr.%20Candice%20Chu&body=Hi%20there%2C%0A%0AThank%20you%20for%20your%20invitation.%20Please%20include%20the%20following%20details%20in%20your%20email%3A%0A%0AOrganization%20%2F%20event%20name%3A%0ADate%20and%20time%20(with%20time%20zone)%3A%0ATalk%20duration%20(including%20Q%26A%20%2F%20discussion)%3A%0AFormat%20(in%20person%20or%20remote)%3A%0AAudience%20(who%2C%20and%20roughly%20how%20many)%3A%0ACompensation%20(honorarium%2C%20travel%20and%20lodging)%3A%0ARequested%20topic%3A%0A"
+  },
+  "seo": {
+    "baseUrl": "https://candicechudvm.com",
+    "keywords": [
+      "veterinary AI",
+      "veterinary artificial intelligence",
+      "digital cytology",
+      "AI-assisted diagnosis",
+      "veterinary clinical pathology",
+      "AI education",
+      "large language models in veterinary medicine",
+      "Candice Chu"
+    ]
+  },
+  "analytics": {
+    "_comment": "Visitor analytics. Set provider to one of: none, cloudflare, plausible, umami, goatcounter, ga4 — then fill in the matching id and rebuild. While provider is \"none\" no tracking script is emitted at all, so the site stays cookie-free and needs no consent banner.",
+    "_recommended": "cloudflare — free, cookie-free, no consent banner, shows page views, referrers and visitor countries. Choose goatcounter or plausible instead if you want the dashboard embedded inside backstage.html.",
+    "provider": "none",
+    "cloudflareToken": "",
+    "plausibleDomain": "candicechudvm.com",
+    "plausibleHost": "https://plausible.io",
+    "umamiWebsiteId": "",
+    "umamiHost": "",
+    "goatcounterCode": "",
+    "ga4MeasurementId": ""
+  },
+  "footer": {
+    "year": 2026
+  }
+}

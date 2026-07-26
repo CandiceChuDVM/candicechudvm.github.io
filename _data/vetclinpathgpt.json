@@ -1,0 +1,126 @@
+{
+  "metaTitle": "VetClinPathGPT — Clinical Pathology AI Tutor",
+  "metaDescription": "A free generative AI tutor for veterinary clinical pathology, supporting DVM students, interns and residents through case-based conversations. 5,000+ chats.",
+  "keywords": [
+    "VetClinPathGPT",
+    "veterinary clinical pathology AI tutor",
+    "veterinary pathology chatbot",
+    "generative AI in veterinary education",
+    "AI tutor for veterinary students",
+    "clinical pathology education",
+    "veterinary large language model",
+    "veterinary case-based learning"
+  ],
+  "h1": "VetClinPathGPT",
+  "intro": "A generative AI tutor designed to support veterinary students and trainees in learning veterinary clinical pathology through interactive, case-based conversations.",
+  "metrics": [
+    {
+      "value": "5,000+",
+      "label": "Conversations to date",
+      "note": "Reported in Dr. Chu's teaching CV"
+    },
+    {
+      "value": "Free",
+      "label": "No cost to students or practitioners"
+    }
+  ],
+  "links": [
+    {
+      "label": "Open VetClinPathGPT in ChatGPT",
+      "href": "https://chatgpt.com/g/g-rfB5cBZ6X-vetclinpathgpt"
+    },
+    {
+      "label": "AI Education framework",
+      "href": "ai-education.html"
+    }
+  ],
+  "disclaimer": {
+    "title": "Educational use only",
+    "body": "VetClinPathGPT is a study aid. It does not provide diagnoses, treatment recommendations, or professional medical advice, and it must not be used to make decisions about a patient. Generative models can produce confident errors — verify everything against primary references and a qualified clinical pathologist."
+  },
+  "sections": [
+    {
+      "id": "what-it-is",
+      "title": "What it is",
+      "body": "A free, openly available AI tutor for veterinary clinical pathology. It works conversationally: a learner brings a question, a set of laboratory values, or a case scenario, and the tutor walks through the reasoning rather than simply returning an answer."
+    },
+    {
+      "id": "who-it-is-for",
+      "title": "Who it is for",
+      "list": [
+        "DVM students working through clinical pathology coursework",
+        "Veterinary interns consolidating laboratory interpretation on the floor",
+        "Residents preparing for board examinations",
+        "Practising veterinarians refreshing clinical pathology fundamentals"
+      ]
+    },
+    {
+      "id": "how-to-use",
+      "title": "How it should be used",
+      "body": "As an educational aid that supplements teaching, textbooks and specialist supervision — never as a diagnostic system. It is most useful for rehearsing interpretive reasoning: why an acid-base pattern fits a differential, how to build a systematic approach to a haemogram, or where a cytologic description leaves ambiguity. Learners are expected to check its output, and disagreement with the tutor is itself a productive teaching moment."
+    },
+    {
+      "id": "educational-research",
+      "title": "Educational research",
+      "body": "The tutor doubles as a research instrument. Current questions concern how students actually use a conversational tutor, what usage volume reveals about study behaviour, whether the tool changes measured learning outcomes, and where its limitations show — including variation in how much learners trust generative output. Findings inform the AI literacy curriculum described on the <a href=\"ai-education.html\">AI Education</a> page.",
+      "list": [
+        "Usage patterns and conversation volume across a semester",
+        "Learning assessment alongside conventional instruction",
+        "Documented limitations, including hallucinated findings",
+        "How trust in AI output varies between learners"
+      ]
+    }
+  ],
+  "publication": {
+    "_comment": "Rendered with the same card component as publications.html, looked up by id in _data/publications.json — citation, tags, summary and figure can never drift between the two pages.",
+    "sectionTitle": "Publication",
+    "id": "chatgpt-2024"
+  },
+  "presentation": {
+    "_comment": "Conference abstract. Source: CV, Abstract Presentations, 2024. If the abstract number or a proceedings DOI turns up, add it as a link entry.",
+    "sectionTitle": "Presented At",
+    "number": "ACVP Annual Meeting 2024",
+    "title": "VetClinPathGPT: Exploring the Potential of Generative Artificial Intelligence in Veterinary Education",
+    "authors": "Candice P. Chu",
+    "venue": "American College of Veterinary Pathologists Annual Meeting, November 2024 · Seattle, WA",
+    "tags": [
+      {
+        "cat": "edu",
+        "label": "Conference Abstract"
+      },
+      {
+        "cat": "llm",
+        "label": "Generative AI"
+      },
+      {
+        "cat": "edu",
+        "label": "Veterinary Education"
+      }
+    ],
+    "summary": "The first presentation of VetClinPathGPT to the veterinary pathology community — how the tutor is grounded in a curated clinical pathology reference rather than the open web, how students use it, and what its limitations mean for teaching."
+  },
+  "news": {
+    "sectionTitle": "In The News",
+    "items": [
+      {
+        "outlet": "Texas A&amp;M School of Veterinary Medicine &amp; Biomedical Sciences",
+        "date": "20 August 2024",
+        "headline": "Texas A&amp;M Researcher Explores Benefits Of AI In Veterinary Medicine, Education",
+        "byline": "By Courtney Price, VMBS Marketing &amp; Communications",
+        "summary": "A profile of VetClinPathGPT as a “virtual study partner” for veterinary students, covering how the tutor is grounded in the eClinPath textbook, where AI helps educators and clinicians, and why patient-record privacy still limits clinical use.",
+        "href": "https://vetmed.tamu.edu/news/press-releases/ai-in-veterinary-medicine/",
+        "linkLabel": "Read the story"
+      }
+    ]
+  },
+  "course": {
+    "sectionTitle": "Related Teaching",
+    "label": "Course",
+    "title": "VTPB 948 — Artificial Intelligence and Digital Tools for Next-Generation Veterinarians",
+    "sub": "The graduate course where the tutor is used and critiqued alongside the five-module AI literacy framework.",
+    "link": {
+      "label": "AI Education →",
+      "href": "ai-education.html"
+    }
+  }
+}

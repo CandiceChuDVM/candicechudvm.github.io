@@ -1,0 +1,64 @@
+name: Apply Approved CV Change
+
+on:
+  repository_dispatch:
+    types: [cv-item-approved]
+  workflow_dispatch:
+    inputs:
+      item_json:
+        description: 'JSON string of the approved item'
+        required: true
+        type: string
+      section:
+        description: 'Section to update (publications, talks, teaching, news, awards, projects)'
+        required: true
+        type: string
+
+jobs:
+  apply-change:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Apply approved item to site data
+        env:
+          ITEM_JSON:  ${{ toJson(github.event.client_payload.item)  || github.event.inputs.item_json }}
+          SECTION:    ${{ github.event.client_payload.section       || github.event.inputs.section }}
+        run: |
+          python automation/scripts/apply_change.py \
+            --item  "$ITEM_JSON" \
+            --section "$SECTION" \
+            --data  automation/data/site_data.json
+
+      - name: Commit and push updated site data
+        run: |
+          git config user.name  "Chu Lab Bot"
+          git config user.email "bot@chu-lab.github"
+          git add automation/data/site_data.json
+          git diff --cached --quiet && echo "Nothing to commit" && exit 0
+          git commit -m "bot: add approved CV item to ${{ github.event.client_payload.section || github.event.inputs.section }}"
+          git push
+
+      - name: Post confirmation to Slack
+        env:
+          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+          RESPONSE_URL:   ${{ github.event.client_payload.response_url }}
+          SECTION:        ${{ github.event.client_payload.section || github.event.inputs.section }}
+        run: |
+          python automation/scripts/slack_confirm.py \
+            --response-url "$RESPONSE_URL" \
+            --section "$SECTION"

@@ -1,0 +1,124 @@
+{
+  "metaTitle": "Candice Chu, DVM, PhD, DACVP | Veterinary AI, Digital Cytology, and AI Education",
+  "metaDescription": "Board-certified veterinary clinical pathologist at Texas A&M University working on veterinary AI, digital cytology, diagnostic AI and AI education.",
+  "headline": "Advancing Veterinary Diagnostics and Education Through Artificial Intelligence",
+  "intro": "Dr. Candice Chu is a board-certified veterinary clinical pathologist and Assistant Professor at Texas A&amp;M University. Her work focuses on veterinary artificial intelligence, digital cytology, diagnostic AI, large language models, and AI education. She develops and evaluates AI methods for veterinary diagnostics while preparing veterinary students and professionals to use emerging technologies responsibly and effectively.",
+  "pillars": [
+    "Diagnostic AI",
+    "Digital Cytology",
+    "Veterinary AI Education",
+    "Large Language Models",
+    "Kidney Disease Biomarkers"
+  ],
+  "_heroStackNote": "heroStackCount sets how many peer-reviewed papers appear in the shuffling hero card stack. Only items with a thumb are used, newest first. 5–7 reads well; more just adds weight nobody sees.",
+  "heroStackCount": 6,
+  "ctas": [
+    {
+      "label": "Explore research",
+      "href": "research.html"
+    },
+    {
+      "label": "Invite me to speak",
+      "href": "mailto:cchu@cvm.tamu.edu?subject=Speaking%20Invitation%20for%20Dr.%20Candice%20Chu&body=Hi%20there%2C%0A%0AThank%20you%20for%20your%20invitation.%20Please%20include%20the%20following%20details%20in%20your%20email%3A%0A%0AOrganization%20%2F%20event%20name%3A%0ADate%20and%20time%20(with%20time%20zone)%3A%0ATalk%20duration%20(including%20Q%26A%20%2F%20discussion)%3A%0AFormat%20(in%20person%20or%20remote)%3A%0AAudience%20(who%2C%20and%20roughly%20how%20many)%3A%0ACompensation%20(honorarium%2C%20travel%20and%20lodging)%3A%0ARequested%20topic%3A%0A"
+    }
+  ],
+  "roles": {
+    "appointment": {
+      "title": "Faculty Appointment",
+      "items": [
+        {
+          "period": "2024 – present",
+          "role": "Assistant Professor",
+          "org": "Department of Veterinary Pathobiology, College of Veterinary Medicine &amp; Biomedical Sciences, Texas A&amp;M University"
+        },
+        {
+          "period": "2021 – 2023",
+          "role": "Assistant Professor of Clinical Pathology",
+          "org": "Department of Veterinary Pathobiology, School of Veterinary Medicine, University of Pennsylvania"
+        }
+      ]
+    },
+    "institutional": {
+      "title": "Institutional Service",
+      "items": [
+        {
+          "period": "2025 – present",
+          "role": "Member, AI Steering Committee",
+          "org": "Texas A&amp;M University"
+        },
+        {
+          "period": "2024 – present",
+          "role": "Faculty Advisor, Taiwanese Student Association",
+          "org": "Texas A&amp;M University"
+        }
+      ]
+    },
+    "professional": {
+      "title": "Professional Service",
+      "items": [
+        {
+          "period": "2025 – present",
+          "role": "Co-Chair, Pathology Informatics Committee",
+          "org": "American College of Veterinary Pathologists"
+        },
+        {
+          "period": "2024 – present",
+          "role": "Member, Task Force on Emerging Technologies and Innovation",
+          "org": "American Veterinary Medical Association"
+        },
+        {
+          "period": "2025 – present",
+          "role": "Member, AI Working Group",
+          "org": "Association of American Veterinary Medical Colleges"
+        }
+      ]
+    }
+  },
+  "metrics": [
+    {
+      "value": "17,000+",
+      "label": "Followers of the <a href=\"https://www.instagram.com/vet.clin.path.professor/\" target=\"_blank\" rel=\"noopener\"><em>Vet Clin Path Professor</em></a> cytology teaching pages",
+      "note": "Established 2018"
+    },
+    {
+      "value": "5,000+",
+      "label": "Conversations with <a href=\"vetclinpathgpt.html\">VetClinPathGPT</a>, the lab's free clinical pathology AI tutor"
+    },
+    {
+      "value": "87",
+      "label": "<a href=\"speaking.html\">Invited talks, keynotes and conference presentations</a>",
+      "note": "Including 3 keynote and 21 conference abstracts"
+    },
+    {
+      "value": "13+5",
+      "label": "<a href=\"publications.html\">Peer-reviewed publications</a> in veterinary AI, cytology and nephrology",
+      "note": "Including 5 invited articles and book chapters"
+    }
+  ],
+  "newsCount": 4,
+  "contact": {
+    "title": "Collaboration &amp; Contact",
+    "body": "Dr. Chu welcomes collaboration on diagnostic AI, veterinary informatics, and AI curriculum development, as well as speaking invitations from conferences, colleges, and professional organizations."
+  },
+  "_titleNote": "Exceeds the 65-character guideline by explicit request — this is the agreed brand string. validate.mjs exempts index.html.",
+  "_metricsSource": "Counted from the PRESENTATIONS section of Candice_Chu_CV_20260512.docx: 1 conference keynote, 24 invited conference presentations, 21 conference abstract presentations, 5 invited university seminars, 20 invited continuing-education presentations, 16 outreach presentations = 87. Recount from the CV when it is revised; do not estimate.",
+  "partners": [
+    {
+      "name": "Dog Aging Project",
+      "url": "https://dogagingproject.org/",
+      "logo": {
+        "src": "assets/logos/dog-aging-project.png",
+        "alt": "Dog Aging Project logo"
+      }
+    },
+    {
+      "name": "VetRec",
+      "url": "https://www.vetrec.io/",
+      "logo": {
+        "src": "assets/logos/vetrec.png",
+        "alt": "VetRec logo"
+      }
+    }
+  ],
+  "_partnersNote": "Collaborators and technology partners. Sponsor logos come from _data/funding.json (any item with a logo, published or not); these are rendered together in the home-page Research Support & Collaborators marquee."
+}

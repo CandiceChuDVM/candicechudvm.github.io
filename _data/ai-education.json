@@ -1,0 +1,241 @@
+{
+  "metaTitle": "AI Education & Veterinary AI Literacy | Candice Chu",
+  "metaDescription": "A five-module curriculum framework for AI literacy in veterinary education, and VTPB 948 at Texas A&M — machine learning, prompt engineering and AI ethics.",
+  "keywords": [
+    "veterinary AI literacy",
+    "AI education",
+    "veterinary curriculum",
+    "VTPB 948",
+    "prompt engineering",
+    "machine learning for veterinarians",
+    "AI ethics in veterinary medicine"
+  ],
+  "h1": "AI Education & Veterinary AI Literacy",
+  "intro": "Developing evidence-informed curricula that prepare veterinary students and professionals to understand, evaluate, and responsibly use artificial intelligence in clinical practice, research, and education. The framework below is published in <em>Frontiers in Veterinary Science</em>.",
+  "need": {
+    "points": [
+      "Artificial intelligence has already entered veterinary diagnostics and clinical workflows, often before practitioners have been taught how to appraise it.",
+      "Veterinary students report strong interest in AI but limited knowledge and low confidence in evaluating AI-supported findings.",
+      "Veterinarians remain professionally accountable for decisions informed by AI, which makes critical appraisal a clinical competency rather than an optional extra.",
+      "AI literacy therefore belongs in the DVM curriculum, taught alongside diagnostics rather than bolted on as a technology elective."
+    ]
+  },
+  "modulesNote": "Adapted from <a href=\"https://doi.org/10.3389/fvets.2026.1801756\" target=\"_blank\" rel=\"noopener\">Huang and Chu, 2026</a>, <em>Frontiers in Veterinary Science</em>, under the Creative Commons Attribution License.",
+  "modules": [
+    {
+      "title": "Fundamentals of AI",
+      "summary": "What artificial intelligence is and is not: core terminology, the difference between rule-based systems, machine learning and generative models, and where each realistically fits in veterinary practice."
+    },
+    {
+      "title": "Machine Learning",
+      "summary": "How models are trained, validated and tested; what training data quality does to performance; and how to read a reported accuracy figure critically — including annotation, class imbalance and overfitting."
+    },
+    {
+      "title": "Large Language Models and Prompt Engineering",
+      "summary": "How language models generate text, why they produce confident errors, and practical prompting strategies for literature search, drafting and structured data extraction."
+    },
+    {
+      "title": "Ethical and Legal Considerations",
+      "summary": "Professional accountability for AI-supported decisions, client consent and communication, patient data privacy, intellectual property, and institutional AI policy."
+    },
+    {
+      "title": "AI in Veterinary Scientific Research",
+      "summary": "Applying AI across the research workflow — literature review, data handling, image analysis, and scientific writing — with explicit norms for disclosure and reproducibility."
+    }
+  ],
+  "course": {
+    "title": "VTPB 948 — Course Implementation",
+    "courseCode": "VTPB 948",
+    "courseName": "Artificial Intelligence and Digital Tools for Next-Generation Veterinarians",
+    "overview": "A graduate and professional elective at Texas A&amp;M University's College of Veterinary Medicine &amp; Biomedical Sciences, first offered in Spring 2026. The course delivers the five-module framework through hands-on work: students annotate cytology images, train a detection model, build an AI chatbot, evaluate commercial veterinary AI tools, and present a final project.",
+    "tags": [
+      {
+        "cat": "edu",
+        "label": "Spring 2026"
+      },
+      {
+        "cat": "llm",
+        "label": "LLM"
+      },
+      {
+        "cat": "cv",
+        "label": "Computer Vision"
+      },
+      {
+        "cat": "edu",
+        "label": "AI Literacy"
+      }
+    ],
+    "scheduleCaption": "Weekly schedule adapted from <a href=\"https://doi.org/10.3389/fvets.2026.1801756\" target=\"_blank\" rel=\"noopener\">Huang and Chu, 2026</a>, under the Creative Commons Attribution License.",
+    "schedule": [],
+    "scheduleNote": "The full 15-week schedule is published as Table 1 of <a href=\"https://doi.org/10.3389/fvets.2026.1801756\" target=\"_blank\" rel=\"noopener\">Huang and Chu, 2026</a>.",
+    "_todo": "Transcribe Table 1 of Huang and Chu, 2026 into course.schedule as [{week, topic, activity}] so the schedule renders as an HTML table instead of only citing the paper. Keep scheduleCaption (the Creative Commons Attribution line) when you do."
+  },
+  "resourcesTitle": "Open Educational Resources",
+  "resources": [
+    {
+      "label": "Free AI tutor",
+      "title": "VetClinPathGPT — veterinary clinical pathology AI tutor",
+      "sub": "More than 5,000 conversations with students, interns and residents. <a href=\"vetclinpathgpt.html\">Read how to use it</a>.",
+      "link": {
+        "label": "Open VetClinPathGPT",
+        "href": "https://chatgpt.com/g/g-rfB5cBZ6X-vetclinpathgpt"
+      }
+    },
+    {
+      "label": "Free database",
+      "title": "What's Your Diagnosis (WYD) Database",
+      "sub": "A searchable index of every WYD article published in <em>Veterinary Clinical Pathology</em> since 2008.",
+      "link": {
+        "label": "Open database",
+        "href": "https://vetclinpath.notion.site/vetclinpath/f5cce72fe6524c4b8511162f0f2fe6ac?v=ef3da7714cf94f9ab15822e961eb5850"
+      }
+    },
+    {
+      "label": "Teaching pages",
+      "title": "Vet Clin Path Resident — cytology teaching on social media",
+      "sub": "Case-based cytology teaching for students and practitioners since 2018.",
+      "link": {
+        "label": "Instagram",
+        "href": "https://www.instagram.com/vet.clin.path.resident/"
+      }
+    }
+  ],
+  "studentComments": [
+    {
+      "text": "I really liked how she organized the material and helped us focus on the big picture concepts. I also like how she taught the material in the way she goes through cases. This really helped me understand and have a way to go through the lab data consistently every time.",
+      "source": "VTPB 927 Clinical Pathology · Fall 2025"
+    },
+    {
+      "text": "I personally loved how Dr. Chu walked us through each step AND (most impactfully) intentionally drew the connection of what we learned to how it was applied. This really stood out to me because I feel a lot of professors jump pretty quickly to application without walking us through how that connection was made.",
+      "source": "VTPB 927 Clinical Pathology · Fall 2025"
+    },
+    {
+      "text": "She was very straight to the point of what we need to learn from her material and taught it well. She was a really great instructor.",
+      "source": "VTPB 927 Clinical Pathology · Fall 2025"
+    },
+    {
+      "text": "The course was very well organized and I had a clear understanding of what was required and when.",
+      "source": "VTPB 948 Artificial Intelligence and Digital Tools · Spring 2026"
+    },
+    {
+      "text": "She often prompted us to try new tools and alter the way we interacted with them to see how it altered the response.",
+      "source": "VTPB 948 Artificial Intelligence and Digital Tools · Spring 2026"
+    }
+  ],
+  "_todoStudentComments": "Add three to four short quotations to studentComments as [{text, source}] once (a) the official VTPB 948 evaluation report is in hand and (b) Texas A&M's policy on publishing evaluation excerpts on a personal website is confirmed. Until then the Student Voices section is omitted entirely — do not publish a note saying it is pending.",
+  "award": {
+    "image": {
+      "src": "assets/teaching-award-2026.jpg",
+      "alt": "Dr. Candice Chu receiving the Juan Carlos Robles Emanuelli Teaching Award certificate"
+    },
+    "label": "Teaching award · 2026",
+    "title": "Juan Carlos Robles Emanuelli Teaching Award",
+    "org": "College of Veterinary Medicine &amp; Biomedical Sciences, Texas A&amp;M University"
+  },
+  "media": {
+    "title": "Videos & Podcasts",
+    "_todo": "Items with publish:false need their YouTube or Spotify URL before they can be shown; add youtubeId (the v= value) or embed (full player URL), then set publish:true.",
+    "items": [
+      {
+        "kind": "Keynote",
+        "label": "Purina Institute Global Summit · posted Oct 2025",
+        "title": "The Impact of AI on Veterinary Diagnostics and Consulting",
+        "sub": "With Eli Cohen · panel discussion",
+        "youtubeId": "Eo1FGVNH4ds",
+        "date": "2025-10-28"
+      },
+      {
+        "kind": "Tutorial",
+        "label": "ACVP exam preparation · May 2025",
+        "title": "Essential Math and Plots for the ACVP Phase II Clinical Pathology Exam",
+        "youtubeId": "lqhw6v9TLxw",
+        "date": "2025-05-09"
+      },
+      {
+        "kind": "Talk",
+        "label": "Texas A&amp;M University · Apr 2025",
+        "title": "Essential AI and Digital Tools for Graduate Student and Veterinary Researcher",
+        "youtubeId": "-1gSwZjUm4Q",
+        "date": "2025-04-23"
+      },
+      {
+        "kind": "Podcast",
+        "label": "The A.C.V.P. Podcast · Dec 2024",
+        "title": "A Conversation with Dr. Candice Chu",
+        "sub": "Season 2, Episode 13 · recorded at the ACVP/ASVCP Annual Meeting",
+        "embed": "https://www.podbean.com/player-v2/?i=k7hgn-1756249&amp;square=1&amp;share=1&amp;download=0&amp;fonts=Arial&amp;skin=1&amp;btn-skin=7",
+        "embedHeight": 150,
+        "poster": "audio",
+        "date": "2024-12-07"
+      },
+      {
+        "kind": "Talk",
+        "label": "Research Conversation Series · Nov 2024",
+        "title": "How a Texas A&amp;M Professor Streamlines Academic Writing with AI and Digital Tools",
+        "youtubeId": "CTTESpCK4yc",
+        "date": "2024-11-12"
+      },
+      {
+        "kind": "Podcast",
+        "label": "Dr. Aleks Digital Pathology &amp; AI · Oct 2024",
+        "title": "How to Teach AI to Healthcare Professionals",
+        "sub": "Podcast conversation on teaching AI to healthcare professionals",
+        "youtubeId": "eY7UywT-zRM",
+        "date": "2024-10-17"
+      },
+      {
+        "kind": "Podcast",
+        "label": "Digital Pathology Place · Oct 2024",
+        "title": "Can AI Improve Veterinary Diagnostics and Academic Efficiency?",
+        "sub": "Interview on AI in veterinary diagnostics and academic workflows",
+        "youtubeId": "-5gwIq6SflA",
+        "date": "2024-10-16"
+      },
+      {
+        "kind": "Talk",
+        "label": "Center for Teaching Excellence, Texas A&amp;M · Oct 2024",
+        "title": "AI Teaching Assistant: Build Your Own ChatGPT",
+        "youtubeId": "yBnNP7e2hFo",
+        "date": "2024-10-16"
+      },
+      {
+        "kind": "Tutorial",
+        "label": "3 Minute Veterinary Cytology · Apr 2021",
+        "title": "How to Take Cytology Pictures Using Your Smartphone",
+        "sub": "Teaching demo for veterinary interns and students",
+        "youtubeId": "IxWxRXQUJyQ",
+        "date": "2021-04-03"
+      },
+      {
+        "kind": "Tutorial",
+        "label": "Veterinary Cytology · 2021",
+        "title": "Approach to Cytology",
+        "youtubeId": "FbMQkEqQ8ZQ",
+        "date": "2021-01-01"
+      },
+      {
+        "kind": "Tutorial",
+        "label": "Grad School 101 · 2020",
+        "title": "Keys to Successful Scientific Presentations",
+        "youtubeId": "qnr1k-MSWiM",
+        "date": "2020-06-01"
+      },
+      {
+        "kind": "Tutorial",
+        "label": "Grad School 101 · 2020",
+        "title": "Design a Great Slide Presentation",
+        "youtubeId": "3MZSby1p2ls",
+        "date": "2020-05-01"
+      },
+      {
+        "kind": "Tutorial",
+        "label": "Bioinformatics",
+        "title": "How to Analyze RNA-Seq Data?",
+        "sub": null,
+        "publish": false
+      }
+    ],
+    "_dateNote": "date = YouTube/Podbean publish date, newest first. Confirmed: ACVP Phase II math (2025-05-09), Purina panel upload (2025-10-28), Digital Pathology Place (2024-10-16), smartphone cytology (2021-04-03), ACVP Podcast (2024-12-07). Approximate pending confirmation: the two Grad School 101 videos, Approach to Cytology, the two Texas A&M talks and the Dr. Aleks podcast."
+  }
+}

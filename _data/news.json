@@ -1,0 +1,145 @@
+{
+  "metaTitle": "News & Updates — Candice P. Chu",
+  "metaDescription": "Latest conference talks, appointments, publications and lab milestones from Candice P. Chu, DVM, PhD, DACVP at Texas A&M University.",
+  "h1": "News & Updates",
+  "intro": "Updates on conferences, appointments, publications, and lab activities.",
+  "_note": "Newest first. iso = sort key (YYYY-MM-DD); date = displayed string (MMM DD, YYYY).",
+  "items": [
+    {
+      "iso": "2026-08-17",
+      "date": "Aug 17, 2026",
+      "html": "👩‍🏫 <strong>Upcoming:</strong> Dr. Chu teaches the afternoon session on vibe-coding tools at the <a href=\"https://tamids.tamu.edu/\" target=\"_blank\" rel=\"noopener\">AI Jumpstart Bootcamp</a>, run by the Texas A&amp;M Institute of Data Science with High Performance Research Computing."
+    },
+    {
+      "iso": "2026-07-18",
+      "date": "Jul 18, 2026",
+      "html": "📝 <strong>Publication:</strong> PhD student <strong>Yumi Chang</strong>'s first paper, <a href=\"https://doi.org/10.1177/03009858261461761\" target=\"_blank\" rel=\"noopener\"><em>Applying artificial intelligence to automate clinical data extraction from veterinary electronic health records</em></a>, is out in the <em>Veterinary Pathology</em> special issue on artificial intelligence — open access."
+    },
+    {
+      "iso": "2026-07-12",
+      "date": "Jul 12, 2026",
+      "html": "🎤 <strong>Invited talk:</strong> <em>Less pAIn, More gAIn: A Starter Guide to AI Literacy for Veterinary Professionals</em> at the <a href=\"https://www.avma.org/events/avma-convention\" target=\"_blank\" rel=\"noopener\">AVMA Convention 2026</a> in Anaheim, hosted by IDEXX."
+    },
+    {
+      "iso": "2026-06-28",
+      "date": "Jun 27–28, 2026",
+      "html": "✈️ <strong>Workshop:</strong> Dr. Chu and <strong>Dr. Mary Nabity</strong> delivered a two-day workshop on cytology, urinalysis and renal biomarkers for the Taiwan Academy of Veterinary Internal Medicine, attended by more than 200 veterinarians."
+    },
+    {
+      "iso": "2026-06-11",
+      "date": "Jun 11, 2026",
+      "html": "🎤 <strong>Presentation:</strong> PhD student <strong>Yumi Chang</strong> gave an oral presentation at the <a href=\"https://www.acvim.org/\" target=\"_blank\" rel=\"noopener\">ACVIM Forum</a> on extracting clinical data from medical records, in collaboration with VetRec and the Dog Aging Project."
+    },
+    {
+      "iso": "2026-05-28",
+      "date": "May 2026",
+      "html": "📚 <strong>Textbook:</strong> Dr. Chu contributed to an AI literacy textbook for veterinary medicine, to be published by <strong>Springer Nature</strong>."
+    },
+    {
+      "iso": "2026-05-22",
+      "date": "May 2026",
+      "html": "📝 <strong>Publication:</strong> <a href=\"https://doi.org/10.1016/j.cvsm.2026.03.019\" target=\"_blank\" rel=\"noopener\"><em>Computer Vision and Deep Learning in Small Animal Cytology and Slide Review</em></a> — an invited review in <em>Veterinary Clinics of North America: Small Animal Practice</em> covering computer vision fundamentals, publication guidelines, and how nine veterinary organizations address AI in their position statements."
+    },
+    {
+      "iso": "2026-05-20",
+      "date": "May 2026",
+      "html": "📣 <strong>Recruiting:</strong> The lab is offering fully funded, salaried two-year <strong>MS-thesis positions</strong> for DVM students interested in applying AI to veterinary medicine. See <a href=\"team.html\">Team</a> for how to apply."
+    },
+    {
+      "iso": "2026-04-22",
+      "date": "Apr 22, 2026",
+      "html": "📝 <strong>Publication:</strong> <a href=\"https://doi.org/10.3389/fvets.2026.1801756\" target=\"_blank\" rel=\"noopener\"><em>Curriculum framework for artificial intelligence literacy in veterinary education</em></a> is out in <em>Frontiers in Veterinary Science</em>, with PhD student Avery Huang as first author."
+    },
+    {
+      "iso": "2025-04-21",
+      "date": "Apr 21, 2025",
+      "html": "✈️ <strong>Conference:</strong> Dr. Chu is heading to the <a href=\"https://globalsummit2025.purinainstitute.com/en/#agenda\" target=\"_blank\" rel=\"noopener\">Purina Institute Global Summit 2025</a> to present \"The impact of AI on veterinary diagnostics and consulting.\""
+    },
+    {
+      "iso": "2025-04-21",
+      "date": "Apr 21, 2025",
+      "html": "🎉 Dr. Chu has been appointed to join the <a href=\"https://www.aavmc.org/\" target=\"_blank\" rel=\"noopener\">Association of American Veterinary Medical Colleges</a> AI Working Group to advance veterinary medicine!"
+    },
+    {
+      "iso": "2025-01-27",
+      "date": "Jan 27, 2025",
+      "html": "✈️ <strong>Conference:</strong> Dr. Chu is heading to the <a href=\"https://navc.com/vmx-event/\" target=\"_blank\" rel=\"noopener\">VMX 2025 Veterinary Conference</a> to teach hematology and talk about AI."
+    },
+    {
+      "iso": "2025-01-18",
+      "date": "Jan 18, 2025",
+      "html": "👩‍🏫 <strong>Workshop:</strong> Dr. Chu is hosting <strong>Data Science for Veterinary Researchers</strong> with Texas A&amp;M Institute of Data Science on Feb 17–21, 2025."
+    },
+    {
+      "iso": "2025-01-06",
+      "date": "Jan 06, 2025",
+      "html": "🎉 Dr. Chu has been appointed to join the <a href=\"https://www.avma.org/news/board-chair-addresses-colorado-ballot-initiative-highlights-emerging-technology-task-force\" target=\"_blank\" rel=\"noopener\">AVMA Task Force on Emerging Technologies and Innovation</a>!"
+    },
+    {
+      "iso": "2025-01-05",
+      "date": "Jan 05, 2025",
+      "html": "🖥️ <strong>Video:</strong> Watch Dr. Chu's Research Conversation Series talk <a href=\"https://www.youtube.com/@CandiceChuDVM\" target=\"_blank\" rel=\"noopener\"><em>How I Streamline Academic Writing with AI and Digital Tools</em></a> on YouTube."
+    },
+    {
+      "iso": "2024-12-07",
+      "date": "Dec 07, 2024",
+      "html": "🔈 <strong>Podcast:</strong> Listen to <a href=\"https://www.acvp.org/\" target=\"_blank\" rel=\"noopener\">The A.C.V.P. Podcast</a> for <em>A Conversation with Dr. Candice Chu</em> on Spotify or Apple Podcasts."
+    },
+    {
+      "iso": "2024-12-04",
+      "date": "Dec 04, 2024",
+      "html": "📝 <strong>Article:</strong> Dr. Chu has published <a href=\"https://doi.org/10.1038/d41586-024-03775-7\" target=\"_blank\" rel=\"noopener\"><em>Banish the PDF-hunting blues with these AI and digital tools</em></a> in <em>Nature</em> Career column."
+    },
+    {
+      "iso": "2024-11-01",
+      "date": "Nov 01, 2024",
+      "html": "🌐 <strong>On-demand webinar:</strong> <a href=\"https://www.acvim.org/education/course-catalog/how-i-streamline-academic-writing-with-ai-and-digital-tools\" target=\"_blank\" rel=\"noopener\"><em>How I Streamline Academic Writing with AI and Digital Tools</em></a> (ACVIM) — free to ACVIM candidates and diplomates."
+    },
+    {
+      "iso": "2024-10-04",
+      "date": "Oct 04, 2024",
+      "html": "📝 <strong>Article:</strong> <em>Canine Round Cell Tumor Cytology</em> published in <a href=\"https://www.vetfocus.com/\" target=\"_blank\" rel=\"noopener\">Vet Focus</a>."
+    },
+    {
+      "iso": "2024-08-20",
+      "date": "Aug 20, 2024",
+      "html": "📺 <strong>Media coverage:</strong> <a href=\"https://today.tamu.edu/\" target=\"_blank\" rel=\"noopener\"><em>Texas A&amp;M Researcher Explores Benefits Of AI In Veterinary Medicine, Education</em></a> — Texas A&amp;M Today."
+    },
+    {
+      "iso": "2024-06-01",
+      "date": "Jun 01, 2024",
+      "html": "🎉 Dr. Chu is officially back to Aggieland to establish the <strong>Chu Lab</strong>!"
+    },
+    {
+      "iso": "2024-02-06",
+      "date": "Feb 06, 2024",
+      "html": "🌐 <strong>On-demand webinar:</strong> <em>All you Need to Know About Round Cell Tumor Cytology</em> — <a href=\"https://vetgirlontherun.com/\" target=\"_blank\" rel=\"noopener\">VETgirl</a> ($50.00)."
+    },
+    {
+      "iso": "2024-01-02",
+      "date": "Jan 02, 2024",
+      "html": "🎉 Chu Lab welcomes first graduate student — <strong>Dr. Yumi Chang</strong>!"
+    },
+    {
+      "iso": "2023-08-05",
+      "date": "Aug 05, 2023",
+      "html": "📝 <strong>Article:</strong> <em>Top 3 Conditions Missed by Skipping Urinalysis</em> — <a href=\"https://www.cliniciansbrief.com/\" target=\"_blank\" rel=\"noopener\">Clinician's Brief</a>."
+    },
+    {
+      "iso": "2020-05-20",
+      "date": "May 20, 2020",
+      "html": "🖥️ <strong>Video:</strong> <a href=\"https://www.facebook.com/TAMUvetmed/\" target=\"_blank\" rel=\"noopener\"><em>I AM CVM — Dr. Candice Chu</em></a> (VMBS Facebook)."
+    },
+    {
+      "iso": "2019-11-25",
+      "date": "Nov 25, 2019",
+      "html": "📺 <strong>Media coverage:</strong> <em>CVM Brings Home Top Awards from Annual Pathology Meeting</em> — VMBS News."
+    },
+    {
+      "iso": "2016-12-19",
+      "date": "Dec 19, 2016",
+      "html": "📺 <strong>Media coverage:</strong> <em>CVM Students Win Awards at ACVP Annual Meeting</em> — VMBS News."
+    }
+  ],
+  "_source": "Items July 2026 and earlier in 2026 were compiled from Dr. Chu's own LinkedIn activity export (July 2026). Dates are the event dates stated in each post; where a post gave only a month, the display date is month-precision and the iso value is used for sorting only."
+}

@@ -1,0 +1,70 @@
+name: CV Sync — Parse & Notify Slack
+
+on:
+  repository_dispatch:
+    types: [cv-updated]
+  workflow_dispatch:
+    inputs:
+      drive_file_id:
+        description: 'Google Drive file ID of the CV PDF'
+        required: true
+        type: string
+
+jobs:
+  parse-and-notify:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install pypdf anthropic requests google-auth google-auth-httplib2 google-api-python-client
+
+      - name: Download CV from Google Drive
+        env:
+          GDRIVE_SERVICE_ACCOUNT_JSON: ${{ secrets.GDRIVE_SERVICE_ACCOUNT_JSON }}
+          DRIVE_FILE_ID: ${{ github.event.client_payload.drive_file_id || github.event.inputs.drive_file_id }}
+        run: |
+          python automation/scripts/download_from_drive.py
+
+      - name: Parse CV with Claude
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          python automation/scripts/parse_cv.py \
+            --cv cv_download.pdf \
+            --output parsed_cv.json
+
+      - name: Diff against current site data
+        run: |
+          python automation/scripts/diff_cv.py \
+            --new parsed_cv.json \
+            --current automation/data/site_data.json \
+            --output new_items.json
+
+      - name: Send Slack approval messages
+        env:
+          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+          SLACK_CHANNEL: ${{ secrets.SLACK_CHANNEL }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_OWNER: candicechudvm
+          GITHUB_REPO: candicechudvm.github.io
+        run: |
+          python automation/scripts/notify_slack.py \
+            --items new_items.json
+
+      - name: Upload parsed JSON as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: parsed-cv-${{ github.run_id }}
+          path: parsed_cv.json
+          retention-days: 7

@@ -1,0 +1,650 @@
+{
+  "metaTitle": "Publications — Candice P. Chu, DVM, PhD, DACVP",
+  "metaDescription": "Peer-reviewed publications on veterinary AI, digital cytology, urinary microRNA biomarkers and chronic kidney disease. Filterable by research topic.",
+  "h1": "Publications",
+  "intro": "Peer-reviewed articles first, newest first, then invited articles and book chapters. Filter by research topic or jump to a year.",
+  "_note": "id is a stable slug referenced by _data/home.json featuredPublications. kind separates peer-reviewed papers from invited/CE articles so the headline count stays honest. topics drive the on-page filter; year drives grouping.",
+  "items": [
+    {
+      "id": "cv-cytology-review-2026",
+      "kind": "peer-reviewed",
+      "year": 2026,
+      "number": "Vet Clin North Am Small Anim Pract 2026",
+      "title": "Computer vision and deep learning in small animal cytology and slide review",
+      "authors": "Candice P. Chu",
+      "journal": "Veterinary Clinics of North America: Small Animal Practice, 2026",
+      "doi": "10.1016/j.cvsm.2026.03.019",
+      "topics": [
+        "Digital Cytology"
+      ],
+      "tags": [
+        {
+          "cat": "cv",
+          "label": "Computer Vision"
+        },
+        {
+          "cat": "cv",
+          "label": "Digital Cytology"
+        },
+        {
+          "cat": "edu",
+          "label": "Invited Review"
+        }
+      ],
+      "summary": "An invited review of computer vision fundamentals for veterinary cytology, current scientific progress, and publication guidelines. Examines how nine veterinary organizations address AI in their position or policy statements, alongside industrial implementation and the case for AI literacy in continuing education.",
+      "links": [
+        {
+          "label": "Read article",
+          "href": "https://pubmed.ncbi.nlm.nih.gov/42150941/",
+          "primary": true
+        }
+      ],
+      "thumb": {
+        "src": "assets/thumbs/pub_cvsm2026.jpg",
+        "alt": "Four computer-vision tasks compared: image classification, object detection, semantic segmentation and instance segmentation on cytology cells"
+      }
+    },
+    {
+      "id": "ehr-extraction-review",
+      "kind": "peer-reviewed",
+      "year": 2026,
+      "number": "Veterinary Pathology 2026",
+      "title": "Applying artificial intelligence to automate clinical data extraction from veterinary electronic health records: a practical guidance and comparative scoping review",
+      "authors": "Yumi Chang, Candice P. Chu",
+      "journal": "Veterinary Pathology, 2026 · special issue on artificial intelligence",
+      "doi": "10.1177/03009858261461761",
+      "topics": [
+        "Large Language Models"
+      ],
+      "tags": [
+        {
+          "cat": "llm",
+          "label": "LLM"
+        },
+        {
+          "cat": "ml",
+          "label": "EHR"
+        },
+        {
+          "cat": "bio",
+          "label": "Scoping Review"
+        }
+      ],
+      "summary": "Screened 5,796 papers and included 54 studies (23 veterinary, 31 human) on AI-based clinical data extraction. Provides a step-by-step framework for data preparation, platform and privacy decisions, and prompt engineering, with a worked case study extracting 62 variables from canine pancreatitis records.",
+      "links": [
+        {
+          "label": "Read article",
+          "href": "https://doi.org/10.1177/03009858261461761",
+          "primary": true
+        }
+      ],
+      "thumb": {
+        "src": "assets/thumbs/pub_vetpath2026.jpg",
+        "alt": "Framework figure: planning, refinement and testing phases of LLM-based clinical data extraction, with a canine pancreatitis use case"
+      }
+    },
+    {
+      "id": "ai-literacy-curriculum",
+      "kind": "peer-reviewed",
+      "year": 2026,
+      "number": "Front Vet Sci 2026",
+      "title": "Curriculum framework for artificial intelligence literacy in veterinary education",
+      "authors": "Yu-Ting (Avery) Huang, Candice P. Chu",
+      "journal": "Frontiers in Veterinary Science, 2026",
+      "doi": "10.3389/fvets.2026.1801756",
+      "topics": [
+        "AI Education"
+      ],
+      "tags": [
+        {
+          "cat": "edu",
+          "label": "AI Education"
+        },
+        {
+          "cat": "llm",
+          "label": "Curriculum"
+        }
+      ],
+      "summary": "A five-module framework for teaching AI literacy in veterinary curricula, with an implementation case study of VTPB 948 at Texas A&amp;M University.",
+      "links": [
+        {
+          "label": "Read article",
+          "href": "https://doi.org/10.3389/fvets.2026.1801756",
+          "primary": true
+        }
+      ],
+      "thumb": {
+        "src": "assets/thumbs/pub_curriculum2026.jpg",
+        "alt": "Illustration of five stacked numbered bars representing the five-module AI literacy curriculum"
+      }
+    },
+    {
+      "id": "scrna-2025",
+      "year": 2025,
+      "number": "Animals 2025",
+      "title": "Renal single-Cell RNA sequencing and digital cytometry in dogs with X-linked hereditary nephropathy",
+      "authors": "Candice P. Chu, Daniel Osorio, and Mary B. Nabity",
+      "journal": "Animals, 2025",
+      "doi": "10.3390/ani15142061",
+      "tags": [
+        {
+          "cat": "bio",
+          "label": "Bioinformatics"
+        },
+        {
+          "cat": "ml",
+          "label": "scRNA-seq"
+        },
+        {
+          "cat": "ml",
+          "label": "CKD"
+        }
+      ],
+      "summary": "Applied single-cell RNA sequencing to profile renal cortical tissues from dogs with X-linked hereditary nephropathy. Recovered over 13,000 cells and identified 11 cell types. Digital cytometry confirmed disease-related shifts in renal cell composition across CKD progression.",
+      "thumb": {
+        "src": "assets/thumbs/pub_scrna.jpg",
+        "alt": "Single-cell RNA sequencing figure"
+      },
+      "links": [
+        {
+          "label": "Read article",
+          "href": "https://doi.org/10.3390/ani15142061",
+          "primary": true
+        }
+      ],
+      "topics": [
+        "Molecular Diagnostics",
+        "Bioinformatics"
+      ],
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "mirna-review-2025",
+      "year": 2025,
+      "number": "Vet Clin Pathol 2025",
+      "title": "Urinary microRNA as biomarkers for chronic kidney disease in dogs and cats: updates and challenges",
+      "authors": "Candice P. Chu, and Mary B. Nabity",
+      "journal": "Veterinary Clinical Pathology, 2025",
+      "doi": "10.1111/vcp.13412",
+      "tags": [
+        {
+          "cat": "bio",
+          "label": "Bioinformatics"
+        },
+        {
+          "cat": "ml",
+          "label": "miRNA"
+        },
+        {
+          "cat": "ml",
+          "label": "CKD Biomarkers"
+        }
+      ],
+      "summary": "Comprehensive review of urinary miRNAs as non-invasive biomarkers for CKD in companion animals. Addresses preanalytical factors, RNA isolation methods, sequencing analysis, and normalization strategies.",
+      "thumb": {
+        "src": "assets/thumbs/pub_mirna.jpg",
+        "alt": "Urinary microRNA review figure"
+      },
+      "links": [
+        {
+          "label": "Read article",
+          "href": "https://doi.org/10.1111/vcp.13412",
+          "primary": true
+        }
+      ],
+      "topics": [
+        "Molecular Diagnostics"
+      ],
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "chatgpt-2024",
+      "year": 2024,
+      "number": "Front Vet Sci 2024",
+      "title": "ChatGPT in veterinary medicine: a practical guidance of generative artificial intelligence in clinics, education, and research",
+      "authors": "C. P. Chu",
+      "journal": "Frontiers in Veterinary Science, 2024",
+      "doi": "10.3389/fvets.2024.1395934",
+      "tags": [
+        {
+          "cat": "llm",
+          "label": "LLM"
+        },
+        {
+          "cat": "edu",
+          "label": "AI Education"
+        }
+      ],
+      "summary": "Practical synthesis of ChatGPT applications in veterinary clinical, educational, and research domains. Actionable guidance for professionals without a programming background.",
+      "thumb": {
+        "src": "assets/thumbs/pub_frontvetsci.jpg",
+        "alt": "ChatGPT in veterinary medicine figure"
+      },
+      "links": [
+        {
+          "label": "Read article",
+          "href": "https://doi.org/10.3389/fvets.2024.1395934",
+          "primary": true
+        }
+      ],
+      "topics": [
+        "AI Education",
+        "Large Language Models"
+      ],
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "mir126-2024",
+      "year": 2024,
+      "number": "J Vet Intern Med 2024",
+      "title": "MicroRNA-126 in dogs with immune complex-mediated glomerulonephritis",
+      "authors": "A. D. Cherry, C. P. Chu, R. E. Cianciolo, and 3 more authors",
+      "journal": "Journal of Veterinary Internal Medicine, 2024",
+      "doi": "10.1111/jvim.16932",
+      "tags": [
+        {
+          "cat": "bio",
+          "label": "miRNA"
+        },
+        {
+          "cat": "ml",
+          "label": "Glomerulonephritis"
+        }
+      ],
+      "thumb": {
+        "src": "assets/thumbs/pub_jvim.jpg",
+        "alt": "MicroRNA-126 figure"
+      },
+      "links": [
+        {
+          "label": "Read article",
+          "href": "https://doi.org/10.1111/jvim.16932",
+          "primary": true
+        }
+      ],
+      "topics": [
+        "Molecular Diagnostics"
+      ],
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "wyd-perianal-2024",
+      "year": 2024,
+      "number": "Vet Clin Pathol 2024",
+      "title": "What is your diagnosis? Large perianal mass in a dog",
+      "authors": "C. P. Chu, M. B. Nabity, B. F. Porter, and 1 more author",
+      "journal": "Veterinary Clinical Pathology, 2024",
+      "doi": "10.1111/vcp.13231",
+      "tags": [
+        {
+          "cat": "ml",
+          "label": "Cytology"
+        },
+        {
+          "cat": "ml",
+          "label": "Case Report"
+        }
+      ],
+      "thumb": {
+        "src": "assets/thumbs/pub_agasaca.jpg",
+        "alt": "Perianal mass cytology figure"
+      },
+      "links": [
+        {
+          "label": "Read article",
+          "href": "https://pubmed.ncbi.nlm.nih.gov/37254032/",
+          "primary": true
+        }
+      ],
+      "topics": [
+        "Digital Cytology"
+      ],
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "cell-serotonin-2023",
+      "year": 2023,
+      "number": "Cell 2023",
+      "title": "Serotonin reduction in post-acute sequelae of viral infection",
+      "authors": "A. C. Wong, A. S. Devason, I. C. Umana, and 56 more authors",
+      "journal": "Cell, 2023",
+      "doi": "10.1016/j.cell.2023.09.013",
+      "tags": [
+        {
+          "cat": "bio",
+          "label": "Bioinformatics"
+        },
+        {
+          "cat": "ml",
+          "label": "Long COVID"
+        },
+        {
+          "cat": "ml",
+          "label": "One Health"
+        }
+      ],
+      "thumb": {
+        "src": "assets/thumbs/pub_cell.jpg",
+        "alt": "Serotonin reduction figure"
+      },
+      "links": [
+        {
+          "label": "Read article",
+          "href": "https://pubmed.ncbi.nlm.nih.gov/37848036/",
+          "primary": true
+        }
+      ],
+      "topics": [
+        "Bioinformatics",
+        "One Health"
+      ],
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "smallrna-2021",
+      "year": 2021,
+      "number": "Sci Rep 2021",
+      "title": "Small RNA sequencing evaluation of renal microRNA biomarkers in dogs with X-linked hereditary nephropathy",
+      "authors": "C. P. Chu, S. Liu, W. Song, and 2 more authors",
+      "journal": "Scientific Reports, 2021",
+      "doi": "10.1038/s41598-021-96870-y",
+      "tags": [
+        {
+          "cat": "bio",
+          "label": "miRNA"
+        },
+        {
+          "cat": "bio",
+          "label": "scRNA-seq"
+        },
+        {
+          "cat": "ml",
+          "label": "CKD"
+        }
+      ],
+      "thumb": {
+        "src": "assets/thumbs/pub_scirep21.jpg",
+        "alt": "Small RNA sequencing figure"
+      },
+      "links": [
+        {
+          "label": "Read article",
+          "href": "https://doi.org/10.1038/s41598-021-96870-y",
+          "primary": true
+        }
+      ],
+      "topics": [
+        "Molecular Diagnostics",
+        "Bioinformatics"
+      ],
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "rna-isolation-2019",
+      "year": 2019,
+      "number": "Vet Clin Pathol 2019",
+      "title": "Comparison of RNA isolation and library preparation methods for small RNA sequencing of canine biofluids",
+      "authors": "C. P. Chu, and M. B. Nabity",
+      "journal": "Veterinary Clinical Pathology, 2019",
+      "doi": "10.1111/vcp.12743",
+      "tags": [
+        {
+          "cat": "bio",
+          "label": "Bioinformatics"
+        },
+        {
+          "cat": "ml",
+          "label": "Methodology"
+        }
+      ],
+      "thumb": {
+        "src": "assets/thumbs/pub_vcp19.jpg",
+        "alt": "RNA isolation comparison figure"
+      },
+      "links": [
+        {
+          "label": "Read article",
+          "href": "https://doi.org/10.1111/vcp.12743",
+          "primary": true
+        }
+      ],
+      "topics": [
+        "Molecular Diagnostics",
+        "Bioinformatics"
+      ],
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "dmd-2018",
+      "year": 2018,
+      "number": "PLOS ONE 2018",
+      "title": "Expression profiling of disease progression in canine model of Duchenne muscular dystrophy",
+      "authors": "C. Brinkmeyer-Langford, C. Chu, C. Balog-Alvarez, and 4 more authors",
+      "journal": "PLOS ONE, 2018",
+      "doi": "10.1371/journal.pone.0194485",
+      "tags": [
+        {
+          "cat": "bio",
+          "label": "Transcriptomics"
+        },
+        {
+          "cat": "ml",
+          "label": "DMD"
+        }
+      ],
+      "thumb": {
+        "src": "assets/thumbs/pub_plos18.jpg",
+        "alt": "Duchenne muscular dystrophy expression figure"
+      },
+      "links": [
+        {
+          "label": "Read article",
+          "href": "https://doi.org/10.1371/journal.pone.0194485",
+          "primary": true
+        }
+      ],
+      "topics": [
+        "Bioinformatics"
+      ],
+      "kind": "peer-reviewed"
+    },
+    {
+      "id": "rnaseq-serial-2017",
+      "year": 2017,
+      "number": "Sci Rep 2017",
+      "title": "RNA-seq of serial kidney biopsies obtained during progression of chronic kidney disease from dogs with X-linked hereditary nephropathy",
+      "authors": "C. P. Chu, J. A. Hokamp, R. E. Cianciolo, and 4 more authors",
+      "journal": "Scientific Reports, 2017",
+      "doi": "10.1038/s41598-017-16603-y",
+      "tags": [
+        {
+          "cat": "bio",
+          "label": "RNA-seq"
+        },
+        {
+          "cat": "ml",
+          "label": "CKD"
+        }
+      ],
+      "thumb": {
+        "src": "assets/thumbs/pub_scirep17.jpg",
+        "alt": "Serial kidney biopsy RNA-seq figure"
+      },
+      "links": [
+        {
+          "label": "Read article",
+          "href": "https://doi.org/10.1038/s41598-017-16603-y",
+          "primary": true
+        }
+      ],
+      "topics": [
+        "Molecular Diagnostics",
+        "Bioinformatics"
+      ],
+      "kind": "peer-reviewed"
+    }
+  ],
+  "inProgress": [],
+  "otherWriting": [
+    {
+      "id": "nature-pdf-2024",
+      "year": 2024,
+      "number": "Nature Career column, 2024",
+      "title": "Banish the PDF-hunting blues with these AI and digital tools",
+      "authors": "C. P. Chu",
+      "journal": "Nature, 2024",
+      "doi": "10.1038/d41586-024-03775-7",
+      "tags": [
+        {
+          "cat": "llm",
+          "label": "LLM"
+        },
+        {
+          "cat": "edu",
+          "label": "AI Tools"
+        }
+      ],
+      "thumb": {
+        "src": "assets/thumbs/pub_nature.jpg",
+        "alt": "Nature Career column article"
+      },
+      "links": [
+        {
+          "label": "Read article",
+          "href": "https://doi.org/10.1038/d41586-024-03775-7",
+          "primary": true
+        },
+        {
+          "label": "Video",
+          "href": "https://www.youtube-nocookie.com/embed/CTTESpCK4yc"
+        }
+      ],
+      "topics": [
+        "AI Education"
+      ],
+      "kind": "other"
+    },
+    {
+      "id": "vetfocus-roundcell-2024",
+      "kind": "other",
+      "year": 2024,
+      "number": "Veterinary Focus, 2024",
+      "title": "Round cell tumour cytology in dogs",
+      "authors": "Candice P. Chu",
+      "journal": "Veterinary Focus, April 2024",
+      "topics": [
+        "Digital Cytology"
+      ],
+      "tags": [
+        {
+          "cat": "ml",
+          "label": "Cytology"
+        }
+      ],
+      "links": [
+        {
+          "label": "Read article",
+          "href": "https://academy.royalcanin.com/en/veterinary/canine-round-cell-tumor-cytology",
+          "primary": true
+        }
+      ],
+      "thumb": {
+        "src": "assets/thumbs/pub_roundcell.jpg",
+        "alt": "Cytology field of a canine round cell tumour with numerous discrete purple-stained cells"
+      }
+    },
+    {
+      "id": "vetiverse-informatics-2024",
+      "kind": "other",
+      "year": 2024,
+      "number": "The Vetiverse, 2024",
+      "title": "7 key aspects of pathology informatics in veterinary medicine",
+      "authors": "Candice P. Chu",
+      "journal": "The Vetiverse, February 2024",
+      "topics": [
+        "Large Language Models"
+      ],
+      "tags": [
+        {
+          "cat": "llm",
+          "label": "Informatics"
+        }
+      ],
+      "links": [
+        {
+          "label": "Read article",
+          "href": "https://www.thevetiverse.com/en/latest/7-key-aspects-of-pathology-informatics-in-veterinary-medicine/",
+          "primary": true
+        }
+      ],
+      "thumb": {
+        "src": "assets/thumbs/pub_informatics.jpg",
+        "alt": "Hand holding a key made of cytology imagery, with binary-code teeth"
+      }
+    },
+    {
+      "id": "clinbrief-urinalysis-2023",
+      "kind": "other",
+      "year": 2023,
+      "number": "Clinician's Brief, 2023",
+      "title": "Top 3 conditions missed by skipping a urinalysis",
+      "authors": "Candice P. Chu",
+      "journal": "Clinician's Brief, September 2023",
+      "topics": [
+        "Digital Cytology"
+      ],
+      "tags": [
+        {
+          "cat": "ml",
+          "label": "Clinical Pathology"
+        }
+      ],
+      "links": [
+        {
+          "label": "Read article",
+          "href": "https://www.cliniciansbrief.com/article/urinalysis-test-veterinary-medicine",
+          "primary": true
+        }
+      ],
+      "thumb": {
+        "src": "assets/thumbs/pub_urinalysis.jpg",
+        "alt": "Urine dipstick being read beside a tube of urine"
+      }
+    },
+    {
+      "id": "plumbs-ddx-2024",
+      "kind": "other",
+      "year": 2024,
+      "number": "Book chapter, 2024",
+      "title": "Differential diagnosis chapters: antithrombin III, fibrinogen, amylase, lipase, lipids, fibrin degradation products, pancytopenia",
+      "authors": "Candice P. Chu",
+      "journal": "Plumb's Pro, October 2024",
+      "topics": [
+        "Digital Cytology"
+      ],
+      "tags": [
+        {
+          "cat": "ml",
+          "label": "Clinical Pathology"
+        }
+      ],
+      "thumb": {
+        "src": "assets/thumbs/pub_ddx.jpg",
+        "alt": "Plumb's logo"
+      }
+    }
+  ],
+  "counts": {
+    "peerReviewed": 13,
+    "otherWriting": 5,
+    "inProgress": 0
+  },
+  "otherWritingTitle": "Invited Articles & Book Chapters",
+  "_source": "Reconciled against Dr. Chu's Google Scholar profile (July 2026) and the May 2026 CV. Google Scholar blocks automated access; the profile was supplied as a PDF export.",
+  "scholar": {
+    "label": "View all on Google Scholar",
+    "href": "https://scholar.google.com/citations?user=cv_brEAAAAAJ&hl=en"
+  },
+  "_numberNote": "number is a journal + year label, never a sequence. Do not reintroduce '#N ·' prefixes — items are reordered whenever a paper is added, so any hard-coded numbering goes stale and renders as gaps.",
+  "_thumbNote": "All publication thumbnails live in assets/thumbs/ capped at 420px wide — they render into a 140px slot, so nothing larger is worth shipping. Entries whose article has no reusable figure (or where reproducing a publisher figure would raise licensing questions) use a generated illustration in the site palette; their alt text must describe them as illustrations, never as figures from the paper."
+}
