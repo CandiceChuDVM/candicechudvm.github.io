@@ -298,9 +298,7 @@
           "primary": true
         }
       ],
-      "topics": [
-        "Digital Cytology"
-      ],
+      "topics": [],
       "kind": "peer-reviewed"
     },
     {
@@ -336,9 +334,7 @@
           "primary": true
         }
       ],
-      "topics": [
-        "Bioinformatics"
-      ],
+      "topics": [],
       "kind": "peer-reviewed"
     },
     {
@@ -533,9 +529,7 @@
       "title": "Round cell tumour cytology in dogs",
       "authors": "Candice P. Chu",
       "journal": "Veterinary Focus, April 2024",
-      "topics": [
-        "Digital Cytology"
-      ],
+      "topics": [],
       "tags": [
         {
           "cat": "ml",
@@ -563,7 +557,6 @@
       "authors": "Candice P. Chu",
       "journal": "The Vetiverse, February 2024",
       "topics": [
-        "Large Language Models",
         "AI Education"
       ],
       "tags": [
@@ -592,9 +585,7 @@
       "title": "Top 3 conditions missed by skipping a urinalysis",
       "authors": "Candice P. Chu",
       "journal": "Clinician's Brief, September 2023",
-      "topics": [
-        "Digital Cytology"
-      ],
+      "topics": [],
       "tags": [
         {
           "cat": "ml",
@@ -621,9 +612,7 @@
       "title": "Differential diagnosis chapters: antithrombin III, fibrinogen, amylase, lipase, lipids, fibrin degradation products, pancytopenia",
       "authors": "Candice P. Chu",
       "journal": "Plumb's Pro, October 2024",
-      "topics": [
-        "Digital Cytology"
-      ],
+      "topics": [],
       "tags": [
         {
           "cat": "ml",
