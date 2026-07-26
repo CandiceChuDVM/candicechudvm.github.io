@@ -438,7 +438,7 @@ ${m.embed ? `<span class="media-audio-label">${esc(m.label.split(' · ')[0])}</s
     `<p class="pillar-overview">${rich(course.overview)}</p>` +
     (course.tags?.length ? `<div class="chip-row" style="margin-bottom:20px;">${tags(course.tags)}</div>` : '') + schedule +
     sectionTitle(e.resourcesTitle) + resources + media +
-    `<p class="section-title" style="margin-top:46px;">Educational Evidence</p>` + quotes;
+    `<p class="section-title" style="margin-top:46px;">Student Evaluation</p>` + quotes;
 
   const jsonld = [{
     '@context': 'https://schema.org', '@type': 'Course',
