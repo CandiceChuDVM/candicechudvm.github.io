@@ -96,6 +96,7 @@ ul { list-style: none; }
 .nav-links a {
   font-size: 16.8px; font-weight: 500; color: var(--text-2);
   padding: 6px 10px; border-radius: 7px;
+  white-space: nowrap;
   transition: background var(--tr), color var(--tr);
 }
 .nav-links a:hover, .nav-links a.active {
