@@ -433,7 +433,7 @@ ${m.embed ? `<span class="media-audio-label">${esc(m.label.split(' · ')[0])}</s
   const body = `<div class="edu-head">${pageHeader(e.h1, e.intro)}${award}</div>` +
     sectionTitle('Educational Need') + need +
     sectionTitle('Five-Module Curriculum Framework') +
-    `<p class="src-note" style="margin-bottom:18px;">${rich(e.modulesNote)}</p>` + modules +
+    modules +
     sectionTitle(course.title) +
     `<p class="pillar-overview">${rich(course.overview)}</p>` +
     `<div class="chip-row" style="margin-bottom:20px;">${tags(course.tags)}</div>` + schedule +

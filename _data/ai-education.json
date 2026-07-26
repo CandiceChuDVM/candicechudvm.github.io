@@ -19,7 +19,6 @@
       "Veterinarians remain professionally accountable for decisions informed by AI, which makes critical appraisal a clinical competency rather than an optional extra."
     ]
   },
-  "modulesNote": "Adapted from <a href=\"https://doi.org/10.3389/fvets.2026.1801756\" target=\"_blank\" rel=\"noopener\">Huang and Chu, 2026</a>, <em>Frontiers in Veterinary Science</em>, under the Creative Commons Attribution License.",
   "modules": [
     {
       "title": "Fundamentals of AI",
