@@ -333,7 +333,7 @@ ${logoMarquee}
 <div class="hero-ctas">
 <a class="btn btn-primary" href="mailto:${attr(site.person.email)}">${ICON.mail} Email Dr. Chu</a>
 <a class="btn btn-outline" href="${attr(site.speaking.inviteMailto)}">Invite me to speak</a>
-${btn({ href: 'about.html', label: 'About &amp; CV' })}
+${btn({ href: 'about.html', label: 'About' })}
 </div>
 </section>`;
 
