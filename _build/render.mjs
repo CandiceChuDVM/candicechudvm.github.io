@@ -699,7 +699,6 @@ function renderAbout(site, d) {
 <a class="btn btn-outline" href="${attr(p.scholar)}" target="_blank" rel="noopener">${ICON.scholar} Scholar</a>
 <a class="btn btn-outline" href="${attr(p.youtube)}" target="_blank" rel="noopener">${ICON.youtube} YouTube</a>
 <a class="btn btn-outline" href="${attr(p.instagram)}" target="_blank" rel="noopener">${ICON.instagram} Instagram</a>
-${btn({ href: 'cv.html', label: 'Full CV' })}
 </div>
 </div>
 </div>
@@ -807,30 +806,6 @@ function renderNews(site, d) {
   return layout(site, { file: 'news.html', title: d.news.metaTitle, description: d.news.metaDescription }, body);
 }
 
-function renderCv(site, d) {
-  const cv = d.cv, p = site.person;
-  const item = (i) => `<div class="cv-item"><span class="cv-year">${esc(i.year)}</span><div><div class="cv-content-title">${rich(i.title)}</div>${i.sub ? `<div class="cv-content-sub">${rich(i.sub)}</div>` : ''}</div></div>`;
-  const body = `<div class="cv-head">
-<div>
-<h1>${esc(p.name)}</h1>
-<p class="about-cred">${esc(p.credentials)}</p>
-<p class="about-affil">${esc(p.title)} · ${esc(p.affiliation)}</p>
-</div>
-<div class="chip-row">
-<a class="btn btn-primary" href="${attr(cv.pdf)}" target="_blank" rel="noopener">${ICON.download} Download PDF</a>
-<a class="btn btn-outline" href="mailto:${attr(p.email)}">Contact</a>
-</div>
-</div>
-<div class="filter-bar cv-jump">
-<span class="filter-label">Jump to</span>${cv.sections.map(s => `<a href="#${attr(s.id)}" class="tag tag-pub">${esc(s.jump)}</a>`).join('')}
-</div>` +
-    cv.sections.map(s => `<div class="cv-section" id="${attr(s.id)}">
-<h2>${esc(s.title)}</h2>
-${s.items.map(item).join('\n')}${s.note ? `\n<p class="src-note" style="margin-top:12px;">${rich(s.note)}</p>` : ''}
-</div>`).join('\n');
-  return layout(site, { file: 'cv.html', title: cv.metaTitle, description: cv.metaDescription }, body);
-}
-
 /* ── BACKSTAGE (private) ─────────────────────────────────── */
 
 function renderBackstage(site, d) {
@@ -876,7 +851,7 @@ const redirectStub = (from, to, site) => `<!DOCTYPE html>
 `;
 
 function renderSitemap(site, lastmod) {
-  const urls = ['index.html', ...site.nav.map(n => n.href), 'cv.html', 'news.html', 'teaching.html']
+  const urls = ['index.html', ...site.nav.map(n => n.href), 'news.html', 'teaching.html']
     .filter((v, i, a) => a.indexOf(v) === i);
   return `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
@@ -928,7 +903,6 @@ Preferred name and style: ${site.person.name}, ${site.person.credentials} — ${
 
 ## Pages
 ${site.nav.map((n) => `- [${n.label}](${site.seo.baseUrl}/${n.href === 'index.html' ? '' : n.href})`).join('\n')}
-- [Curriculum vitae](${site.seo.baseUrl}/cv.html)
 - [News](${site.seo.baseUrl}/news.html)
 - [Teaching & resources](${site.seo.baseUrl}/teaching.html)
 
@@ -958,7 +932,6 @@ export function buildAll(d, partials, opts = {}) {
     'about.html': renderAbout(site, d),
     'news.html': renderNews(site, d),
     'teaching.html': renderTeaching(site, d),
-    'cv.html': renderCv(site, d),
     'backstage.html': renderBackstage(site, d),
     'sitemap.xml': renderSitemap(site, lastmod),
     'robots.txt': renderRobots(site),

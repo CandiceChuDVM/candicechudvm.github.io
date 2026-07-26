@@ -60,7 +60,6 @@ invent a fourth without asking.
 | `about.html` | Biography, leadership, education, honors, contact | Project detail |
 | `teaching.html` | Secondary: courses, webinars, YouTube, podcasts | The curriculum framework |
 | `news.html` | Dated updates, newest first | Anything undated |
-| `cv.html` | The full formal record | Narrative prose |
 
 Home shows **three to five** items per section and links out. It is not a CV.
 

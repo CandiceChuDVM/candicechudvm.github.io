@@ -39,11 +39,12 @@
       "href": "about.html"
     }
   ],
-  "_navNote": "CV, News and Teaching & Resources are secondary pages reached from About, Home and AI Education respectively — deliberately kept out of the main nav.",
+  "_navNote": "News and Teaching & Resources are secondary pages reached from Home and AI Education respectively — deliberately kept out of the main nav.",
   "redirects": {
     "projects.html": "research.html",
     "talks.html": "speaking.html",
-    "people.html": "team.html"
+    "people.html": "team.html",
+    "cv.html": "about.html"
   },
   "person": {
     "name": "Candice P. Chu",

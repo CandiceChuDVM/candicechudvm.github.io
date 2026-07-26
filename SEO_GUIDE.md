@@ -73,8 +73,8 @@ never hand-edit `llms.txt`.
 
 ## Sitemap and robots
 
-Both are generated. `sitemap.xml` lists every page including the secondary ones (`cv.html`,
-`news.html`, `teaching.html`) with `lastmod` set at build time. Retired URLs are served as
+Both are generated. `sitemap.xml` lists every page including the secondary ones (`news.html`,
+`teaching.html`) with `lastmod` set at build time. Retired URLs are served as
 redirect stubs carrying `<meta name="robots" content="noindex, follow">` plus a canonical
 pointing at the new page — they are deliberately excluded from the sitemap.
 

@@ -229,8 +229,6 @@
 .year-head-muted{color:var(--text-3)}
 .pub-year{margin-bottom:40px}
 .pub-summary{font-size:15.6px;color:var(--text-2);margin-bottom:12px;line-height:1.6}
-.cv-head{display:flex;align-items:start;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-bottom:26px}
-.cv-jump{padding:14px 18px;background:var(--surface-alt);border:1px solid var(--border);border-radius:10px;margin-bottom:38px}
 
 /* ── links ────────────────────────────────────────── */
 a{color:var(--c-purple)}
@@ -307,6 +305,5 @@ a:hover{color:var(--c-plum)}
   .pi-badge{font-size:13.2px}
   .pub-stack-journal{font-size:14.4px}
   .pub-stack-title{font-size:15.6px}
-  .cv-jump .tag{min-height:38px;display:inline-flex;align-items:center}
   .quote-dot{width:14px;height:14px}
 }

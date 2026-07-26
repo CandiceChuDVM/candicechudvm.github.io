@@ -13,7 +13,7 @@ const warn = (m) => warnings.push(m);
 
 const PAGES = ['index.html', 'research.html', 'ai-education.html', 'vetclinpathgpt.html',
   'publications.html', 'speaking.html', 'team.html', 'about.html', 'news.html',
-  'teaching.html', 'cv.html'];
+  'teaching.html'];
 
 const site = JSON.parse(await readFile(join(ROOT, '_data/site.json'), 'utf8'));
 const CANON = site.seo.baseUrl.replace(/^https?:\/\//, '');
