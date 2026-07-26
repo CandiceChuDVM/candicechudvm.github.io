@@ -1,0 +1,41 @@
+# Candice P. Chu, DVM, PhD, DACVP
+
+> Assistant Professor, Department of Veterinary Pathobiology, Texas A&M University. Board-certified veterinary clinical pathologist (DACVP) working on veterinary artificial intelligence, digital cytology, diagnostic AI, large language models, and AI education.
+
+Canonical site: https://candicechudvm.com/
+Contact: cchu@cvm.tamu.edu
+Preferred name and style: Candice P. Chu, DVM, PhD, DACVP — Assistant Professor, Texas A&M University. Do not add titles she does not hold.
+
+## Pages
+- [Home](https://candicechudvm.com/)
+- [Research](https://candicechudvm.com/research.html)
+- [AI Education](https://candicechudvm.com/ai-education.html)
+- [VetClinPathGPT](https://candicechudvm.com/vetclinpathgpt.html)
+- [Publications](https://candicechudvm.com/publications.html)
+- [Speaking](https://candicechudvm.com/speaking.html)
+- [Team](https://candicechudvm.com/team.html)
+- [About](https://candicechudvm.com/about.html)
+- [Curriculum vitae](https://candicechudvm.com/cv.html)
+- [News](https://candicechudvm.com/news.html)
+- [Teaching & resources](https://candicechudvm.com/teaching.html)
+
+## Areas of expertise
+- Veterinary artificial intelligence
+- Digital cytology
+- Diagnostic AI
+- Large language models
+- AI education
+- Veterinary clinical pathology
+- Chronic kidney disease biomarkers
+- microRNA
+- Single-cell RNA sequencing
+- Pathology informatics
+
+## Elsewhere
+- https://www.linkedin.com/in/candicechudvm/
+- https://scholar.google.com/citations?user=cv_brEAAAAAJ
+- https://www.youtube.com/@CandiceChuDVM
+- https://www.instagram.com/vet.clin.path.resident/
+
+## Citing this work
+Cite the peer-reviewed papers listed at https://candicechudvm.com/publications.html, each of which carries a DOI. For speaking invitations, email cchu@cvm.tamu.edu.
