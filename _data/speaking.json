@@ -142,8 +142,8 @@
           "title": "International",
           "items": [
             {
-              "label": "Renal Workshop · Jun 2026",
-              "title": "Invited lecture — topic to be announced (with Dr. Mary Nabity)",
+              "label": "Cytology & Renal Workshop · Jun 2026",
+              "title": "Two-day lecture on cytology and renal biomarkers (with Dr. Mary Nabity)",
               "sub": "Taiwan College of Veterinary Internal Medicine · Taiwan"
             },
             {
@@ -213,11 +213,6 @@
     {
       "title": "Invited Continuing Education",
       "items": [
-        {
-          "label": "Oct 2026 · Webinar",
-          "title": "Invited lecture — topic to be announced",
-          "sub": "CVE webinar"
-        },
         {
           "label": "May 2026 · Texas A&amp;M University",
           "title": "Ethical Use of AI in Academic Writing",
