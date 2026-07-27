@@ -15,8 +15,7 @@
       "journal": "Veterinary Clinics of North America: Small Animal Practice, 2026",
       "doi": "10.1016/j.cvsm.2026.03.019",
       "topics": [
-        "Digital Cytology",
-        "AI Education"
+        "Digital Cytology"
       ],
       "tags": [
         {
@@ -55,8 +54,7 @@
       "journal": "Veterinary Pathology, 2026 · special issue on artificial intelligence",
       "doi": "10.1177/03009858261461761",
       "topics": [
-        "Large Language Models",
-        "AI Education"
+        "Large Language Models"
       ],
       "tags": [
         {
@@ -155,7 +153,6 @@
         }
       ],
       "topics": [
-        "Molecular Diagnostics",
         "Bioinformatics"
       ],
       "kind": "peer-reviewed"
@@ -195,7 +192,8 @@
         }
       ],
       "topics": [
-        "Molecular Diagnostics"
+        "Clinical Pathology",
+        "Bioinformatics"
       ],
       "kind": "peer-reviewed"
     },
@@ -230,8 +228,8 @@
         }
       ],
       "topics": [
-        "AI Education",
-        "Large Language Models"
+        "Large Language Models",
+        "AI Education"
       ],
       "kind": "peer-reviewed"
     },
@@ -265,7 +263,7 @@
         }
       ],
       "topics": [
-        "Molecular Diagnostics"
+        "Clinical Pathology"
       ],
       "kind": "peer-reviewed"
     },
@@ -298,7 +296,9 @@
           "primary": true
         }
       ],
-      "topics": [],
+      "topics": [
+        "Clinical Pathology"
+      ],
       "kind": "peer-reviewed"
     },
     {
@@ -334,7 +334,9 @@
           "primary": true
         }
       ],
-      "topics": [],
+      "topics": [
+        "Bioinformatics"
+      ],
       "kind": "peer-reviewed"
     },
     {
@@ -371,7 +373,7 @@
         }
       ],
       "topics": [
-        "Molecular Diagnostics",
+        "Clinical Pathology",
         "Bioinformatics"
       ],
       "kind": "peer-reviewed"
@@ -406,7 +408,6 @@
         }
       ],
       "topics": [
-        "Molecular Diagnostics",
         "Bioinformatics"
       ],
       "kind": "peer-reviewed"
@@ -475,7 +476,6 @@
         }
       ],
       "topics": [
-        "Molecular Diagnostics",
         "Bioinformatics"
       ],
       "kind": "peer-reviewed"
@@ -517,7 +517,7 @@
         }
       ],
       "topics": [
-        "AI Education"
+        "Large Language Models"
       ],
       "kind": "other"
     },
@@ -529,7 +529,9 @@
       "title": "Round cell tumour cytology in dogs",
       "authors": "Candice P. Chu",
       "journal": "Veterinary Focus, April 2024",
-      "topics": [],
+      "topics": [
+        "Clinical Pathology"
+      ],
       "tags": [
         {
           "cat": "ml",
@@ -557,7 +559,7 @@
       "authors": "Candice P. Chu",
       "journal": "The Vetiverse, February 2024",
       "topics": [
-        "AI Education"
+        "Clinical Pathology"
       ],
       "tags": [
         {
@@ -585,7 +587,9 @@
       "title": "Top 3 conditions missed by skipping a urinalysis",
       "authors": "Candice P. Chu",
       "journal": "Clinician's Brief, September 2023",
-      "topics": [],
+      "topics": [
+        "Clinical Pathology"
+      ],
       "tags": [
         {
           "cat": "ml",
@@ -612,7 +616,9 @@
       "title": "Differential diagnosis chapters: antithrombin III, fibrinogen, amylase, lipase, lipids, fibrin degradation products, pancytopenia",
       "authors": "Candice P. Chu",
       "journal": "Plumb's Pro, October 2024",
-      "topics": [],
+      "topics": [
+        "Clinical Pathology"
+      ],
       "tags": [
         {
           "cat": "ml",
