@@ -49,23 +49,6 @@
           "label": "CKD"
         }
       ]
-    },
-    {
-      "name": "Franklin Kao",
-      "role": "Student Research Assistant",
-      "photo": "assets/franklin-kao.jpg",
-      "bio": "Franklin earned a bachelor's degree in chemistry with a minor in economics from <a href=\"https://www.ntu.edu.tw/english/\" target=\"_blank\" rel=\"noopener\">National Taiwan University</a>. His experience working with data led to a growing interest in computer science. His current work focuses on large language models and machine learning.",
-      "outsideLab": "Learning Japanese, playing board games and piano, and developing his cooking skills.",
-      "tags": [
-        {
-          "cat": "llm",
-          "label": "LLM"
-        },
-        {
-          "cat": "ml",
-          "label": "Machine Learning"
-        }
-      ]
     }
   ],
   "alumni": [],
