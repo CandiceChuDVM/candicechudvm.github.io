@@ -20,15 +20,7 @@
       "tags": [
         {
           "cat": "cv",
-          "label": "Computer Vision"
-        },
-        {
-          "cat": "cv",
           "label": "Digital Cytology"
-        },
-        {
-          "cat": "edu",
-          "label": "Invited Review"
         }
       ],
       "summary": "An invited review of computer vision fundamentals for veterinary cytology, current scientific progress, and publication guidelines. Examines how nine veterinary organizations address AI in their position or policy statements, alongside industrial implementation and the case for AI literacy in continuing education.",
@@ -59,15 +51,7 @@
       "tags": [
         {
           "cat": "llm",
-          "label": "LLM"
-        },
-        {
-          "cat": "ml",
-          "label": "EHR"
-        },
-        {
-          "cat": "bio",
-          "label": "Scoping Review"
+          "label": "Large Language Models"
         }
       ],
       "summary": "Screened 5,796 papers and included 54 studies (23 veterinary, 31 human) on AI-based clinical data extraction. Provides a step-by-step framework for data preparation, platform and privacy decisions, and prompt engineering, with a worked case study extracting 62 variables from canine pancreatitis records.",
@@ -99,10 +83,6 @@
         {
           "cat": "edu",
           "label": "AI Education"
-        },
-        {
-          "cat": "llm",
-          "label": "Curriculum"
         }
       ],
       "summary": "A five-module framework for teaching AI literacy in veterinary curricula, with an implementation case study of VTPB 948 at Texas A&amp;M University.",
@@ -130,14 +110,6 @@
         {
           "cat": "bio",
           "label": "Bioinformatics"
-        },
-        {
-          "cat": "ml",
-          "label": "scRNA-seq"
-        },
-        {
-          "cat": "ml",
-          "label": "CKD"
         }
       ],
       "summary": "Applied single-cell RNA sequencing to profile renal cortical tissues from dogs with X-linked hereditary nephropathy. Recovered over 13,000 cells and identified 11 cell types. Digital cytometry confirmed disease-related shifts in renal cell composition across CKD progression.",
@@ -167,16 +139,12 @@
       "doi": "10.1111/vcp.13412",
       "tags": [
         {
+          "cat": "ml",
+          "label": "Clinical Pathology"
+        },
+        {
           "cat": "bio",
           "label": "Bioinformatics"
-        },
-        {
-          "cat": "ml",
-          "label": "miRNA"
-        },
-        {
-          "cat": "ml",
-          "label": "CKD Biomarkers"
         }
       ],
       "summary": "Comprehensive review of urinary miRNAs as non-invasive biomarkers for CKD in companion animals. Addresses preanalytical factors, RNA isolation methods, sequencing analysis, and normalization strategies.",
@@ -208,7 +176,7 @@
       "tags": [
         {
           "cat": "llm",
-          "label": "LLM"
+          "label": "Large Language Models"
         },
         {
           "cat": "edu",
@@ -243,12 +211,8 @@
       "doi": "10.1111/jvim.16932",
       "tags": [
         {
-          "cat": "bio",
-          "label": "miRNA"
-        },
-        {
           "cat": "ml",
-          "label": "Glomerulonephritis"
+          "label": "Clinical Pathology"
         }
       ],
       "thumb": {
@@ -278,11 +242,7 @@
       "tags": [
         {
           "cat": "ml",
-          "label": "Cytology"
-        },
-        {
-          "cat": "ml",
-          "label": "Case Report"
+          "label": "Clinical Pathology"
         }
       ],
       "thumb": {
@@ -313,14 +273,6 @@
         {
           "cat": "bio",
           "label": "Bioinformatics"
-        },
-        {
-          "cat": "ml",
-          "label": "Long COVID"
-        },
-        {
-          "cat": "ml",
-          "label": "One Health"
         }
       ],
       "thumb": {
@@ -349,16 +301,12 @@
       "doi": "10.1038/s41598-021-96870-y",
       "tags": [
         {
-          "cat": "bio",
-          "label": "miRNA"
-        },
-        {
-          "cat": "bio",
-          "label": "scRNA-seq"
-        },
-        {
           "cat": "ml",
-          "label": "CKD"
+          "label": "Clinical Pathology"
+        },
+        {
+          "cat": "bio",
+          "label": "Bioinformatics"
         }
       ],
       "thumb": {
@@ -390,10 +338,6 @@
         {
           "cat": "bio",
           "label": "Bioinformatics"
-        },
-        {
-          "cat": "ml",
-          "label": "Methodology"
         }
       ],
       "thumb": {
@@ -423,11 +367,7 @@
       "tags": [
         {
           "cat": "bio",
-          "label": "Transcriptomics"
-        },
-        {
-          "cat": "ml",
-          "label": "DMD"
+          "label": "Bioinformatics"
         }
       ],
       "thumb": {
@@ -457,11 +397,7 @@
       "tags": [
         {
           "cat": "bio",
-          "label": "RNA-seq"
-        },
-        {
-          "cat": "ml",
-          "label": "CKD"
+          "label": "Bioinformatics"
         }
       ],
       "thumb": {
@@ -494,11 +430,7 @@
       "tags": [
         {
           "cat": "llm",
-          "label": "LLM"
-        },
-        {
-          "cat": "edu",
-          "label": "AI Tools"
+          "label": "Large Language Models"
         }
       ],
       "thumb": {
@@ -535,7 +467,7 @@
       "tags": [
         {
           "cat": "ml",
-          "label": "Cytology"
+          "label": "Clinical Pathology"
         }
       ],
       "links": [
@@ -563,8 +495,8 @@
       ],
       "tags": [
         {
-          "cat": "llm",
-          "label": "Informatics"
+          "cat": "ml",
+          "label": "Clinical Pathology"
         }
       ],
       "links": [
