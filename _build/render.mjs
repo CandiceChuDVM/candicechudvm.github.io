@@ -30,6 +30,7 @@ const ICON = {
   download: `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>`,
   instagram: `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1.2" fill="currentColor" stroke="none"/></svg>`,
   mail: `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 6 10-6"/></svg>`,
+  rss: `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 11a9 9 0 0 1 9 9"/><path d="M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1.4" fill="currentColor" stroke="none"/></svg>`,
 };
 
 function nav(site, current) {
@@ -115,6 +116,7 @@ function layout(site, page, body) {
 <meta name="author" content="${attr(site.person.name)}" />
 <meta name="robots" content="${page.noindex ? 'noindex, nofollow' : 'index, follow, max-image-preview:large, max-snippet:-1'}" />
 <link rel="canonical" href="${attr(canonical)}" />
+<link rel="alternate" type="application/rss+xml" title="${attr(site.person.name + ' — veterinary AI policy and publications')}" href="${attr(site.seo.baseUrl + '/feed.xml')}" />
 <meta property="og:type" content="${page.file === 'index.html' ? 'website' : 'article'}" />
 <meta property="og:title" content="${attr(page.title)}" />
 <meta property="og:description" content="${attr(page.description)}" />
@@ -595,6 +597,158 @@ ${years.map(y => `<a href="#y${y}" class="tag tag-pub">${y}</a>`).join('')}
   }, body);
 }
 
+/* ── AI POLICY ───────────────────────────────────────────── */
+
+/* Issuing-body class -> tag colour. Regions all use the neutral tag so the
+   coloured tag always means the same thing across the page. */
+const POLICY_TYPE_CAT = {
+  'Professional association': 'cv',
+  'Specialty college': 'edu',
+};
+
+function policyCard(p) {
+  const regions = p.regions || [];
+  return `<div class="pub-card policy-card" data-regions="${attr(regions.join('|'))}" data-type="${attr(p.type)}">
+<div>
+<p class="pub-number">${esc(regions.join(' + '))} · ${esc(p.date)}</p>
+<h3 class="pub-title">${rich(p.title)}</h3>
+<p class="pub-authors">${rich(p.org)}</p>
+<p class="pub-journal">${rich(p.docType)}</p>
+<div class="pub-tags">${tags([{ cat: POLICY_TYPE_CAT[p.type] || 'pub', label: p.type }, ...regions])}</div>
+<p class="pub-summary">${rich(p.summary)}</p>
+<div class="pub-links">${btn({ href: p.url, label: 'Read the statement', style: 'primary' })}</div>
+</div>
+</div>`;
+}
+
+function renderAiPolicy(site, d) {
+  const a = d.aiPolicy;
+  const items = pub(a.items);
+  const standing = pub(a.standing || []);
+  const all = [...standing, ...items];
+  const years = [...new Set(items.map(p => p.year))].sort((x, y) => y - x);
+  const regions = [...new Set(all.flatMap(p => p.regions || []))].sort();
+  const types = [...new Set(all.map(p => p.type))].sort();
+
+  const chips = (dim, label, values, extra = '') => `<div class="filter-bar${extra}">
+<span class="filter-label">${esc(label)}</span>
+<button class="tag tag-pub filter-chip is-on" data-dim="${dim}" data-value="all" type="button">All</button>
+${values.map(v => `<button class="tag tag-pub filter-chip" data-dim="${dim}" data-value="${attr(v)}" type="button">${esc(v)}</button>`).join('')}
+</div>`;
+
+  let body = pageHeader(a.h1, a.intro) +
+    `<div class="policy-meta">
+<p class="policy-reviewed">Links last checked <time datetime="${attr(a.reviewed)}">${esc(a.reviewedLabel)}</time> · ${esc(all.length)} documents</p>
+<a class="btn btn-outline policy-feed-btn" href="feed.xml" target="_blank" rel="noopener" title="${attr(a.feedHint)}">${ICON.rss} ${esc(a.feedLabel)}</a>
+</div>` +
+    chips('region', a.regionLabel, regions) +
+    chips('type', a.typeLabel, types, ' filter-bar-type') +
+    `<div class="filter-bar filter-bar-years filter-bar-last">
+<span class="filter-label">${esc(a.jumpLabel)}</span>
+${years.map(y => `<a href="#y${y}" class="tag tag-pub">${esc(y)}</a>`).join('')}
+</div>
+<p class="filter-empty" hidden>No statements match this combination yet.</p>`;
+
+  if (standing.length) {
+    body += `<section class="pub-year" data-year="standing">
+<h2 class="year-head year-head-muted">${esc(a.standingTitle)}</h2>
+<div class="pub-grid">${standing.map(policyCard).join('')}</div></section>`;
+  }
+  for (const y of years) {
+    body += `<section class="pub-year" data-year="${y}">
+<h2 id="y${y}" class="year-head">${esc(y)}</h2>
+<div class="pub-grid">${items.filter(p => p.year === y).map(policyCard).join('')}</div></section>`;
+  }
+  const jsonld = [{
+    '@context': 'https://schema.org', '@type': 'ItemList',
+    name: a.h1,
+    description: a.metaDescription,
+    numberOfItems: all.length,
+    itemListElement: all.map((p, i) => ({
+      '@type': 'ListItem', position: i + 1,
+      item: {
+        '@type': 'CreativeWork', name: p.title, url: p.url,
+        ...(p.iso ? { datePublished: p.iso } : {}),
+        publisher: { '@type': 'Organization', name: p.org },
+        about: 'Artificial intelligence in veterinary medicine',
+      },
+    })),
+  }];
+
+  /* The two filters intersect, and the corpus is uneven — most regions have no
+     specialty-college document. Rather than let a stale selection in one bar
+     silently empty the other, every chip is re-costed after each click and any
+     that would return nothing is dimmed and disabled. A dead end is unreachable,
+     so the "no matches" line is only a safety net. */
+  const tail = `
+<script>
+(function(){
+  var chips=[].slice.call(document.querySelectorAll('.filter-chip'));
+  var cards=[].slice.call(document.querySelectorAll('.policy-card')).map(function(el){
+    return {el:el, regions:(el.dataset.regions||'').split('|'), type:el.dataset.type};
+  });
+  var noneMsg=document.querySelector('.filter-empty');
+  var yearBar=document.querySelector('.filter-bar-years');
+  var typeBar=document.querySelector('.filter-bar-type');
+  var on={region:'all',type:'all'};
+  function hit(c,region,type){
+    return (region==='all'||c.regions.indexOf(region)>-1)
+        && (type==='all'||c.type===type);
+  }
+  function count(dim,value){
+    var n=0;
+    for(var i=0;i<cards.length;i++){
+      if(dim==='region'?hit(cards[i],value,on.type):hit(cards[i],on.region,value)) n++;
+    }
+    return n;
+  }
+  function apply(){
+    var shown=0;
+    cards.forEach(function(c){
+      var ok=hit(c,on.region,on.type);
+      c.el.hidden=!ok; if(ok) shown++;
+    });
+    document.querySelectorAll('.pub-year').forEach(function(s){
+      s.hidden = s.querySelectorAll('.policy-card:not([hidden])').length===0;
+    });
+    chips.forEach(function(ch){
+      if(ch.dataset.value==='all'){ ch.disabled=false; ch.classList.remove('is-empty'); return; }
+      var n=count(ch.dataset.dim,ch.dataset.value);
+      var dead = n===0 && !ch.classList.contains('is-on');
+      ch.disabled=dead;
+      ch.classList.toggle('is-empty',dead);
+      ch.setAttribute('aria-disabled',dead?'true':'false');
+      ch.title = n===1 ? '1 document' : n+' documents';
+    });
+    /* Jumping to a year is meaningless once a filter hides some of them, so the
+       year bar goes away and the issuing-body row takes over its bottom margin. */
+    var filtered = on.region!=='all' || on.type!=='all';
+    if(yearBar) yearBar.hidden = filtered;
+    if(typeBar) typeBar.classList.toggle('filter-bar-last', filtered);
+    if(noneMsg) noneMsg.hidden = shown>0;
+  }
+  chips.forEach(function(ch){
+    ch.addEventListener('click',function(){
+      if(ch.disabled) return;
+      var dim=ch.dataset.dim;
+      document.querySelectorAll('.filter-chip[data-dim="'+dim+'"]').forEach(function(o){o.classList.remove('is-on');});
+      ch.classList.add('is-on');
+      on[dim]=ch.dataset.value;
+      apply();
+    });
+  });
+  apply();
+})();
+</script>`;
+
+  return layout(site, {
+    file: 'ai-policy.html', title: a.metaTitle, description: a.metaDescription,
+    keywords: ['veterinary AI policy', 'veterinary AI position statement', 'AI in veterinary medicine regulation',
+      'RCVS artificial intelligence guidance', 'AAVSB artificial intelligence', 'veterinary AI guidelines'],
+    jsonld, tail,
+  }, body);
+}
+
 /* ── SPEAKING ────────────────────────────────────────────── */
 
 function renderSpeaking(site, d) {
@@ -760,44 +914,7 @@ ${btn({ href: 'team.html', label: 'Join the lab' })}
   }, body);
 }
 
-/* ── NEWS + TEACHING + CV ────────────────────────────────── */
-
-function renderTeaching(site, d) {
-  const t = d.teaching;
-  const philosophy = `<div class="teach-grid" style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:48px;">` +
-    t.philosophy.map(p => `<div class="item-card" style="border-top:3px solid ${attr(p.accent)};">
-<div class="item-card-label">${esc(p.label)}</div>
-<div class="item-card-title" style="font-size:18px;">${esc(p.title)}</div>
-<p class="item-card-desc">${rich(p.body)}</p>
-</div>`).join('') + `</div>
-<style>@media(max-width:600px){.teach-grid{grid-template-columns:1fr!important}}</style>`;
-
-  const courseCard = (c) => `<div class="item-card"${c.highlight ? ' style="border-left:4px solid var(--c-purple);"' : ''}>
-<div class="chip-row" style="margin-bottom:8px;">${tag(c.term)}</div>
-<div class="item-card-title">${rich(c.title)}</div>${c.sub ? `\n<div class="item-card-sub">${rich(c.sub)}</div>` : ''}${c.tags?.length ? `\n<div class="chip-row" style="margin-top:10px;">${tags(c.tags)}</div>` : ''}
-</div>`;
-
-  const listCard = (i) => `<div class="item-card">
-<div class="item-card-label">${esc(i.label)}</div>
-<div class="item-card-title">${rich(i.title)}</div>${i.sub ? `\n<div class="item-card-sub">${rich(i.sub)}</div>` : ''}${i.link ? `\n<div style="margin-top:10px;">${btn({ href: i.link.href, label: i.link.label })}</div>` : ''}
-</div>`;
-
-  const body = pageHeader(t.h1, t.intro) +
-    `<p class="hero-lede" style="font-style:italic;color:var(--c-purple);margin-bottom:34px;">${esc(t.motto)}</p>` +
-    sectionTitle('Teaching Philosophy') + philosophy +
-    sectionTitle(t.coursesTitle) +
-    `<div class="item-list" style="margin-bottom:48px;">${t.courses.map(courseCard).join('')}</div>` +
-    sectionTitle('On-Demand Webinars') +
-    `<div class="item-list" style="margin-bottom:48px;">${t.webinars.map(listCard).join('')}</div>` +
-    sectionTitle('YouTube') +
-    `<div class="item-list" style="margin-bottom:48px;">${t.youtube.map(listCard).join('')}
-<div style="margin-top:8px;"><a class="btn btn-primary" href="${attr(site.person.youtube)}" target="_blank" rel="noopener">${ICON.youtube} Watch on YouTube ${esc(site.person.youtubeHandle)}</a></div>
-</div>` +
-    sectionTitle('Podcast') +
-    `<div class="item-list">${t.podcasts.map(listCard).join('')}</div>`;
-
-  return layout(site, { file: 'teaching.html', title: t.metaTitle, description: t.metaDescription }, body);
-}
+/* ── NEWS + CV ───────────────────────────────────────────── */
 
 function renderNews(site, d) {
   const body = pageHeader(d.news.h1, d.news.intro) +
@@ -850,8 +967,126 @@ const redirectStub = (from, to, site) => `<!DOCTYPE html>
 </html>
 `;
 
+/* ── COMBINED FEED ───────────────────────────────────────── */
+
+const rfc822 = (iso) => new Date(iso + 'T00:00:00Z').toUTCString();
+
+/* One feed carrying both trackable pages: policy documents and publications.
+   pubDate is the entry's optional `added` date — the day it appeared on this
+   site — falling back to the document's own date. Set `added` when back-filling
+   an older statement, otherwise it lands mid-feed and no subscriber sees it. */
+function feedEntries(site, d) {
+  const base = site.seo.baseUrl;
+  const out = [];
+  const a = d.aiPolicy;
+  for (const p of [...pub(a.standing || []), ...pub(a.items || [])]) {
+    out.push({
+      guid: 'policy:' + p.id,
+      title: p.title,
+      link: p.url,
+      date: p.added || p.iso || a.reviewed,
+      category: 'Veterinary AI policy',
+      body: `${toPlain(p.org)} · ${toPlain(p.docType)} · ${(p.regions || []).join(', ')}. ${toPlain(p.summary)}`,
+      page: base + '/ai-policy.html',
+      pageName: a.h1,
+    });
+  }
+  for (const p of [...pub(d.publications.items || []), ...pub(d.publications.otherWriting || [])]) {
+    const primary = (p.links || []).find(l => l.primary) || (p.links || [])[0];
+    out.push({
+      guid: 'pub:' + p.id,
+      title: p.title,
+      link: p.doi ? 'https://doi.org/' + p.doi
+        : (primary ? primary.href : base + '/publications.html'),
+      date: p.added || (p.year ? p.year + '-01-01' : null),
+      category: 'Publication',
+      body: `${toPlain(p.authors)}. ${toPlain(p.journal)}.${p.summary ? ' ' + toPlain(p.summary) : ''}`,
+      page: base + '/publications.html',
+      pageName: d.publications.h1,
+    });
+  }
+  return out
+    .filter(e => e.date && e.title && e.link)
+    .sort((x, y) => (x.date < y.date ? 1 : x.date > y.date ? -1 : 0))
+    .slice(0, 50);
+}
+
+function renderFeed(site, d, lastmod) {
+  const base = site.seo.baseUrl;
+  const items = feedEntries(site, d).map(e => `<item>
+<title>${esc(e.title)}</title>
+<link>${esc(e.link)}</link>
+<guid isPermaLink="false">${esc(base + '/#' + e.guid)}</guid>
+<pubDate>${esc(rfc822(e.date))}</pubDate>
+<category>${esc(e.category)}</category>
+<description>${esc(`${e.body} — listed on ${e.pageName}: ${e.page}`)}</description>
+</item>`).join('\n');
+  return `<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/feed.xsl"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>${esc(site.person.name)} — veterinary AI policy and publications</title>
+<link>${esc(base + '/ai-policy.html')}</link>
+<atom:link href="${attr(base + '/feed.xml')}" rel="self" type="application/rss+xml" />
+<description>New artificial intelligence position statements, professional standards and guidance from veterinary associations and specialty colleges, plus new publications from ${esc(site.person.name)}, ${esc(site.person.credentials)}.</description>
+<language>en-us</language>
+<lastBuildDate>${esc(rfc822(lastmod))}</lastBuildDate>
+<ttl>1440</ttl>
+${items}
+</channel>
+</rss>
+`;
+}
+
+/* A feed URL opened in a browser is raw XML, which reads as a broken page to
+   anyone who is not a developer. This stylesheet renders feed.xml as a normal
+   page there while feed readers ignore it entirely. If a host ever serves .xsl
+   with the wrong content type the browser falls back to plain XML — the feed
+   itself is unaffected. */
+const renderFeedStylesheet = (site) => `<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.w3.org/1999/xhtml">
+<xsl:output method="html" encoding="UTF-8" indent="yes" />
+<xsl:template match="/">
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title><xsl:value-of select="rss/channel/title" /></title>
+<meta name="robots" content="noindex, follow" />
+<link rel="stylesheet" href="/css/style.css" />
+<link rel="stylesheet" href="/css/site.css" />
+</head>
+<body>
+<main class="page-sm">
+<div class="page-header">
+<h1>Subscribe to this feed</h1>
+<p><xsl:value-of select="rss/channel/description" /></p>
+</div>
+<p class="feed-note">This page is a web feed. Copy the address below into a feed reader such as Feedly, Inoreader or NetNewsWire and new entries will arrive automatically — no account with this site, and no email address, required.</p>
+<p class="feed-url"><code><xsl:value-of select="rss/channel/atom:link/@href" xmlns:atom="http://www.w3.org/2005/Atom" /></code></p>
+<p class="feed-note"><a href="/ai-policy.html">Back to the Veterinary AI Policy Tracker</a></p>
+<h2 class="year-head">Latest entries</h2>
+<div class="pub-grid">
+<xsl:for-each select="rss/channel/item">
+<div class="pub-card policy-card">
+<div>
+<p class="pub-number"><xsl:value-of select="category" /> · <xsl:value-of select="substring(pubDate, 6, 11)" /></p>
+<h3 class="pub-title"><a href="{link}"><xsl:value-of select="title" /></a></h3>
+<p class="pub-summary"><xsl:value-of select="description" /></p>
+</div>
+</div>
+</xsl:for-each>
+</div>
+</main>
+<footer class="footer"><p>© ${site.footer.year} ${esc(site.person.name)} · <a href="${attr(site.seo.baseUrl)}/">${esc(site.seo.baseUrl.replace('https://', ''))}</a></p></footer>
+</body>
+</html>
+</xsl:template>
+</xsl:stylesheet>
+`;
+
 function renderSitemap(site, lastmod) {
-  const urls = ['index.html', ...site.nav.map(n => n.href), 'news.html', 'teaching.html']
+  const urls = ['index.html', ...site.nav.map(n => n.href), 'news.html']
     .filter((v, i, a) => a.indexOf(v) === i);
   return `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
@@ -904,7 +1139,6 @@ Preferred name and style: ${site.person.name}, ${site.person.credentials} — ${
 ## Pages
 ${site.nav.map((n) => `- [${n.label}](${site.seo.baseUrl}/${n.href === 'index.html' ? '' : n.href})`).join('\n')}
 - [News](${site.seo.baseUrl}/news.html)
-- [Teaching & resources](${site.seo.baseUrl}/teaching.html)
 
 ## Areas of expertise
 ${site.person.knowsAbout.map((k) => `- ${k}`).join('\n')}
@@ -926,13 +1160,15 @@ export function buildAll(d, partials, opts = {}) {
     'research.html': renderResearch(site, d),
     'ai-education.html': renderAiEducation(site, d),
     'vetclinpathgpt.html': renderVetClinPathGpt(site, d),
+    'ai-policy.html': renderAiPolicy(site, d),
     'publications.html': renderPublications(site, d),
     'speaking.html': renderSpeaking(site, d),
     'team.html': renderTeam(site, d),
     'about.html': renderAbout(site, d),
     'news.html': renderNews(site, d),
-    'teaching.html': renderTeaching(site, d),
     'backstage.html': renderBackstage(site, d),
+    'feed.xml': renderFeed(site, d, lastmod),
+    'feed.xsl': renderFeedStylesheet(site),
     'sitemap.xml': renderSitemap(site, lastmod),
     'robots.txt': renderRobots(site),
     'llms.txt': renderLlms(site),

@@ -34,7 +34,7 @@
     },
     {
       "title": "Ethical and Legal Considerations",
-      "summary": "Professional accountability for AI-supported decisions, client consent and communication, patient data privacy, intellectual property, and institutional AI policy."
+      "summary": "Professional accountability for AI-supported decisions, client consent and communication, patient data privacy, intellectual property, and institutional AI policy. Taught against the current <a href=\"ai-policy.html\">position statements and professional standards issued by veterinary associations and specialty colleges</a>."
     },
     {
       "title": "AI in Veterinary Scientific Research",
@@ -60,6 +60,15 @@
       "link": {
         "label": "Open VetClinPathGPT",
         "href": "https://chatgpt.com/g/g-rfB5cBZ6X-vetclinpathgpt"
+      }
+    },
+    {
+      "label": "Free tracker",
+      "title": "Veterinary AI Policy Tracker",
+      "sub": "Every AI position statement, professional standard, and guidance document issued by veterinary associations and specialty colleges since 2020 — indexed by year and region, each linked to its source.",
+      "link": {
+        "label": "Open the tracker",
+        "href": "ai-policy.html"
       }
     },
     {

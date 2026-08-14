@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/feed.xsl"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>Candice P. Chu — veterinary AI policy and publications</title>
+<link>https://candicechudvm.com/ai-policy.html</link>
+<atom:link href="https://candicechudvm.com/feed.xml" rel="self" type="application/rss+xml" />
+<description>New artificial intelligence position statements, professional standards and guidance from veterinary associations and specialty colleges, plus new publications from Candice P. Chu, DVM, PhD, DACVP.</description>
+<language>en-us</language>
+<lastBuildDate>Fri, 14 Aug 2026 00:00:00 GMT</lastBuildDate>
+<ttl>1440</ttl>
+<item>
+<title>AI Provider Information Framework for Veterinary Practice</title>
+<link>https://www.rcvs.org.uk/about-us/news-and-views/news/transparency-alliance-consults-the-veterinary-professions-on-responsible-ai-framework</link>
+<guid isPermaLink="false">https://candicechudvm.com/#policy:vet-ai-transparency-framework-2026</guid>
+<pubDate>Mon, 01 Jun 2026 00:00:00 GMT</pubDate>
+<category>Veterinary AI policy</category>
+<description>Veterinary AI Transparency Alliance (led by RCVS and Digital Practice) · Draft framework, out for consultation · United Kingdom. Sets out what AI providers should disclose to veterinary practices so tools can be adopted proportionately. Scrutiny is banded to risk: the more a tool influences records, reasoning, triage, diagnosis or treatment, the more disclosure and oversight it warrants. Requires a qualified human in charge who is competent to challenge the output, treats failure modes as being as important as best-case performance, and expects practices to explain AI use to clients and know where data goes. — listed on Veterinary AI Policy Tracker: https://candicechudvm.com/ai-policy.html</description>
+</item>
+<item>
+<title>Using artificial intelligence (AI) in practice — advice for the profession</title>
+<link>https://www.rcvs.org.uk/veterinary-professionals/conduct-and-guidance/resources-and-updates/using-artificial-intelligence-ai-in-practice-advice-for-the-profession</link>
+<guid isPermaLink="false">https://candicechudvm.com/#policy:rcvs-practice-advice</guid>
+<pubDate>Wed, 01 Apr 2026 00:00:00 GMT</pubDate>
+<category>Veterinary AI policy</category>
+<description>Royal College of Veterinary Surgeons (RCVS) · Regulator advice · United Kingdom. Applies the existing Code of Professional Conduct to AI rather than writing separate AI rules. Veterinary surgeons and registered veterinary nurses remain professionally responsible for clinical decisions, clinical decision making may not be wholly delegated to a tool, and a human must stay in the loop. Flags erosion of clinical skills through overreliance, bias and hallucination, and client confidentiality under the Data Protection Act 2018 and UK GDPR. — listed on Veterinary AI Policy Tracker: https://candicechudvm.com/ai-policy.html</description>
+</item>
+<item>
+<title>Joint statement on the use of artificial intelligence in health and care professional education</title>
+<link>https://www.rcvs.org.uk/about-us/news-and-views/rcvs-issues-joint-statement-on-ai-in-health-and-care-education</link>
+<guid isPermaLink="false">https://candicechudvm.com/#policy:rcvs-joint-education-2026</guid>
+<pubDate>Wed, 11 Feb 2026 00:00:00 GMT</pubDate>
+<category>Veterinary AI policy</category>
+<description>RCVS with GCC, GOC, GOsC, GPhC and HCPC · Joint regulator statement · United Kingdom. Six UK health and care regulators state a common position on generative AI in professional education and training, so that education providers running programs approved by more than one regulator are not subject to conflicting expectations. Issued through the education inter-regulatory group. — listed on Veterinary AI Policy Tracker: https://candicechudvm.com/ai-policy.html</description>
+</item>
+<item>
+<title>The influence, promise, and potential perils of artificial intelligence in veterinary medicine: a call for improved awareness and literacy</title>
+<link>https://doi.org/10.1093/jvimsj/aalaf045</link>
+<guid isPermaLink="false">https://candicechudvm.com/#policy:acvim-ai-literacy-2026</guid>
+<pubDate>Wed, 21 Jan 2026 00:00:00 GMT</pubDate>
+<category>Veterinary AI policy</category>
+<description>American College of Veterinary Internal Medicine (ACVIM) AI Task Force · Specialty college task force report, peer reviewed · United States. Argues that AI literacy and rigorous validation must precede adoption if diagnostic and workflow gains are not to come at the cost of animal care and professional autonomy. Introduces a 12-item ACVIM AI Validation Factor checklist for appraising a tool, and calls for ethical frameworks, transparency and critical oversight. — listed on Veterinary AI Policy Tracker: https://candicechudvm.com/ai-policy.html</description>
+</item>
+<item>
+<title>Use of Artificial Intelligence in Veterinary Medicine — Professional Standard</title>
+<link>https://abvma.in1touch.org/document/8713/Use_of_AI_in_Veterinary_Medicine_Professional_Standard_Jan2026.pdf</link>
+<guid isPermaLink="false">https://candicechudvm.com/#policy:abvma-standard-2026</guid>
+<pubDate>Thu, 01 Jan 2026 00:00:00 GMT</pubDate>
+<category>Veterinary AI policy</category>
+<description>Alberta Veterinary Medical Association (ABVMA) · Enforceable professional standard · Canada. A binding standard rather than advisory guidance. Members remain responsible and accountable for conduct when AI is used, must apply critical thinking to AI output including scribe applications, must never rely solely on AI for diagnosis or treatment, and must review AI-generated medical records for veracity, accuracy and completeness. Requires transparency with clients and consent where appropriate. — listed on Veterinary AI Policy Tracker: https://candicechudvm.com/ai-policy.html</description>
+</item>
+<item>
+<title>Computer vision and deep learning in small animal cytology and slide review</title>
+<link>https://doi.org/10.1016/j.cvsm.2026.03.019</link>
+<guid isPermaLink="false">https://candicechudvm.com/#pub:cv-cytology-review-2026</guid>
+<pubDate>Thu, 01 Jan 2026 00:00:00 GMT</pubDate>
+<category>Publication</category>
+<description>Candice P. Chu. Veterinary Clinics of North America: Small Animal Practice, 2026. An invited review of computer vision fundamentals for veterinary cytology, current scientific progress, and publication guidelines. Examines how nine veterinary organizations address AI in their position or policy statements, alongside industrial implementation and the case for AI literacy in continuing education. — listed on Publications: https://candicechudvm.com/publications.html</description>
+</item>
+<item>
+<title>Applying artificial intelligence to automate clinical data extraction from veterinary electronic health records: a practical guidance and comparative scoping review</title>
+<link>https://doi.org/10.1177/03009858261461761</link>
+<guid isPermaLink="false">https://candicechudvm.com/#pub:ehr-extraction-review</guid>
+<pubDate>Thu, 01 Jan 2026 00:00:00 GMT</pubDate>
+<category>Publication</category>
+<description>Yumi Chang, Candice P. Chu. Veterinary Pathology, 2026 · special issue on artificial intelligence. Screened 5,796 papers and included 54 studies (23 veterinary, 31 human) on AI-based clinical data extraction. Provides a step-by-step framework for data preparation, platform and privacy decisions, and prompt engineering, with a worked case study extracting 62 variables from canine pancreatitis records. — listed on Publications: https://candicechudvm.com/publications.html</description>
+</item>
+<item>
+<title>Curriculum framework for artificial intelligence literacy in veterinary education</title>
+<link>https://doi.org/10.3389/fvets.2026.1801756</link>
+<guid isPermaLink="false">https://candicechudvm.com/#pub:ai-literacy-curriculum</guid>
+<pubDate>Thu, 01 Jan 2026 00:00:00 GMT</pubDate>
+<category>Publication</category>
+<description>Yu-Ting (Avery) Huang, Candice P. Chu. Frontiers in Veterinary Science, 2026. A five-module framework for teaching AI literacy in veterinary curricula, with an implementation case study of VTPB 948 at Texas A&amp;M University. — listed on Publications: https://candicechudvm.com/publications.html</description>
+</item>
+<item>
+<title>BVA Policy Position on Artificial Intelligence in the Veterinary Profession</title>
+<link>https://www.bva.co.uk/take-action/our-policies/artificial-intelligence-in-the-veterinary-profession/</link>
+<guid isPermaLink="false">https://candicechudvm.com/#policy:bva-policy-2025</guid>
+<pubDate>Mon, 01 Dec 2025 00:00:00 GMT</pubDate>
+<category>Veterinary AI policy</category>
+<description>British Veterinary Association (BVA) · Association policy position · United Kingdom. Eight general principles spanning clinical practice, education, research, epidemiology, government and practice management, framed around AI as a tool that supports rather than replaces the vet-led team. Includes a risk pyramid separating minimal, moderate, high and unacceptable functions, calls for veterinary involvement in AI design and validation, and recommends every veterinary workplace hold a written AI use policy. — listed on Veterinary AI Policy Tracker: https://candicechudvm.com/ai-policy.html</description>
+</item>
+<item>
+<title>What Do Veterinary Professionals Need to Know about Artificial Intelligence in 2025?</title>
+<link>https://navc.com/wp-content/uploads/2025/04/What-Do-Vet-Profs-Need-to-Know-About-Artificial-Intelligence.pdf</link>
+<guid isPermaLink="false">https://candicechudvm.com/#policy:navc-vic-2025</guid>
+<pubDate>Tue, 01 Apr 2025 00:00:00 GMT</pubDate>
+<category>Veterinary AI policy</category>
+<description>Veterinary Innovation Council and NAVC · Guidance document · United States. A task force report covering the two applications then reaching general practice: radiology AI and AI scribing tools. Separates marketing claims from demonstrated scope, sets out how to evaluate a tool and what to ask a provider, and addresses automation bias, overinterpretation and compliance considerations. — listed on Veterinary AI Policy Tracker: https://candicechudvm.com/ai-policy.html</description>
+</item>
+<item>
+<title>AI use in veterinary services and regulation</title>
+<link>https://nzva.org.nz/assets/About-us/awna/AWNA_250326_08_AI.pdf</link>
+<guid isPermaLink="false">https://candicechudvm.com/#policy:nzva-ai-2025</guid>
+<pubDate>Wed, 26 Mar 2025 00:00:00 GMT</pubDate>
+<category>Veterinary AI policy</category>
+<description>New Zealand Veterinary Association (NZVA), Animal Welfare Network Aotearoa · Briefing paper · New Zealand. Reviews benefits, risks, applicable New Zealand law, and how the Veterinary Council of New Zealand's existing standards apply to AI use. Gives particular weight to data privacy and data sovereignty where client and patient data is processed offshore, and to algorithmic bias. — listed on Veterinary AI Policy Tracker: https://candicechudvm.com/ai-policy.html</description>
+</item>
+<item>
+<title>ACVR and ECVDI position statement on artificial intelligence</title>
+<link>https://doi.org/10.2460/javma.25.01.0027</link>
+<guid isPermaLink="false">https://candicechudvm.com/#policy:acvr-ecvdi-2025</guid>
+<pubDate>Wed, 19 Mar 2025 00:00:00 GMT</pubDate>
+<category>Veterinary AI policy</category>
+<description>American College of Veterinary Radiology (ACVR) and European College of Veterinary Diagnostic Imaging (ECVDI) · Specialty college position statement, peer reviewed · United States, Europe. Calls for good machine learning practice, transparency, error reporting, clinical expert involvement throughout development, secure patient data handling and post-implementation monitoring, with a veterinarian — preferably a board-certified radiologist or radiation oncologist — kept in the loop. States that no commercially available veterinary imaging AI product then met the required standards for transparency, validation or safety, and calls for unbiased third-party evaluation. — listed on Veterinary AI Policy Tracker: https://candicechudvm.com/ai-policy.html</description>
+</item>
+<item>
+<title>Regulatory Considerations of the Use of Artificial Intelligence in Veterinary Medicine</title>
+<link>https://www.aavsb.org/news/aavsb-releases-guidance-for-the-use-of-ai-in-veterinary-medicine/</link>
+<guid isPermaLink="false">https://candicechudvm.com/#policy:aavsb-regulatory-2025</guid>
+<pubDate>Sat, 01 Mar 2025 00:00:00 GMT</pubDate>
+<category>Veterinary AI policy</category>
+<description>American Association of Veterinary State Boards (AAVSB) · White paper with position statement · United States. Written for state licensing boards. Covers definitions, current regulatory frameworks, unlicensed practice, standards of practice, medical recordkeeping, data storage and confidentiality, and informed consent. Identifies fabricated output, training-data bias, automation bias and the absence of premarket approval for veterinary AI tools as the principal regulatory risks. — listed on Veterinary AI Policy Tracker: https://candicechudvm.com/ai-policy.html</description>
+</item>
+<item>
+<title>Renal single-Cell RNA sequencing and digital cytometry in dogs with X-linked hereditary nephropathy</title>
+<link>https://doi.org/10.3390/ani15142061</link>
+<guid isPermaLink="false">https://candicechudvm.com/#pub:scrna-2025</guid>
+<pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
+<category>Publication</category>
+<description>Candice P. Chu, Daniel Osorio, and Mary B. Nabity. Animals, 2025. Applied single-cell RNA sequencing to profile renal cortical tissues from dogs with X-linked hereditary nephropathy. Recovered over 13,000 cells and identified 11 cell types. Digital cytometry confirmed disease-related shifts in renal cell composition across CKD progression. — listed on Publications: https://candicechudvm.com/publications.html</description>
+</item>
+<item>
+<title>Urinary microRNA as biomarkers for chronic kidney disease in dogs and cats: updates and challenges</title>
+<link>https://doi.org/10.1111/vcp.13412</link>
+<guid isPermaLink="false">https://candicechudvm.com/#pub:mirna-review-2025</guid>
+<pubDate>Wed, 01 Jan 2025 00:00:00 GMT</pubDate>
+<category>Publication</category>
+<description>Candice P. Chu, and Mary B. Nabity. Veterinary Clinical Pathology, 2025. Comprehensive review of urinary miRNAs as non-invasive biomarkers for CKD in companion animals. Addresses preanalytical factors, RNA isolation methods, sequencing analysis, and normalization strategies. — listed on Publications: https://candicechudvm.com/publications.html</description>
+</item>
+<item>
+<title>Use of Medical Devices Enabled by Artificial Intelligence in the Practice of Veterinary Medicine</title>
+<link>https://www.cvo.org/standards/use-of-medical-devices-enabled-by-artificial-intelligence-in-the-practice-of-veterinary-medicine</link>
+<guid isPermaLink="false">https://candicechudvm.com/#policy:cvo-medical-devices-2024</guid>
+<pubDate>Sun, 01 Dec 2024 00:00:00 GMT</pubDate>
+<category>Veterinary AI policy</category>
+<description>College of Veterinarians of Ontario (CVO) · Guidance document · Canada. A companion guide to the College's 2024 position statement, giving veterinarians a framework for weighing risk against mitigation when selecting AI-enabled medical devices. Notes that no single agreed set of definitions yet exists across jurisdictions, and restates that the licensed practitioner remains accountable for the choice. — listed on Veterinary AI Policy Tracker: https://candicechudvm.com/ai-policy.html</description>
+</item>
+<item>
+<title>Policy Statement: Use of AI in Vet Med</title>
+<link>https://gvma.net/2024/11/11/policy-statement-use-of-ai-in-vet-med/</link>
+<guid isPermaLink="false">https://candicechudvm.com/#policy:gvma-policy-2024</guid>
+<pubDate>Mon, 11 Nov 2024 00:00:00 GMT</pubDate>
+<category>Veterinary AI policy</category>
+<description>Georgia Veterinary Medical Association (GVMA) · Association policy statement · United States. Positions the veterinarian as the authority for diagnoses, treatment protocols and recommendations, with AI as support that does not replace professional judgement, spectrum-of-care advising or empathy. Requires compliance with data protection and privacy law, informed client consent explaining the tool's benefits and limitations, and protection of records from public exposure or access by large foundation models. — listed on Veterinary AI Policy Tracker: https://candicechudvm.com/ai-policy.html</description>
+</item>
+<item>
+<title>RCVS AI Roundtable Report</title>
+<link>https://www.rcvs.org.uk/about-us/news-and-views/news/ai-roundtable-report-published</link>
+<guid isPermaLink="false">https://candicechudvm.com/#policy:rcvs-roundtable-2024</guid>
+<pubDate>Mon, 19 Aug 2024 00:00:00 GMT</pubDate>
+<category>Veterinary AI policy</category>
+<description>Royal College of Veterinary Surgeons (RCVS) · Roundtable report · United Kingdom. Report of a roundtable of more than 100 participants from veterinary associations, educational institutions, technology companies, other professional regulators and the public sector, convened to set the RCVS direction of travel on regulating AI across clinical practice, research and education. The starting point for the RCVS guidance and Transparency Alliance work that followed. — listed on Veterinary AI Policy Tracker: https://candicechudvm.com/ai-policy.html</description>
+</item>
+<item>
+<title>CVMA Policy on the Use of Artificial Intelligence in Veterinary Medicine</title>
+<link>https://cvma.net/about-us/policies/cvma-policy-on-the-use-of-artificial-intelligence-in-veterinary-medicine/</link>
+<guid isPermaLink="false">https://candicechudvm.com/#policy:cvma-california-2024</guid>
+<pubDate>Mon, 01 Jul 2024 00:00:00 GMT</pubDate>
+<category>Veterinary AI policy</category>
+<description>California Veterinary Medical Association (CVMA) · Association policy · United States. Supports applying the FDA regulatory approach already used in human medicine, names the veterinarian as the decision-making authority, and states that no current technology replaces professional judgement and clinical expertise. Calls for standards from regulatory bodies, informed client consent, and confidentiality of client and patient data. — listed on Veterinary AI Policy Tracker: https://candicechudvm.com/ai-policy.html</description>
+</item>
+<item>
+<title>Embracing Innovation and the Digital Age in Veterinary Medicine</title>
+<link>https://www.cvo.org/publications/position-on-innovation-in-veterinary-medicine</link>
+<guid isPermaLink="false">https://candicechudvm.com/#policy:cvo-innovation-2024</guid>
+<pubDate>Fri, 01 Mar 2024 00:00:00 GMT</pubDate>
+<category>Veterinary AI policy</category>
+<description>College of Veterinarians of Ontario (CVO) · Position statement · Canada. Frames software as a medical device as the most challenging class of digital innovation and holds that every licensed veterinarian is accountable for their practice choices in a largely unregulated market. Asks veterinarians to weigh transparency of potential bias, explainability of outputs, robust prelaunch testing, and data privacy and security, while treating regulation as an avenue for safe forward movement rather than a barrier. — listed on Veterinary AI Policy Tracker: https://candicechudvm.com/ai-policy.html</description>
+</item>
+<item>
+<title>ChatGPT in veterinary medicine: a practical guidance of generative artificial intelligence in clinics, education, and research</title>
+<link>https://doi.org/10.3389/fvets.2024.1395934</link>
+<guid isPermaLink="false">https://candicechudvm.com/#pub:chatgpt-2024</guid>
+<pubDate>Mon, 01 Jan 2024 00:00:00 GMT</pubDate>
+<category>Publication</category>
+<description>C. P. Chu. Frontiers in Veterinary Science, 2024. Practical synthesis of ChatGPT applications in veterinary clinical, educational, and research domains. Actionable guidance for professionals without a programming background. — listed on Publications: https://candicechudvm.com/publications.html</description>
+</item>
+<item>
+<title>MicroRNA-126 in dogs with immune complex-mediated glomerulonephritis</title>
+<link>https://doi.org/10.1111/jvim.16932</link>
+<guid isPermaLink="false">https://candicechudvm.com/#pub:mir126-2024</guid>
+<pubDate>Mon, 01 Jan 2024 00:00:00 GMT</pubDate>
+<category>Publication</category>
+<description>A. D. Cherry, C. P. Chu, R. E. Cianciolo, and 3 more authors. Journal of Veterinary Internal Medicine, 2024. — listed on Publications: https://candicechudvm.com/publications.html</description>
+</item>
+<item>
+<title>What is your diagnosis? Large perianal mass in a dog</title>
+<link>https://doi.org/10.1111/vcp.13231</link>
+<guid isPermaLink="false">https://candicechudvm.com/#pub:wyd-perianal-2024</guid>
+<pubDate>Mon, 01 Jan 2024 00:00:00 GMT</pubDate>
+<category>Publication</category>
+<description>C. P. Chu, M. B. Nabity, B. F. Porter, and 1 more author. Veterinary Clinical Pathology, 2024. — listed on Publications: https://candicechudvm.com/publications.html</description>
+</item>
+<item>
+<title>Banish the PDF-hunting blues with these AI and digital tools</title>
+<link>https://doi.org/10.1038/d41586-024-03775-7</link>
+<guid isPermaLink="false">https://candicechudvm.com/#pub:nature-pdf-2024</guid>
+<pubDate>Mon, 01 Jan 2024 00:00:00 GMT</pubDate>
+<category>Publication</category>
+<description>C. P. Chu. Nature, 2024. — listed on Publications: https://candicechudvm.com/publications.html</description>
+</item>
+<item>
+<title>Round cell tumour cytology in dogs</title>
+<link>https://academy.royalcanin.com/en/veterinary/canine-round-cell-tumor-cytology</link>
+<guid isPermaLink="false">https://candicechudvm.com/#pub:vetfocus-roundcell-2024</guid>
+<pubDate>Mon, 01 Jan 2024 00:00:00 GMT</pubDate>
+<category>Publication</category>
+<description>Candice P. Chu. Veterinary Focus, April 2024. — listed on Publications: https://candicechudvm.com/publications.html</description>
+</item>
+<item>
+<title>7 key aspects of pathology informatics in veterinary medicine</title>
+<link>https://www.thevetiverse.com/en/latest/7-key-aspects-of-pathology-informatics-in-veterinary-medicine/</link>
+<guid isPermaLink="false">https://candicechudvm.com/#pub:vetiverse-informatics-2024</guid>
+<pubDate>Mon, 01 Jan 2024 00:00:00 GMT</pubDate>
+<category>Publication</category>
+<description>Candice P. Chu. The Vetiverse, February 2024. — listed on Publications: https://candicechudvm.com/publications.html</description>
+</item>
+<item>
+<title>Differential diagnosis chapters: antithrombin III, fibrinogen, amylase, lipase, lipids, fibrin degradation products, pancytopenia</title>
+<link>https://candicechudvm.com/publications.html</link>
+<guid isPermaLink="false">https://candicechudvm.com/#pub:plumbs-ddx-2024</guid>
+<pubDate>Mon, 01 Jan 2024 00:00:00 GMT</pubDate>
+<category>Publication</category>
+<description>Candice P. Chu. Plumb's Pro, October 2024. — listed on Publications: https://candicechudvm.com/publications.html</description>
+</item>
+<item>
+<title>Artificial Intelligence in Veterinary Medicine</title>
+<link>https://www.canadianveterinarians.net/policy-and-outreach/position-statements/statements/artificial-intelligence-in-veterinary-medicine/</link>
+<guid isPermaLink="false">https://candicechudvm.com/#policy:cvma-canada-2023</guid>
+<pubDate>Thu, 12 Oct 2023 00:00:00 GMT</pubDate>
+<category>Veterinary AI policy</category>
+<description>Canadian Veterinary Medical Association (CVMA) · Position statement · Canada. Warns that claimed benefits of veterinary AI tools may not be supported by sound evidence and that, absent structured regulatory oversight in Canada, commercial diagnostic systems can reach market with little supporting evidence — leaving practitioners exposed to liability for errors. Notes that platforms built on human systems may not translate to animals, and directs readers to their provincial or territorial regulator for binding standards. — listed on Veterinary AI Policy Tracker: https://candicechudvm.com/ai-policy.html</description>
+</item>
+<item>
+<title>Serotonin reduction in post-acute sequelae of viral infection</title>
+<link>https://doi.org/10.1016/j.cell.2023.09.013</link>
+<guid isPermaLink="false">https://candicechudvm.com/#pub:cell-serotonin-2023</guid>
+<pubDate>Sun, 01 Jan 2023 00:00:00 GMT</pubDate>
+<category>Publication</category>
+<description>A. C. Wong, A. S. Devason, I. C. Umana, and 56 more authors. Cell, 2023. — listed on Publications: https://candicechudvm.com/publications.html</description>
+</item>
+<item>
+<title>Top 3 conditions missed by skipping a urinalysis</title>
+<link>https://www.cliniciansbrief.com/article/urinalysis-test-veterinary-medicine</link>
+<guid isPermaLink="false">https://candicechudvm.com/#pub:clinbrief-urinalysis-2023</guid>
+<pubDate>Sun, 01 Jan 2023 00:00:00 GMT</pubDate>
+<category>Publication</category>
+<description>Candice P. Chu. Clinician's Brief, September 2023. — listed on Publications: https://candicechudvm.com/publications.html</description>
+</item>
+<item>
+<title>Small RNA sequencing evaluation of renal microRNA biomarkers in dogs with X-linked hereditary nephropathy</title>
+<link>https://doi.org/10.1038/s41598-021-96870-y</link>
+<guid isPermaLink="false">https://candicechudvm.com/#pub:smallrna-2021</guid>
+<pubDate>Fri, 01 Jan 2021 00:00:00 GMT</pubDate>
+<category>Publication</category>
+<description>C. P. Chu, S. Liu, W. Song, and 2 more authors. Scientific Reports, 2021. — listed on Publications: https://candicechudvm.com/publications.html</description>
+</item>
+<item>
+<title>Report on the Impact of Digital Technologies and Artificial Intelligence in Veterinary Education and Practice</title>
+<link>https://www.eaeve.org/fileadmin/downloads/eccvt/DTAI_WG_final_report_ECCVT_adopted.pdf</link>
+<guid isPermaLink="false">https://candicechudvm.com/#policy:eccvt-dtai-2020</guid>
+<pubDate>Mon, 28 Sep 2020 00:00:00 GMT</pubDate>
+<category>Veterinary AI policy</category>
+<description>European Coordination Committee on Veterinary Training (ECCVT) — FVE, EAEVE and EBVS · Expert working group report · Europe. The earliest of these documents. An expert working group delivered a SWOT analysis of digital technologies and AI in veterinary education and practice, together with recommendations on the Day One Competences graduates need for responsible use, competences that the technology can itself enhance, communication trends, undergraduate and postgraduate teaching methods, and linked quality assurance. — listed on Veterinary AI Policy Tracker: https://candicechudvm.com/ai-policy.html</description>
+</item>
+<item>
+<title>Comparison of RNA isolation and library preparation methods for small RNA sequencing of canine biofluids</title>
+<link>https://doi.org/10.1111/vcp.12743</link>
+<guid isPermaLink="false">https://candicechudvm.com/#pub:rna-isolation-2019</guid>
+<pubDate>Tue, 01 Jan 2019 00:00:00 GMT</pubDate>
+<category>Publication</category>
+<description>C. P. Chu, and M. B. Nabity. Veterinary Clinical Pathology, 2019. — listed on Publications: https://candicechudvm.com/publications.html</description>
+</item>
+<item>
+<title>Expression profiling of disease progression in canine model of Duchenne muscular dystrophy</title>
+<link>https://doi.org/10.1371/journal.pone.0194485</link>
+<guid isPermaLink="false">https://candicechudvm.com/#pub:dmd-2018</guid>
+<pubDate>Mon, 01 Jan 2018 00:00:00 GMT</pubDate>
+<category>Publication</category>
+<description>C. Brinkmeyer-Langford, C. Chu, C. Balog-Alvarez, and 4 more authors. PLOS ONE, 2018. — listed on Publications: https://candicechudvm.com/publications.html</description>
+</item>
+<item>
+<title>RNA-seq of serial kidney biopsies obtained during progression of chronic kidney disease from dogs with X-linked hereditary nephropathy</title>
+<link>https://doi.org/10.1038/s41598-017-16603-y</link>
+<guid isPermaLink="false">https://candicechudvm.com/#pub:rnaseq-serial-2017</guid>
+<pubDate>Sun, 01 Jan 2017 00:00:00 GMT</pubDate>
+<category>Publication</category>
+<description>C. P. Chu, J. A. Hokamp, R. E. Cianciolo, and 4 more authors. Scientific Reports, 2017. — listed on Publications: https://candicechudvm.com/publications.html</description>
+</item>
+</channel>
+</rss>

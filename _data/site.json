@@ -19,6 +19,10 @@
       "href": "ai-education.html"
     },
     {
+      "label": "AI Policy",
+      "href": "ai-policy.html"
+    },
+    {
       "label": "VetClinPathGPT",
       "href": "vetclinpathgpt.html"
     },
@@ -39,12 +43,13 @@
       "href": "about.html"
     }
   ],
-  "_navNote": "News and Teaching & Resources are secondary pages reached from Home and AI Education respectively — deliberately kept out of the main nav.",
+  "_navNote": "News is a secondary page reached from Home — deliberately kept out of the main nav. Any page kept out of the nav still needs at least one link from a page that is in it, or search engines treat it as an orphan and may not index it.",
   "redirects": {
     "projects.html": "research.html",
     "talks.html": "speaking.html",
     "people.html": "team.html",
-    "cv.html": "about.html"
+    "cv.html": "about.html",
+    "teaching.html": "ai-education.html"
   },
   "person": {
     "name": "Candice P. Chu",

@@ -10,13 +10,13 @@ Preferred name and style: Candice P. Chu, DVM, PhD, DACVP — Assistant Professo
 - [Home](https://candicechudvm.com/)
 - [Research](https://candicechudvm.com/research.html)
 - [AI Education](https://candicechudvm.com/ai-education.html)
+- [AI Policy](https://candicechudvm.com/ai-policy.html)
 - [VetClinPathGPT](https://candicechudvm.com/vetclinpathgpt.html)
 - [Publications](https://candicechudvm.com/publications.html)
 - [Speaking](https://candicechudvm.com/speaking.html)
 - [Team](https://candicechudvm.com/team.html)
 - [About](https://candicechudvm.com/about.html)
 - [News](https://candicechudvm.com/news.html)
-- [Teaching & resources](https://candicechudvm.com/teaching.html)
 
 ## Areas of expertise
 - Veterinary artificial intelligence

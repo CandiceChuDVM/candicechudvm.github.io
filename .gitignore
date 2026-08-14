@@ -6,3 +6,8 @@
 # Private source documents and design scratch files are not deployable site assets.
 uploads/
 scraps/
+
+# Source PDFs behind the AI policy tracker. These are other organisations' copyrighted
+# documents, read locally to write the summaries. The site links to each issuing body's
+# own page and must never redistribute the files.
+Current Vet AI Policy Statement/

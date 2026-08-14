@@ -90,13 +90,16 @@ ul { list-style: none; }
 .nav-brand-text { font-weight: 700; font-size: 17px; color: var(--text); line-height: 1.2; }
 .nav-brand-sub { font-size: 13.2px; font-weight: 400; color: var(--text-2); }
 
+/* Nine items is what this bar holds. Tightened from gap 4 / padding 10 so the
+   set still clears the theme toggle at the 1240px breakpoint — check
+   document.scrollWidth at 1250px before adding a tenth. */
 .nav-links {
-  display: flex; align-items: center; gap: 4px;
+  display: flex; align-items: center; gap: 2px;
   flex: 1;
 }
 .nav-links a {
   font-size: 16.8px; font-weight: 500; color: var(--text-2);
-  padding: 6px 10px; border-radius: 7px;
+  padding: 6px 8px; border-radius: 7px;
   white-space: nowrap;
   transition: background var(--tr), color var(--tr);
 }

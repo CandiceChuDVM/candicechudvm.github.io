@@ -11,9 +11,9 @@ const warnings = [];
 const fail = (m) => errors.push(m);
 const warn = (m) => warnings.push(m);
 
-const PAGES = ['index.html', 'research.html', 'ai-education.html', 'vetclinpathgpt.html',
-  'publications.html', 'speaking.html', 'team.html', 'about.html', 'news.html',
-  'teaching.html'];
+const PAGES = ['index.html', 'research.html', 'ai-education.html', 'ai-policy.html',
+  'vetclinpathgpt.html', 'publications.html', 'speaking.html', 'team.html', 'about.html',
+  'news.html'];
 
 const site = JSON.parse(await readFile(join(ROOT, '_data/site.json'), 'utf8'));
 const CANON = site.seo.baseUrl.replace(/^https?:\/\//, '');
@@ -126,6 +126,39 @@ for (const p of data.publications?.items || []) {
 for (const n of data.news?.items || []) {
   if (!/^\d{4}-\d{2}-\d{2}$/.test(n.iso || '')) fail(`_data/news.json: iso date must be YYYY-MM-DD — got "${n.iso}"`);
 }
+// AI policy tracker: every entry must point at the issuing body's own live source.
+// A tracker whose links have rotted is worse than no tracker, so staleness warns loudly.
+const POLICY_TYPES = ['Professional association', 'Specialty college'];
+const policyEntries = [...(data['ai-policy']?.standing || []), ...(data['ai-policy']?.items || [])];
+const policyIds = new Set();
+for (const p of policyEntries) {
+  const at = `_data/ai-policy.json (${p.id || 'no id'})`;
+  if (!p.id) fail(`${at}: every entry needs a stable id`);
+  else if (policyIds.has(p.id)) fail(`${at}: duplicate id`);
+  else policyIds.add(p.id);
+  for (const f of ['org', 'title', 'docType', 'type', 'date', 'summary']) {
+    if (!p[f]) fail(`${at}: missing "${f}"`);
+  }
+  if (!Array.isArray(p.regions) || !p.regions.length) fail(`${at}: regions must be a non-empty list`);
+  if (!POLICY_TYPES.includes(p.type)) fail(`${at}: type must be one of ${POLICY_TYPES.join(' / ')} — got "${p.type}". Finer distinctions belong in docType.`);
+  if (!/^https:\/\//.test(p.url || '')) fail(`${at}: url must be an https link to the issuing body — got "${p.url}"`);
+  if (p.iso && !/^\d{4}-\d{2}-\d{2}$/.test(p.iso)) fail(`${at}: iso must be YYYY-MM-DD — got "${p.iso}"`);
+  if (p.year && String(p.year) !== (p.iso || '').slice(0, 4)) fail(`${at}: year ${p.year} does not match iso ${p.iso}`);
+}
+const reviewed = data['ai-policy']?.reviewed;
+if (data['ai-policy']) {
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(reviewed || '')) {
+    fail(`_data/ai-policy.json: reviewed must be YYYY-MM-DD — got "${reviewed}"`);
+  } else {
+    const months = (Date.now() - Date.parse(reviewed)) / 2629800000;
+    if (months > 6) warn(`_data/ai-policy.json: links last checked ${months.toFixed(0)} months ago — re-check every source URL, then update reviewed and reviewedLabel`);
+  }
+  const yrs = (data['ai-policy'].items || []).map(p => p.year);
+  if (yrs.join() !== [...yrs].sort((a, b) => b - a).join()) {
+    warn('_data/ai-policy.json: items are not in newest-first order');
+  }
+}
+
 const isoOrder = (data.news?.items || []).map(n => n.iso);
 if (isoOrder.join() !== [...isoOrder].sort().reverse().join()) {
   warn('_data/news.json: items are not in newest-first order');
@@ -188,6 +221,26 @@ try {
     if (!llms.includes(url)) fail(`llms.txt: missing ${url}`);
   }
 } catch { fail('llms.txt: missing — run node _build/build.mjs'); }
+// feed.xml — a broken feed fails silently in readers, so check its shape here.
+try {
+  const feed = await readFile(join(ROOT, 'feed.xml'), 'utf8');
+  const entries = feed.match(/<item>/g) || [];
+  if (!entries.length) fail('feed.xml: no <item> entries');
+  if (!feed.includes(`href="${site.seo.baseUrl}/feed.xml" rel="self"`)) fail('feed.xml: missing atom:link self reference');
+  for (const tag of ['<title>', '<pubDate>', '<lastBuildDate>', '<description>']) {
+    if (!feed.includes(tag)) fail(`feed.xml: missing ${tag}`);
+  }
+  for (const m of feed.matchAll(/<link>([^<]*)<\/link>/g)) {
+    if (!/^https:\/\//.test(m[1])) fail(`feed.xml: item link must be an absolute https URL — got "${m[1]}"`);
+  }
+  if (/Invalid Date|undefined|NaN|\[object Object\]/.test(feed)) fail('feed.xml: contains an unresolved value — check a date or a missing field');
+  const guids = (feed.match(/<guid[^>]*>([^<]*)<\/guid>/g) || []);
+  if (new Set(guids).size !== guids.length) fail('feed.xml: duplicate guid — subscribers would see repeated items');
+  for (const p of PAGES) {
+    if (!html[p]?.includes('type="application/rss+xml"')) warn(`${p}: no feed auto-discovery link`);
+  }
+} catch { fail('feed.xml: missing — run node _build/build.mjs'); }
+
 try {
   const rb = await readFile(join(ROOT, 'robots.txt'), 'utf8');
   for (const bot of ['GPTBot', 'ClaudeBot', 'PerplexityBot', 'Google-Extended']) {

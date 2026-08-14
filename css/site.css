@@ -230,6 +230,22 @@
 .pub-year{margin-bottom:40px}
 .pub-summary{font-size:15.6px;color:var(--text-2);margin-bottom:12px;line-height:1.6}
 
+/* ── AI policy tracker ────────────────────────────── */
+.policy-meta{display:flex;align-items:center;gap:16px;flex-wrap:wrap;margin:-22px 0 22px}
+.policy-reviewed{font-size:14.4px;color:var(--text-3);margin:0}
+.policy-feed-btn{display:inline-flex;align-items:center;gap:7px;white-space:nowrap;font-size:14.4px;padding:6px 12px}
+/* feed.xsl — the human-readable rendering of feed.xml */
+.feed-note{font-size:16.2px;color:var(--text-2);max-width:68ch;line-height:1.7;margin-bottom:14px}
+.feed-url{margin-bottom:26px}
+.feed-url code{font-size:15px;background:var(--surface-alt);border:1px solid var(--border);border-radius:7px;padding:8px 12px;display:inline-block;word-break:break-all}
+/* Last filter row before the results — extra breathing room off the chips. */
+.filter-bar-last{margin-bottom:40px}
+.policy-card{grid-template-columns:1fr}
+.policy-card .pub-number{text-transform:none;letter-spacing:0}
+/* A chip whose combination with the other filter would return nothing. */
+.filter-chip.is-empty{opacity:.32;cursor:not-allowed}
+.filter-chip.is-empty:hover{opacity:.32}
+
 /* ── links ────────────────────────────────────────── */
 a{color:var(--c-purple)}
 a:hover{color:var(--c-plum)}
