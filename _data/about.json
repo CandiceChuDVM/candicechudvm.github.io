@@ -150,6 +150,6 @@
     "body": "Dr. Chu welcomes enquiries about research collaboration, speaking invitations, graduate study, and AI curriculum development. Her full record of publications, grants, teaching and service is available on request."
   },
   "bioTitle": "Biography",
-  "shortBio": "Candice P. Chu, DVM, PhD, DACVP, is a board-certified veterinary clinical pathologist and Assistant Professor in the Department of Veterinary Pathobiology at Texas A&amp;M University. Her work focuses on veterinary artificial intelligence, digital cytology, diagnostic AI, large language models, and AI education. She co-chairs the Pathology Informatics Committee of the American College of Veterinary Pathologists and serves on the AVMA, AAVMC, and Texas A&amp;M University AI Working Groups/Committee.",
+  "shortBio": "Dr. Candice Chu is an Assistant Professor of Clinical Pathology at Texas A&amp;M University, where she develops and validates AI tools for veterinary diagnostics, including deep learning models for cytology and benchmarking of large language models for clinical records. She teaches AI literacy to DVM students, serves on multiple AI task forces and committees, and speaks frequently on AI at veterinary meetings.",
   "_bioNote": "shortBio and bio[] are the canonical texts. The plain-text copies offered by the Copy buttons are derived from these at build time, so they can never drift out of sync — do not add a separate plain-text field."
 }
