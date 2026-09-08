@@ -8,7 +8,7 @@
     {
       "iso": "2026-08-30",
       "date": "Aug 30, 2026",
-      "html": "📝 <strong>Publication:</strong> <strong>Wei-Chien Kao</strong> and colleagues report an <a href=\"https://doi.org/10.1177/03009858261477051\" target=\"_blank\" rel=\"noopener\"><em>artificial intelligence–based method for detecting small and intermediate-to-large lymphocytes in canine lymph node cytology</em></a> in <em>Veterinary Pathology</em> — a YOLOv11 model trained on smartphone photomicrographs that correctly inferred the diagnosis in every test aspirate."
+      "html": "📝 <strong>Publication:</strong> Former student worker <strong>Wei-Chien Kao</strong>'s first-author paper, <a href=\"https://doi.org/10.1177/03009858261477051\" target=\"_blank\" rel=\"noopener\"><em>Artificial intelligence–based detection of small and intermediate-to-large lymphocytes for cytologic diagnosis of canine lymphoma</em></a>, is out in <em>Veterinary Pathology</em> — a YOLOv11 model trained on smartphone photomicrographs of canine lymph node aspirates that correctly inferred the diagnosis in all 14 test aspirates."
     },
     {
       "iso": "2026-08-17",
