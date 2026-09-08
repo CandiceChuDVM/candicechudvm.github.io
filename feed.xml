@@ -7,7 +7,7 @@
 <atom:link href="https://candicechudvm.com/feed.xml" rel="self" type="application/rss+xml" />
 <description>New artificial intelligence position statements, professional standards and guidance from veterinary associations and specialty colleges, plus new publications from Candice P. Chu, DVM, PhD, DACVP.</description>
 <language>en-us</language>
-<lastBuildDate>Sun, 16 Aug 2026 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 08 Sep 2026 00:00:00 GMT</lastBuildDate>
 <ttl>1440</ttl>
 <item>
 <title>AI Provider Information Framework for Veterinary Practice</title>
@@ -48,6 +48,14 @@
 <pubDate>Thu, 01 Jan 2026 00:00:00 GMT</pubDate>
 <category>Veterinary AI policy</category>
 <description>Alberta Veterinary Medical Association (ABVMA) · Enforceable professional standard · Canada. A binding standard rather than advisory guidance. Members remain responsible and accountable for conduct when AI is used, must apply critical thinking to AI output including scribe applications, must never rely solely on AI for diagnosis or treatment, and must review AI-generated medical records for veracity, accuracy and completeness. Requires transparency with clients and consent where appropriate. — listed on Veterinary AI Policy Tracker: https://candicechudvm.com/ai-policy.html</description>
+</item>
+<item>
+<title>Artificial intelligence–based detection of small and intermediate-to-large lymphocytes for cytologic diagnosis of canine lymphoma</title>
+<link>https://doi.org/10.1177/03009858261477051</link>
+<guid isPermaLink="false">https://candicechudvm.com/#pub:lymphoma-yolo-2026</guid>
+<pubDate>Thu, 01 Jan 2026 00:00:00 GMT</pubDate>
+<category>Publication</category>
+<description>Wei-Chien Kao, Yui H. Kam, Cheng Zhang, Kate Marciano, Jera’lyne Hyland, Candice P. Chu. Veterinary Pathology, 2026 · online ahead of print. Trained YOLOv11 to identify individual lymphocytes in smartphone photomicrographs of canine lymph node aspirates, using 25,761 annotated cells across 680 images from 34 intermediate-to-large B-cell lymphoma and 11 non-lymphoma aspirates. Merging intermediate and large lymphocytes into a single label improved cell-level classification, reaching 87.60% average precision, 84.71% average recall, mAP50 of 89.33% and an F1 score of 86.02% on the independent test set, with correct diagnoses inferred for every test aspirate. — listed on Publications: https://candicechudvm.com/publications.html</description>
 </item>
 <item>
 <title>Computer vision and deep learning in small animal cytology and slide review</title>

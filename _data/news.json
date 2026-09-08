@@ -6,6 +6,11 @@
   "_note": "Newest first. iso = sort key (YYYY-MM-DD); date = displayed string (MMM DD, YYYY).",
   "items": [
     {
+      "iso": "2026-08-30",
+      "date": "Aug 30, 2026",
+      "html": "📝 <strong>Publication:</strong> <strong>Wei-Chien Kao</strong> and colleagues report an <a href=\"https://doi.org/10.1177/03009858261477051\" target=\"_blank\" rel=\"noopener\"><em>artificial intelligence–based method for detecting small and intermediate-to-large lymphocytes in canine lymph node cytology</em></a> in <em>Veterinary Pathology</em> — a YOLOv11 model trained on smartphone photomicrographs that correctly inferred the diagnosis in every test aspirate."
+    },
+    {
       "iso": "2026-08-17",
       "date": "Aug 17, 2026",
       "html": "👩‍🏫 <strong>Upcoming:</strong> Dr. Chu teaches the afternoon session on vibe-coding tools at the <a href=\"https://tamids.tamu.edu/\" target=\"_blank\" rel=\"noopener\">AI Jumpstart Bootcamp</a>, run by the Texas A&amp;M Institute of Data Science with High Performance Research Computing."

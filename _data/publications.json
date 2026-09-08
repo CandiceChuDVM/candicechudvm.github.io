@@ -6,6 +6,37 @@
   "_note": "id is a stable slug referenced by _data/home.json featuredPublications. kind separates peer-reviewed papers from invited/CE articles so the headline count stays honest. topics drive the on-page filter; year drives grouping.",
   "items": [
     {
+      "id": "lymphoma-yolo-2026",
+      "kind": "peer-reviewed",
+      "year": 2026,
+      "number": "Vet Pathol 2026",
+      "title": "Artificial intelligence–based detection of small and intermediate-to-large lymphocytes for cytologic diagnosis of canine lymphoma",
+      "authors": "Wei-Chien Kao, Yui H. Kam, Cheng Zhang, Kate Marciano, Jera’lyne Hyland, Candice P. Chu",
+      "journal": "Veterinary Pathology, 2026 · online ahead of print",
+      "doi": "10.1177/03009858261477051",
+      "topics": [
+        "Digital Cytology"
+      ],
+      "tags": [
+        {
+          "cat": "cv",
+          "label": "Digital Cytology"
+        }
+      ],
+      "summary": "Trained YOLOv11 to identify individual lymphocytes in smartphone photomicrographs of canine lymph node aspirates, using 25,761 annotated cells across 680 images from 34 intermediate-to-large B-cell lymphoma and 11 non-lymphoma aspirates. Merging intermediate and large lymphocytes into a single label improved cell-level classification, reaching 87.60% average precision, 84.71% average recall, mAP50 of 89.33% and an F1 score of 86.02% on the independent test set, with correct diagnoses inferred for every test aspirate.",
+      "links": [
+        {
+          "label": "Read article",
+          "href": "https://doi.org/10.1177/03009858261477051",
+          "primary": true
+        }
+      ],
+      "thumb": {
+        "src": "assets/thumbs/pub_lymphoma_yolo2026.jpg",
+        "alt": "Study workflow diagram: case identification, smartphone image acquisition and quality control, cell annotation, cross-device data splitting, and model performance"
+      }
+    },
+    {
       "id": "cv-cytology-review-2026",
       "kind": "peer-reviewed",
       "year": 2026,
