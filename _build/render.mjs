@@ -432,15 +432,20 @@ ${m.embed ? `<span class="media-audio-label">${esc(m.label.split(' · ')[0])}</s
 <figcaption><span class="award-label">${esc(e.award.label)}</span><strong>${rich(e.award.title)}</strong>${rich(e.award.org)}</figcaption>
 </figure>` : '';
 
-  const body = `<div class="edu-head">${pageHeader(e.h1, e.intro)}${award}</div>` +
+  /* The student quotations sit beside the award figure rather than at the foot of the
+     page: the intro is short, so the first grid column would otherwise run empty. */
+  const evaluation = quotes
+    ? `<p class="section-title" style="margin-top:26px;">Student Evaluation</p>` + quotes
+    : '';
+
+  const body = `<div class="edu-head"><div>${pageHeader(e.h1, e.intro)}${evaluation}</div>${award}</div>` +
     sectionTitle('Educational Need') + need +
     sectionTitle('Five-Module Curriculum Framework') +
     modules +
     sectionTitle(course.title) +
     `<p class="pillar-overview">${rich(course.overview)}</p>` +
     (course.tags?.length ? `<div class="chip-row" style="margin-bottom:20px;">${tags(course.tags)}</div>` : '') + schedule +
-    sectionTitle(e.resourcesTitle) + resources + media +
-    `<p class="section-title" style="margin-top:46px;">Student Evaluation</p>` + quotes;
+    sectionTitle(e.resourcesTitle) + resources + media;
 
   const jsonld = [{
     '@context': 'https://schema.org', '@type': 'Course',

@@ -27,34 +27,6 @@
       "cards": [
         {
           "kicker": "Project",
-          "title": "AI-Assisted Canine Lymphoma Cytology",
-          "description": "Detection and classification of neutrophils and small, intermediate and large lymphocytes across 680 cytology images with 25,761 specialist-annotated cells. Work spans image acquisition, annotation, a YOLO detection workflow, diagnostic performance and error analysis.",
-          "tags": [
-            {
-              "cat": "cv",
-              "label": "Computer Vision"
-            },
-            {
-              "cat": "cv",
-              "label": "Digital Cytology"
-            },
-            {
-              "cat": "ml",
-              "label": "Object Detection"
-            },
-            {
-              "cat": "ml",
-              "label": "Canine Lymphoma"
-            }
-          ],
-          "image": {
-            "src": "assets/lymphoma-workflow.jpg",
-            "alt": "Study workflow: case identification, image acquisition and quality control, cell annotation, data splitting with five-fold cross-device validation, and model performance",
-            "style": "width:100%;max-width:360px;height:auto"
-          }
-        },
-        {
-          "kicker": "Project",
           "title": "AI for Canine Hip Dysplasia Screening",
           "description": "Convolutional neural networks for hip dysplasia severity grading across 22,482 canine hip radiographs, with translational relevance to human orthopedic screening. Supported by the Orthopedic Foundation for Animals in collaboration with UT Southwestern Medical Center.",
           "tags": [
