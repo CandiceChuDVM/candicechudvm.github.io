@@ -49,6 +49,27 @@
           "label": "CKD"
         }
       ]
+    },
+    {
+      "name": "Macie Mackey",
+      "role": "Research Specialist I",
+      "photo": "assets/macie-mackey.jpg",
+      "bio": "Macie earned her BA in Biochemistry and Molecular Biology from <a href=\"https://www.cornellcollege.edu\" target=\"_blank\" rel=\"noopener\">Cornell College</a> and her MS in Medical Sciences from Texas A&amp;M University. She manages Dr. Chu’s laboratory and contributes to canine kidney disease research, including sample preparation for single-cell RNA sequencing. Her research background includes preclinical studies of muscular dystrophy, sepsis, and muscle metabolism in canine and porcine models.",
+      "outsideLab": "Golfer, cat and dog parent, and coffee enthusiast.",
+      "tags": [
+        {
+          "cat": "edu",
+          "label": "Lab Management"
+        },
+        {
+          "cat": "bio",
+          "label": "scRNA-seq"
+        },
+        {
+          "cat": "ml",
+          "label": "Kidney Disease"
+        }
+      ]
     }
   ],
   "alumni": [],
