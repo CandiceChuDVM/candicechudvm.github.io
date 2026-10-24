@@ -84,12 +84,12 @@
       "label": "Conversations with <a href=\"vetclinpathgpt.html\">VetClinPathGPT</a>, the lab's free clinical pathology AI tutor"
     },
     {
-      "value": "87",
+      "value": "95",
       "label": "<a href=\"speaking.html\">Invited talks, keynotes and conference presentations</a>",
-      "note": "Including 1 keynote and numerous conference presentations"
+      "note": "Including 2 keynotes and numerous conference presentations"
     },
     {
-      "value": "13+5",
+      "value": "14+5",
       "label": "<a href=\"publications.html\">Peer-reviewed publications</a> in veterinary AI, cytology and nephrology",
       "note": "Including 5 invited articles and book chapters"
     }
@@ -100,7 +100,7 @@
     "body": "Dr. Chu welcomes collaboration on diagnostic AI, veterinary informatics, and AI curriculum development, as well as speaking invitations from conferences, colleges, and professional organizations."
   },
   "_titleNote": "Exceeds the 65-character guideline by explicit request — this is the agreed brand string. validate.mjs exempts index.html.",
-  "_metricsSource": "Counted from the PRESENTATIONS section of Candice_Chu_CV_20260512.docx: 1 conference keynote, 24 invited conference presentations, 21 conference abstract presentations, 5 invited university seminars, 20 invited continuing-education presentations, 16 outreach presentations = 87. Recount from the CV when it is revised; do not estimate.",
+  "_metricsSource": "Counted from the PRESENTATIONS section of Candice_Chu_CV_20261021.docx: 2 conference keynotes, 27 invited conference presentations, 21 conference abstract presentations, 5 invited university seminars, 23 invited continuing-education presentations, 17 outreach presentations = 95. Recount from the CV when it is revised; do not estimate. The continuing-education section of that CV lists 24 rows; the 24th ('From Worksheet to Website', 8th Annual VMBS Teaching Showcase, December 14, 2026) is an abstract submitted but not yet accepted and is deliberately excluded, so the headline number never counts an engagement that has not been confirmed. The publication metric counts items[] in _data/publications.json (14 peer-reviewed) plus otherWriting[] (5); the CV bibliography reports n=15 because it counts the Nature career column among the 15.",
   "partners": [
     {
       "name": "Dog Aging Project",
