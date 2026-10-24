@@ -26,11 +26,6 @@
       "html": "🎉 <strong>Student award:</strong> PhD student <strong>Yumi Chang</strong> received an Honorable Mention in the Texas A&amp;M College of Veterinary Medicine Three Minute Thesis (3MT) Competition."
     },
     {
-      "iso": "2026-09-02",
-      "date": "Sep 2026",
-      "html": "🎉 <strong>Appointment:</strong> PhD student <strong>Yumi Chang</strong> was named a Domain Data Science Ambassador of the <a href=\"https://tamids.tamu.edu/\" target=\"_blank\" rel=\"noopener\">Texas A&amp;M Institute of Data Science</a> for 2026–2027."
-    },
-    {
       "iso": "2026-08-30",
       "date": "Aug 30, 2026",
       "html": "📝 <strong>Publication:</strong> Former student worker <strong>Wei-Chien Kao</strong>'s first-author paper, <a href=\"https://doi.org/10.1177/03009858261477051\" target=\"_blank\" rel=\"noopener\"><em>Artificial intelligence–based detection of small and intermediate-to-large lymphocytes for cytologic diagnosis of canine lymphoma</em></a>, is out in <em>Veterinary Pathology</em> — a YOLOv11 model trained on smartphone photomicrographs of canine lymph node aspirates that correctly inferred the diagnosis in all 14 test aspirates."
@@ -49,6 +44,11 @@
       "iso": "2026-08-01",
       "date": "Aug 2026",
       "html": "🎉 <strong>Appointment:</strong> PhD student <strong>Yumi Chang</strong> began her term as President of the Texas A&amp;M CVM Postdoctoral Association, after serving as Event Coordinator."
+    },
+    {
+      "iso": "2026-07-30",
+      "date": "Jul 30, 2026",
+      "html": "🎉 <strong>Appointment:</strong> PhD student <strong>Yumi Chang</strong> was named a Domain Data Science Ambassador of the <a href=\"https://tamids.tamu.edu/\" target=\"_blank\" rel=\"noopener\">Texas A&amp;M Institute of Data Science</a> for 2026–2027."
     },
     {
       "iso": "2026-07-18",
