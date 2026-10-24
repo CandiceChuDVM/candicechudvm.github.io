@@ -3,7 +3,7 @@
   "metaDescription": "The Chu Lab team: graduate students and research assistants working on veterinary AI, digital cytology and kidney disease biomarkers.",
   "h1": "Team",
   "intro": "The Chu Lab is based in the Department of Veterinary Pathobiology at Texas A&M University's College of Veterinary Medicine &amp; Biomedical Sciences.",
-  "membersTitle": "Graduate Students & Research Assistants",
+  "membersTitle": "Lab Members",
   "pi": {
     "name": "Candice P. Chu",
     "role": "Assistant Professor · Principal Investigator",
@@ -47,6 +47,27 @@
         {
           "cat": "ml",
           "label": "CKD"
+        }
+      ]
+    },
+    {
+      "name": "Macie Mackey",
+      "role": "Research Specialist I",
+      "photo": "assets/macie-mackey.jpg",
+      "bio": "Macie earned her BA in Biochemistry and Molecular Biology from <a href=\"https://www.cornellcollege.edu\" target=\"_blank\" rel=\"noopener\">Cornell College</a> and her MS in Medical Sciences from Texas A&amp;M University. She manages Dr. Chu’s laboratory and contributes to canine kidney disease research, including sample preparation for single-cell RNA sequencing. Her research background includes preclinical studies of muscular dystrophy, sepsis, and muscle metabolism in canine and porcine models.",
+      "outsideLab": "Golfer, cat and dog parent, and coffee enthusiast.",
+      "tags": [
+        {
+          "cat": "edu",
+          "label": "Lab Management"
+        },
+        {
+          "cat": "bio",
+          "label": "scRNA-seq"
+        },
+        {
+          "cat": "ml",
+          "label": "Kidney Disease"
         }
       ]
     }
