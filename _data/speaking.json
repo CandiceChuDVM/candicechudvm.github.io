@@ -46,6 +46,11 @@
           "title": "National — Specialty Colleges & Associations",
           "items": [
             {
+              "label": "ACVP Annual Meeting · Nov 2026",
+              "title": "AI Awareness, Adoption, and Attitudes Among Veterinary Pathologists: Insights from the ACVP Membership",
+              "sub": "Discussion Forum: Shaping the Future with Artificial Intelligence, <a href=\"https://acvp.org/wp-content/uploads/2026-ACVP-Program.pdf\" target=\"_blank\" rel=\"noopener\">ACVP Annual Meeting</a> · Indianapolis, IN"
+            },
+            {
               "label": "AVMA Convention · 2026",
               "title": "Less pAIn, More gAIn: A Starter Guide to AI Literacy for Veterinary Professionals",
               "sub": "American Veterinary Medical Association · Anaheim, CA"
