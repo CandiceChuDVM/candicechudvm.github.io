@@ -6,6 +6,31 @@
   "_note": "Newest first. iso = sort key (YYYY-MM-DD); date = displayed string (MMM DD, YYYY).",
   "items": [
     {
+      "iso": "2026-11-15",
+      "date": "Nov 15, 2026",
+      "html": "🎤 <strong>Upcoming talk:</strong> Dr. Chu presents <em>AI Awareness, Adoption, and Attitudes Among Veterinary Pathologists: Insights from the ACVP Membership</em> at the <a href=\"https://www.acvp.org/\" target=\"_blank\" rel=\"noopener\">American College of Veterinary Pathologists</a> Annual Meeting in Indianapolis, IN — the first report from the ACVP membership survey on artificial intelligence."
+    },
+    {
+      "iso": "2026-10-29",
+      "date": "Oct 29, 2026",
+      "html": "🌐 <strong>Upcoming webinar:</strong> <em>Essential ChatGPT Knowledge for Veterinarians</em> — a Centre for Veterinary Education (CVE) webinar."
+    },
+    {
+      "iso": "2026-09-24",
+      "date": "Sep 24, 2026",
+      "html": "🎤 <strong>Presentation:</strong> PhD student <strong>Yumi Chang</strong> gave an oral presentation, <em>Evaluating language models in structured data extraction from veterinary medical records in the Dog Aging Project</em>, at the Association for Veterinary Informatics Talbot Symposium."
+    },
+    {
+      "iso": "2026-09-15",
+      "date": "Sep 2026",
+      "html": "🎉 <strong>Student award:</strong> PhD student <strong>Yumi Chang</strong> received an Honorable Mention in the Texas A&amp;M College of Veterinary Medicine Three Minute Thesis (3MT) Competition."
+    },
+    {
+      "iso": "2026-09-02",
+      "date": "Sep 2026",
+      "html": "🎉 <strong>Appointment:</strong> PhD student <strong>Yumi Chang</strong> was named a Domain Data Science Ambassador of the <a href=\"https://tamids.tamu.edu/\" target=\"_blank\" rel=\"noopener\">Texas A&amp;M Institute of Data Science</a> for 2026–2027."
+    },
+    {
       "iso": "2026-08-30",
       "date": "Aug 30, 2026",
       "html": "📝 <strong>Publication:</strong> Former student worker <strong>Wei-Chien Kao</strong>'s first-author paper, <a href=\"https://doi.org/10.1177/03009858261477051\" target=\"_blank\" rel=\"noopener\"><em>Artificial intelligence–based detection of small and intermediate-to-large lymphocytes for cytologic diagnosis of canine lymphoma</em></a>, is out in <em>Veterinary Pathology</em> — a YOLOv11 model trained on smartphone photomicrographs of canine lymph node aspirates that correctly inferred the diagnosis in all 14 test aspirates."
@@ -21,6 +46,11 @@
       "html": "✈️ <strong>Committee:</strong> Dr. Chu attended the fall in-person meeting of the <a href=\"https://www.avma.org/news/board-chair-addresses-colorado-ballot-initiative-highlights-emerging-technology-task-force\" target=\"_blank\" rel=\"noopener\">AVMA Task Force on Emerging Technologies and Innovation</a>, working on AI literacy resources, a framework for ethical AI use in veterinary practice, continuing education, and collaboration with academic researchers."
     },
     {
+      "iso": "2026-08-01",
+      "date": "Aug 2026",
+      "html": "🎉 <strong>Appointment:</strong> PhD student <strong>Yumi Chang</strong> began her term as President of the Texas A&amp;M CVM Postdoctoral Association, after serving as Event Coordinator."
+    },
+    {
       "iso": "2026-07-18",
       "date": "Jul 18, 2026",
       "html": "📝 <strong>Publication:</strong> PhD student <strong>Yumi Chang</strong>'s first paper, <a href=\"https://doi.org/10.1177/03009858261461761\" target=\"_blank\" rel=\"noopener\"><em>Applying artificial intelligence to automate clinical data extraction from veterinary electronic health records</em></a>, is out in the <em>Veterinary Pathology</em> special issue on artificial intelligence — open access."
@@ -34,6 +64,11 @@
       "iso": "2026-06-28",
       "date": "Jun 27–28, 2026",
       "html": "✈️ <strong>Workshop:</strong> Dr. Chu and <strong>Dr. Mary Nabity</strong> delivered a two-day workshop on cytology, urinalysis and renal biomarkers for the Taiwan Academy of Veterinary Internal Medicine, attended by more than 200 veterinarians."
+    },
+    {
+      "iso": "2026-06-15",
+      "date": "Jun 2026",
+      "html": "🎉 <strong>Student award:</strong> PhD student <strong>Avery Huang</strong> was awarded the Government Scholarship to Study Abroad by the Ministry of Education, Taiwan, for 2026–2028."
     },
     {
       "iso": "2026-06-11",
@@ -59,6 +94,11 @@
       "iso": "2026-04-22",
       "date": "Apr 22, 2026",
       "html": "📝 <strong>Publication:</strong> <a href=\"https://doi.org/10.3389/fvets.2026.1801756\" target=\"_blank\" rel=\"noopener\"><em>Curriculum framework for artificial intelligence literacy in veterinary education</em></a> is out in <em>Frontiers in Veterinary Science</em>, with PhD student Avery Huang as first author."
+    },
+    {
+      "iso": "2026-03-15",
+      "date": "Mar 2026",
+      "html": "📊 <strong>Poster:</strong> Undergraduate researcher <strong>Isiri Prasad</strong> presented <em>Improving Data Extraction from Veterinary Records Using a Cross-Model Consistency Strategy</em> at Texas A&amp;M Student Research Week."
     },
     {
       "iso": "2025-04-21",
@@ -151,5 +191,5 @@
       "html": "📺 <strong>Media coverage:</strong> <em>CVM Students Win Awards at ACVP Annual Meeting</em> — VMBS News."
     }
   ],
-  "_source": "Items July 2026 and earlier in 2026 were compiled from Dr. Chu's own LinkedIn activity export (July 2026). Dates are the event dates stated in each post; where a post gave only a month, the display date is month-precision and the iso value is used for sorting only."
+  "_source": "Items July 2026 and earlier in 2026 were compiled from Dr. Chu's own LinkedIn activity export (July 2026). Dates are the event dates stated in each post; where a post gave only a month, the display date is month-precision and the iso value is used for sorting only. Items added from Candice_Chu_CV_20261021.docx and Annual Plan of Work_20261021.docx (October 2026) follow the same rule: where those documents gave only a month, the display date is month-precision and the iso value positions the item within that month for sorting only."
 }
