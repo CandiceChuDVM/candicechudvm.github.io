@@ -16,6 +16,11 @@
       "html": "🌐 <strong>Upcoming webinar:</strong> <em>Essential ChatGPT Knowledge for Veterinarians</em> — a Centre for Veterinary Education (CVE) webinar."
     },
     {
+      "iso": "2026-10-14",
+      "date": "Oct 14, 2026",
+      "html": "📝 <strong>Preprint:</strong> PhD student <strong>Yumi Chang</strong>'s <a href=\"https://doi.org/10.21203/rs.3.rs-10758356/v1\" target=\"_blank\" rel=\"noopener\"><em>ChatGPT versus veterinary students for clinical data extraction: a mixed-methods study</em></a>, with Armanto Sutedjo and Dr. Chu, is posted on Research Square and under review — ChatGPT was 34 times faster than student extractors, and both methods exceeded 90% accuracy."
+    },
+    {
       "iso": "2026-09-24",
       "date": "Sep 24, 2026",
       "html": "🎤 <strong>Presentation:</strong> PhD student <strong>Yumi Chang</strong> gave an oral presentation, <em>Evaluating language models in structured data extraction from veterinary medical records in the Dog Aging Project</em>, at the Association for Veterinary Informatics Talbot Symposium."

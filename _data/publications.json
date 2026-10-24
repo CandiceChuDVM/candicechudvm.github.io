@@ -448,7 +448,35 @@
       "kind": "peer-reviewed"
     }
   ],
-  "inProgress": [],
+  "inProgress": [
+    {
+      "id": "chatgpt-vs-students-preprint-2026",
+      "kind": "preprint",
+      "year": 2026,
+      "number": "Preprint 2026",
+      "title": "ChatGPT versus veterinary students for clinical data extraction: a mixed-methods study",
+      "authors": "Yumi Chang, Armanto Sutedjo, Candice P. Chu",
+      "journal": "Research Square preprint, posted October 14, 2026 · under review, not yet peer reviewed",
+      "doi": "10.21203/rs.3.rs-10758356/v1",
+      "topics": [
+        "Large Language Models"
+      ],
+      "tags": [
+        {
+          "cat": "llm",
+          "label": "Large Language Models"
+        }
+      ],
+      "summary": "Ten second-year veterinary students extracted data from medical records of three suspected canine pancreatitis cases, first manually and then with ChatGPT. ChatGPT was 34 times faster (15 seconds versus 8.5 minutes per record, p < 0.01), and both methods exceeded 90% accuracy. Students generally preferred AI-assisted extraction, and thematic analysis of interviews identified six themes.",
+      "links": [
+        {
+          "label": "Read preprint",
+          "href": "https://doi.org/10.21203/rs.3.rs-10758356/v1",
+          "primary": true
+        }
+      ]
+    }
+  ],
   "otherWriting": [
     {
       "id": "nature-pdf-2024",
@@ -597,7 +625,7 @@
   "counts": {
     "peerReviewed": 14,
     "otherWriting": 5,
-    "inProgress": 0
+    "inProgress": 1
   },
   "otherWritingTitle": "Invited Articles & Book Chapters",
   "_source": "Reconciled against Dr. Chu's Google Scholar profile (July 2026) and the May 2026 CV. Google Scholar blocks automated access; the profile was supplied as a PDF export.",
